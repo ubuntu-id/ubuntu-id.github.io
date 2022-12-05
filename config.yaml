@@ -1,19 +1,19 @@
-baseURL: 'https://ubuntu-kr.org'
+baseURL: 'https://www.aryulianto.com/ubi.github.io'
 languageCode: ko-kr
-title: 'Ubuntu Korea Community'
+title: 'Ubuntu Indonesia Community'
 theme: "ubuntukr"
 buildFuture: true
 googleAnalytics: "G-S1V4C73F0T"
 params:
   contact: contact@ubuntu-kr.org
-  facebook: ubuntukorea
+  facebook: ubuntuIndonesia
   twitter: UbuntuKrOrg
   github: ubuntu-kr
   launchpad: ubuntu-ko
   mastodon: https://mastodon.social/@UbuntuKrOrg
-  youtube: https://www.youtube.com/user/UbuntuKorea
+  youtube: https://www.youtube.com/user/UbuntuIndonesia
   source_repo: https://github.com/ubuntu-kr/ubuntu-kr.github.io
-defaultContentLanguage: ko
+defaultContentLanguage: en
 languages:
   ko:
     languageName: 한국어
@@ -147,7 +147,7 @@ languages:
       - identifier: facebook
         parent: follow
         name: 페이스북
-        url: https://fb.com/ubuntukorea
+        url: https://fb.com/ubuntuIndonesia
         weight: 4
       - identifier: twitter
         parent: follow
@@ -157,18 +157,18 @@ languages:
       - identifier: youtube
         parent: follow
         name: YouTube
-        url: https://www.youtube.com/user/UbuntuKorea
+        url: https://www.youtube.com/user/UbuntuIndonesia
         weight: 4
   en:
     languageName: English
-    title: Ubuntu Korea Community
+    title: Ubuntu Indonesia Community
     weight: 2
     params:
       description: >-
-        Ubuntu Korea Community is a Ubuntu LoCo(Local Community) in South Korea verified by Ubuntu Community Council,
+        Ubuntu Indonesia Community is a Ubuntu LoCo(Local Community) in South Indonesia verified by Ubuntu Community Council,
         It is a place for everyone who intrested in using, developing with ubuntu, or contributing to ubuntu projects.
       copyright: >-
-        © 2021 Ubuntu Korea Community (Ubuntu Korean LoCo Team).
+        © 2021 Ubuntu Indonesia Community (Ubuntu Indonesian LoCo Team).
         Except where otherwise noted, Website source code licensed under MIT, Contents licensed under CC BY-SA 4.0. 
         Ubuntu and Canonical are registered trademarks of Canonical Ltd.
       main_slide:
@@ -191,12 +191,12 @@ languages:
         weight: 20
       - identifier: wiki-ko
         parent: try
-        name: Wiki (Korean)
+        name: Wiki (Indonesian)
         url: https://wiki.ubuntu-kr.org
         weight: 20
       - identifier: tutorials-ko
         parent: try
-        name: Tutorials (Korean)
+        name: Tutorials (Indonesian)
         url: https://ubuntu-kr.github.io/workshops/
         weight: 21
       - identifier: docs-en
@@ -291,7 +291,7 @@ languages:
       - identifier: facebook
         parent: follow
         name: Facebook
-        url: https://fb.com/ubuntukorea
+        url: https://fb.com/ubuntuIndonesia
         weight: 4
       - identifier: twitter
         parent: follow
@@ -301,5 +301,5 @@ languages:
       - identifier: youtube
         parent: follow
         name: YouTube
-        url: https://www.youtube.com/user/UbuntuKorea
+        url: https://www.youtube.com/user/UbuntuIndonesia
         weight: 4

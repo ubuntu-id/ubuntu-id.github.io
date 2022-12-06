@@ -21,21 +21,21 @@ We provide localized forums and documentations, Plan and host various seminars a
 We also organize group studies, research/development projects on Ubuntu and its related open source projects.
 """
 [main_kr_loco_about]
-other = "About the community"
+other = "Tentang Komunitas"
 [main_kr_loco_community_title]
-other = "Community & Docs"
+other = "Komunitas & Dokumentasi"
 [main_kr_loco_events_title]
-other = "Events & Collaborations"
+other = "Acara & Kolaborasi"
 [main_kr_loco_events_events]
-other = "Seminars, Workshops, Conferences"
+other = "Seminar, Lokakarya, Konferensi"
 [main_kr_loco_collaborate]
 other = "Collaborate with other FOSS communities"
 [main_kr_loco_ubucon]
 other = "UbuCon Asia"
 [main_kr_loco_global]
-other = "Exchange with Global FOSS communities"
+other = ""
 [main_kr_loco_research_title]
-other = "Research & Development activities"
+other = "Penelitian & Pengembangan"
 [main_kr_loco_research_projects]
 other = "Group Studies/Projects"
 [main_kr_loco_research_l10n]
@@ -107,9 +107,9 @@ other = "Mailing List"
 [group_studies_projects]
 other = "Group studies/Projects"
 [translate_ubuntu]
-other = "Translate Ubuntu"
+other = "Terjemahkan Ubuntu"
 
 [footer_contact]
 other = "Contact with Organizers (Email)"
 [footer_src_repo]
-other = "Source code on GitHub"
+other = "Kode Sumber di GitHub"

@@ -1,6 +1,6 @@
 baseURL: 'https://www.aryulianto.com/ubi.github.io'
 languageCode: ko-kr
-title: 'Ubuntu Indonesia Community'
+title: 'Komunitas Ubuntu Indonesia'
 theme: "ubuntukr"
 buildFuture: true
 googleAnalytics: ""
@@ -13,22 +13,22 @@ params:
   mastodon: https://mastodon.social/@UbuntuKrOrg
   youtube: https://www.youtube.com/user/UbuntuIndonesia
   source_repo: https://github.com/ubuntu-id/ubuntu-id.github.io
-defaultContentLanguage: en
+defaultContentLanguage: id
 languages:
   id:
-    languageName: Indonesia
+    languageName: Bahasa
     title: Komunitas Ubuntu Indonesia
-    weight: 1
+    weight: 2
     params:
       description: >-
         Komunitas Ubuntu Indonesia adalah Ubuntu LoCo (Local Community) di Indonesia.
         Ini adalah tempat untuk semua orang yang tertarik menggunakan, mengembangkan, atau berkontribusi pada proyek Ubuntu.
       copyright: >-
-        © 2022 우분투 한국 커뮤니티 (우분투 한국 로컬 커뮤니티 팀).
-        별도 고지가 있는 경우를 제외하고, 웹 사이트 소스코드는 MIT, 웹 사이트의 컨텐츠는 CC BY-SA 4.0 라이선스로 이용 가능합니다.
-        Ubuntu 및 Canonical 은 Canonical Ltd. 의 등록 상표입니다.
+        © 2022 Komunitas Ubuntu Indonesia (Ubuntu Indonesian LoCo Team).
+        Except where otherwise noted, Website source code licensed under MIT, Contents licensed under CC BY-SA 4.0. 
+        Ubuntu and Canonical are registered trademarks of Canonical Ltd.
       main_slide:
-        label: Perkenalan Komunitas
+        label: Tentang Komunitas
         link: about
     menu:
       main:
@@ -39,40 +39,45 @@ languages:
         parent: try
         name: Unduh
         url: download
-        weight: 2
+        weight: 11
       - identifier: hardware
         name: Perangkat Keras Bersertifikat Ubuntu
         parent: try
         url: https://ubuntu.com/certified
-        weight: 20
+        weight: 12
       - identifier: docs-en
         parent: try
         name: Dokumentasi
         url: https://docs.ubuntu.com
-        weight: 21
+        weight: 13
       - identifier: tutorials-en
         parent: try
         name: Tutorial
         url: https://ubuntu.com/tutorials
-        weight: 22
+        weight: 14
       - identifier: wiki-en
         parent: try
         name: Wiki
         url: https://wiki.ubuntu.com
-        weight: 23
+        weight: 15
       - identifier: about-group
-        name: Perkenalan
-        weight: 24
+        name: Tentang
+        weight: 2
       - identifier: about
         parent: about-group
-        name: Tentang
+        name: Tentang Komunitas
         url: about
-        weight: 25
+        weight: 21
+      - identifier: bylaws
+        parent: about-group
+        name: Legal
+        url: bylaws
+        weight: 22
       - identifier: sponsors
         parent: about-group
         name: Sponsor
         url: sponsors
-        weight: 26
+        weight: 23
       - identifier: community
         name: Komunitas
         url: community
@@ -81,27 +86,27 @@ languages:
         parent: community
         name: Forum
         url: https://forum.ubuntu-id.org
-        weight: 31
-      - identifier: askubuntukr
-        parent: community
-        name: Ask Ubuntu KR
-        url: https://ask.ubuntu-id.org
         weight: 32
+      - identifier: telegram
+        parent: community
+        name: Telegram
+        url: https://t.me/ubuntu_id
+        weight: 33
       - identifier: fb-group
         parent: community
-        name: 페이스북 그룹
+        name: Facebook Group
         url: https://www.facebook.com/groups/ubuntu.ko
-        weight: 33
+        weight: 34
       - identifier: lists
         parent: community
-        name: 메일링 리스트
+        name: Mailing list
         url: https://lists.ubuntu.com/archives/ubuntu-ko/
-        weight: 34
+        weight: 35
       - identifier: chat
         parent: community
-        name: 채팅
+        name: Chat 
         url: chat
-        weight: 35
+        weight: 36
       - identifier: partandcontrib
         name: Participate & Contribute
         url: partandcontrib
@@ -122,7 +127,7 @@ languages:
         url: translate
         weight: 43
       - identifier: follow
-        name: Ikuti Kami
+        name: Follow us
         weight: 5
       - identifier: blog
         parent: follow
@@ -137,7 +142,7 @@ languages:
       - identifier: twitter
         parent: follow
         name: Twitter
-        url: https://twitter.com/ubuntu_id
+        url: https://twitter.com/UbuntuKrOrg
         weight: 53
       - identifier: youtube
         parent: follow
@@ -178,17 +183,17 @@ languages:
         parent: try
         name: Docs
         url: https://docs.ubuntu.com
-        weight: 22
+        weight: 13
       - identifier: tutorials-en
         parent: try
         name: Tutorials
         url: https://ubuntu.com/tutorials
-        weight: 23
+        weight: 14
       - identifier: wiki-en
         parent: try
         name: Wiki
         url: https://wiki.ubuntu.com
-        weight: 24
+        weight: 15
       - identifier: about-group
         name: About
         weight: 2
@@ -196,17 +201,17 @@ languages:
         parent: about-group
         name: About our community
         url: about
-        weight: 24
+        weight: 21
       - identifier: bylaws
         parent: about-group
         name: Bylaws
         url: bylaws
-        weight: 25
+        weight: 22
       - identifier: sponsors
         parent: about-group
         name: Sponsors
         url: sponsors
-        weight: 26
+        weight: 23
       - identifier: community
         name: Community
         url: community
@@ -216,10 +221,10 @@ languages:
         name: Forum
         url: https://forum.ubuntu-id.org
         weight: 32
-      - identifier: askubuntukr
+      - identifier: telegram
         parent: community
-        name: Ask Ubuntu KR
-        url: https://ask.ubuntu-id.org
+        name: Telegram
+        url: https://t.me/ubuntu_id
         weight: 33
       - identifier: fb-group
         parent: community

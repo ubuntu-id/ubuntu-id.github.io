@@ -8,11 +8,11 @@ params:
   contact: contact@ubuntu-id.org
   facebook: ubuntuIndonesia
   twitter: UbuntuKrOrg
-  github: ubuntu-kr
+  github: ubuntu-id
   launchpad: ubuntu-ko
   mastodon: https://mastodon.social/@UbuntuKrOrg
   youtube: https://www.youtube.com/user/UbuntuIndonesia
-  source_repo: https://github.com/ubuntu-kr/ubuntu-kr.github.io
+  source_repo: https://github.com/ubuntu-id/ubuntu-id.github.io
 defaultContentLanguage: en
 languages:
   id:
@@ -39,7 +39,7 @@ languages:
         parent: try
         name: Unduh
         url: download
-        weight: 20
+        weight: 2
       - identifier: hardware
         name: Perangkat Keras Bersertifikat Ubuntu
         parent: try
@@ -49,106 +49,101 @@ languages:
         parent: try
         name: Dokumentasi
         url: https://docs.ubuntu.com
-        weight: 22
+        weight: 21
       - identifier: tutorials-en
         parent: try
         name: Tutorial
         url: https://ubuntu.com/tutorials
-        weight: 23
+        weight: 22
       - identifier: wiki-en
         parent: try
         name: Wiki
         url: https://wiki.ubuntu.com
-        weight: 24
+        weight: 23
       - identifier: about-group
-        name: 소개
-        weight: 2
+        name: Perkenalan
+        weight: 24
       - identifier: about
         parent: about-group
-        name: 커뮤니티 소개
+        name: Tentang
         url: about
-        weight: 24
-      - identifier: bylaws
-        parent: about-group
-        name: 정관
-        url: bylaws
         weight: 25
       - identifier: sponsors
         parent: about-group
-        name: 후원사
+        name: Sponsor
         url: sponsors
         weight: 26
       - identifier: community
-        name: 커뮤니티
+        name: Komunitas
         url: community
         weight: 3
       - identifier: forum
         parent: community
-        name: 포럼
-        url: https://forum.ubuntu-kr.org
-        weight: 32
+        name: Forum
+        url: https://forum.ubuntu-id.org
+        weight: 31
       - identifier: askubuntukr
         parent: community
         name: Ask Ubuntu KR
-        url: https://ask.ubuntu-kr.org
-        weight: 33
+        url: https://ask.ubuntu-id.org
+        weight: 32
       - identifier: fb-group
         parent: community
         name: 페이스북 그룹
         url: https://www.facebook.com/groups/ubuntu.ko
-        weight: 34
+        weight: 33
       - identifier: lists
         parent: community
         name: 메일링 리스트
         url: https://lists.ubuntu.com/archives/ubuntu-ko/
-        weight: 35
+        weight: 34
       - identifier: chat
         parent: community
         name: 채팅
         url: chat
-        weight: 36
+        weight: 35
       - identifier: partandcontrib
-        name: 참여 및 기여하기
+        name: Participate & Contribute
         url: partandcontrib
         weight: 4
       - identifier: events
         parent: partandcontrib
-        name: 행사 참여하기
-        url: https://event.ubuntu-kr.org
-        weight: 4
+        name: Join events
+        url: https://event.ubuntu-id.org
+        weight: 41
       - identifier: study_projects
         parent: partandcontrib
-        name: 스터디/프로젝트
+        name: Group Studies/Projects
         url: projects
-        weight: 4
+        weight: 42
       - identifier: translate
         parent: partandcontrib
-        name: 우분투 번역하기
+        name: Translate Ubuntu
         url: translate
-        weight: 4
+        weight: 43
       - identifier: follow
-        name: 소식 받기
+        name: Ikuti Kami
         weight: 5
       - identifier: blog
         parent: follow
-        name: 블로그
-        url: https://blog.ubuntu-kr.org
-        weight: 4
+        name: Blog
+        url: https://blog.ubuntu-id.org
+        weight: 51
       - identifier: facebook
         parent: follow
-        name: 페이스북
+        name: Facebook
         url: https://fb.com/ubuntuIndonesia
-        weight: 4
+        weight: 52
       - identifier: twitter
         parent: follow
-        name: 트위터
-        url: https://twitter.com/UbuntuKrOrg
-        weight: 4
+        name: Twitter
+        url: https://twitter.com/ubuntu_id
+        weight: 53
       - identifier: youtube
         parent: follow
         name: YouTube
         url: https://www.youtube.com/user/UbuntuIndonesia
-        weight: 4
+        weight: 54
   en:
     languageName: English
     title: Ubuntu Indonesia Community
@@ -173,12 +168,12 @@ languages:
         parent: try
         name: Download
         url: download
-        weight: 20
+        weight: 11
       - identifier: hardware
         name: Ubuntu Certified Hardwares
         parent: try
         url: https://ubuntu.com/certified
-        weight: 20
+        weight: 12
       - identifier: docs-en
         parent: try
         name: Docs
@@ -219,12 +214,12 @@ languages:
       - identifier: forum
         parent: community
         name: Forum
-        url: https://forum.ubuntu-kr.org
+        url: https://forum.ubuntu-id.org
         weight: 32
       - identifier: askubuntukr
         parent: community
         name: Ask Ubuntu KR
-        url: https://ask.ubuntu-kr.org
+        url: https://ask.ubuntu-id.org
         weight: 33
       - identifier: fb-group
         parent: community
@@ -248,38 +243,38 @@ languages:
       - identifier: events
         parent: partandcontrib
         name: Join events
-        url: https://event.ubuntu-kr.org
-        weight: 4
+        url: https://event.ubuntu-id.org
+        weight: 41
       - identifier: study_projects
         parent: partandcontrib
         name: Group Studies/Projects
         url: projects
-        weight: 4
+        weight: 42
       - identifier: translate
         parent: partandcontrib
         name: Translate Ubuntu
         url: translate
-        weight: 4
+        weight: 43
       - identifier: follow
         name: Follow us
         weight: 5
       - identifier: blog
         parent: follow
         name: Blog
-        url: https://blog.ubuntu-kr.org
-        weight: 4
+        url: https://blog.ubuntu-id.org
+        weight: 51
       - identifier: facebook
         parent: follow
         name: Facebook
         url: https://fb.com/ubuntuIndonesia
-        weight: 4
+        weight: 52
       - identifier: twitter
         parent: follow
         name: Twitter
         url: https://twitter.com/UbuntuKrOrg
-        weight: 4
+        weight: 53
       - identifier: youtube
         parent: follow
         name: YouTube
         url: https://www.youtube.com/user/UbuntuIndonesia
-        weight: 4
+        weight: 54

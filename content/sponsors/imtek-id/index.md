@@ -14,10 +14,6 @@ buttons:
       url: https://www.twitter.com/imtekid
     - label: LinkedIn
       url: https://www.linkedin.com/company/imtekid
-    - label: YouTube
-      url: https://www.youtube.com/@imtekid
-    - label: GitHub
-      url: https://github.com/imtekid
 ---
 
 ## Tentang Sponsor

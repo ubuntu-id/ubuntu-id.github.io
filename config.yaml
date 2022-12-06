@@ -1,17 +1,17 @@
 baseURL: 'https://www.aryulianto.com/ubi.github.io'
-languageCode: ko-kr
+languageCode: id-id
 title: 'Komunitas Ubuntu Indonesia'
 theme: "ubuntukr"
 buildFuture: true
 googleAnalytics: ""
 params:
   contact: contact@ubuntu-id.org
-  facebook: ubuntuIndonesia
-  twitter: UbuntuKrOrg
+  facebook: ubuntuindonesia
+  twitter: ubuntu_id
   github: ubuntu-id
-  launchpad: ubuntu-ko
-  mastodon: https://mastodon.social/@UbuntuKrOrg
-  youtube: https://www.youtube.com/user/UbuntuIndonesia
+  launchpad: ubuntu-id
+  mastodon: https://mastodon.social/@ubuntu_id
+  youtube: https://www.youtube.com/user/ubuntuindonesia
   source_repo: https://github.com/ubuntu-id/ubuntu-id.github.io
 defaultContentLanguage: id
 languages:
@@ -95,12 +95,12 @@ languages:
       - identifier: fb-group
         parent: community
         name: Facebook Group
-        url: https://www.facebook.com/groups/ubuntu.ko
+        url: https://www.facebook.com/groups/2327054593
         weight: 34
       - identifier: lists
         parent: community
         name: Mailing list
-        url: https://lists.ubuntu.com/archives/ubuntu-ko/
+        url: http://groups.google.com/group/id-ubuntu
         weight: 35
       - identifier: chat
         parent: community
@@ -132,22 +132,22 @@ languages:
       - identifier: blog
         parent: follow
         name: Blog
-        url: https://blog.ubuntu-id.org
+        url: http://ubuntulinux.or.id
         weight: 51
       - identifier: facebook
         parent: follow
         name: Facebook
-        url: https://fb.com/ubuntuIndonesia
+        url: https://fb.com/ubuntu.indonesia
         weight: 52
       - identifier: twitter
         parent: follow
         name: Twitter
-        url: https://twitter.com/UbuntuKrOrg
+        url: https://twitter.com/ubuntu_id
         weight: 53
       - identifier: youtube
         parent: follow
         name: YouTube
-        url: https://www.youtube.com/user/UbuntuIndonesia
+        url: https://www.youtube.com/user/ubuntuindonesia
         weight: 54
   en:
     languageName: English
@@ -229,12 +229,12 @@ languages:
       - identifier: fb-group
         parent: community
         name: Facebook Group
-        url: https://www.facebook.com/groups/ubuntu.ko
+        url: https://www.facebook.com/groups/2327054593
         weight: 34
       - identifier: lists
         parent: community
         name: Mailing list
-        url: https://lists.ubuntu.com/archives/ubuntu-ko/
+        url: http://groups.google.com/group/id-ubuntu
         weight: 35
       - identifier: chat
         parent: community
@@ -266,20 +266,20 @@ languages:
       - identifier: blog
         parent: follow
         name: Blog
-        url: https://blog.ubuntu-id.org
+        url: http://ubuntulinux.or.id
         weight: 51
       - identifier: facebook
         parent: follow
         name: Facebook
-        url: https://fb.com/ubuntuIndonesia
+        url: https://fb.com/ubuntu.indonesia
         weight: 52
       - identifier: twitter
         parent: follow
         name: Twitter
-        url: https://twitter.com/UbuntuKrOrg
+        url: https://twitter.com/ubuntu_id
         weight: 53
       - identifier: youtube
         parent: follow
         name: YouTube
-        url: https://www.youtube.com/user/UbuntuIndonesia
+        url: https://www.youtube.com/user/ubuntuindonesia
         weight: 54

@@ -1,5 +1,5 @@
 ---
-title: "우분투 내려받기"
+title: "우분투 Unduh"
 description: "최신 버전의 우분투를 내려받아 다양한 환경에 설치하여 사용할 수 있습니다."
 image: "download.svg"
 backgroundType: suru #light, dark, accent, suru, suru-topped, image
@@ -41,16 +41,16 @@ mirrors:
  - 인터넷 연결은 있으면 좋습니다.
  - 설치 매체로 사용할 장치: DVD 드라이브, USB 디스크 등
 
-# 내려받기
+# Unduh
 
-## 공식 홈페이지에서 내려받기
+## 공식 홈페이지에서 Unduh
 
 {{< button text="데스크탑" href="https://ubuntu.com/download/desktop" icon="begin-downloading" >}}
 {{< button text="서버" href="https://ubuntu.com/download/server" icon="machines" >}}
 {{< button text="Raspberry Pi" href="https://ubuntu.com/download/raspberry-pi" icon="switcher-dashboard" >}}
 {{< button text="사물인터넷 (Ubuntu Core)" href="https://ubuntu.com/download/iot" icon="switcher-dashboard" >}}
 
-## 국내 미러 서버에서 내려받기
+## 국내 미러 서버에서 Unduh
 국내 미러 서버에서 데스크탑 또는 서버용 CD/DVD 이미지를 빠르게 내려받을 수 있습니다.
 
 {{< button text="KAIST" href="http://ftp.kaist.ac.kr/ubuntu-cd/HEADER.html" icon="begin-downloading" >}}

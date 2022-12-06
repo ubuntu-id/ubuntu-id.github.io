@@ -3,7 +3,7 @@ title: "정관"
 backgroundType: suru-topped #light, dark, accent, suru, suru-topped, image
 ---
 
-{{< button text="정관 PDF 문서 내려받기" href="bylaws.pdf" icon="begin-downloading" >}}
+{{< button text="정관 PDF 문서 Unduh" href="bylaws.pdf" icon="begin-downloading" >}}
 
 
 # 우분투한국커뮤니티 정관

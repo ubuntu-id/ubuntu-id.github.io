@@ -1,6 +1,6 @@
-# ubuntu-kr.github.io
+# ubuntu-id.org
 
-The new Website of Ubuntu Korea Community. Built with [Hugo](https://gohugo.io) and vanillaframework.io
+Website of Ubuntu Indonesia Community. Built with [Hugo](https://gohugo.io) and [Vanilla Framework](https://vanillaframework.io) themes by [ubuntu-kr](https://ubuntu-kr.org)
 
 ## License
 MIT License (See `LICENSE`)

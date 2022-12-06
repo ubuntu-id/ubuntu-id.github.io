@@ -16,7 +16,7 @@ Ubuntu is optimized for various devices and environment such as Desktop, Laptop,
 other = "Verified Ubuntu LoCo(Local Community)"
 [main_kr_loco_desc]
 other = """
-Ubuntu Korea Community is a Ubuntu LoCo(Local Community) in South Korea verified by Ubuntu Community Council.
+Ubuntu Indonesia Community is a Ubuntu LoCo(Local Community) in Indonesia verified by Ubuntu Community Council.
 We provide localized forums and documentations, Plan and host various seminars and conferences.
 We also organize group studies, research/development projects on Ubuntu and its related open source projects.
 """
@@ -25,7 +25,7 @@ other = "Tentang Komunitas"
 [main_kr_loco_community_title]
 other = "Komunitas & Dokumentasi"
 [main_kr_loco_events_title]
-other = "Acara & Kolaborasi"
+other = "Kegiatan Acara & Kolaborasi"
 [main_kr_loco_events_events]
 other = "Seminar, Lokakarya, Konferensi"
 [main_kr_loco_collaborate]

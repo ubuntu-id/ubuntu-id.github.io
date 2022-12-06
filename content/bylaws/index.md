@@ -1,10 +1,10 @@
 ---
-title: "Legal"
+title: "Dasar Hukum"
 backgroundType: suru-topped #light, dark, accent, suru, suru-topped, image
 ---
 
 
-# Perkumpulan Komunitas Ubuntu Indonesia
+# Komunitas Ubuntu Indonesia
 Badan Hukum: AHU-37.AH.01.07.Tahun 2013
 
-{{< button text="Unduh Akta PDF" href="akta.pdf" icon="begin-downloading" >}}
+{{< button text="Unduh PDF" href="akta.pdf" icon="begin-downloading" >}}

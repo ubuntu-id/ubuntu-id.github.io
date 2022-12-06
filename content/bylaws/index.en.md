@@ -1,6 +1,10 @@
 ---
-title: "Bylaws"
+title: "Legal"
 backgroundType: suru-topped #light, dark, accent, suru, suru-topped, image
 ---
 
-Sorry, We only provide our bylaws in Bahasa. Please see Korean version of this page instead. (Click globe button on top right to switch language)
+
+# Ubuntu Indonesia Community
+Legal Entity: AHU-37.AH.01.07.Tahun 2013
+
+{{< button text="Download PDF" href="akta.pdf" icon="begin-downloading" >}}

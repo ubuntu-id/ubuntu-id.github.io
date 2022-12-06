@@ -1,114 +1,115 @@
 [next]
-other = "다음"
+other = "Selanjutnya"
 [prev]
-other = "이전"
+other = "Sebelumnya"
 
 [main_ubuntu_title]
-other = "가장 널리 쓰이는 리눅스 배포판"
+other = "Distribusi Linux Paling Populer"
 [main_ubuntu_desc]
 other = """
-우분투(Ubuntu)는 가장 널리 쓰이는 오픈소스 리눅스 배포판 중 하나 입니다.
-사용하기 쉬운 리눅스 데스크탑, 인프라 운용 소프트웨어 구성이 쉬운 서버용 리눅스 등으로도 잘 알려져 있습니다.
-데스크탑, 노트북, 서버, 클라우드, 사물인터넷, Raspberry Pi, 가전제품, 키오스크 등 다양한 유형의 환경과 디바이스에 최적화 되어 있습니다.
+Ubuntu is one of the most widely used Linux distributon in the world.
+It is well known as easy to use linux desktop, and easy to configure linux distribution for server and other infrastructures.
+Ubuntu is optimized for various devices and environment such as Desktop, Laptop, Server, Cloud, Internet of Things, Raspberry Pi, Appliances, Kiosks and much more.
 """
 
 [main_kr_loco_title]
-other = "우분투 공식 지역 커뮤니티"
+other = "Verified Ubuntu LoCo(Local Community)"
 [main_kr_loco_desc]
 other = """
-우분투 한국 커뮤니티는 Ubuntu Community Council 인증 공식 우분투 지역 커뮤니티 입니다.
-온라인 커뮤니티 및 문서 서비스 제공, 각종 세미나와 컨퍼런스 개최, 우분투 및 관련 오픈소스 기술에 대한 그룹 스터디와 연구/개발 및 프로젝트 등 다양한 활동을 하고 있습니다. 
+Ubuntu Korea Community is a Ubuntu LoCo(Local Community) in South Korea verified by Ubuntu Community Council.
+We provide localized forums and documentations, Plan and host various seminars and conferences.
+We also organize group studies, research/development projects on Ubuntu and its related open source projects.
 """
 [main_kr_loco_about]
-other = "커뮤니티 소개"
+other = "About the community"
 [main_kr_loco_community_title]
-other = "커뮤니티 및 문서"
+other = "Community & Docs"
 [main_kr_loco_events_title]
-other = "행사 및 국내/해외 교류"
+other = "Events & Collaborations"
 [main_kr_loco_events_events]
-other = "세미나, 워크샵, 컨퍼런스"
+other = "Seminars, Workshops, Conferences"
 [main_kr_loco_collaborate]
-other = "다른 오픈소스 커뮤니티와의 연합 행사"
+other = "Collaborate with other FOSS communities"
 [main_kr_loco_ubucon]
-other = "UbuCon Asia (우부콘 아시아)"
+other = "UbuCon Asia"
 [main_kr_loco_global]
-other = "해외 오픈소스 커뮤니티와 교류"
+other = "Exchange with Global FOSS communities"
 [main_kr_loco_research_title]
-other = "연구/개발 활동"
+other = "Research & Development activities"
 [main_kr_loco_research_projects]
-other = "스터디/프로젝트"
+other = "Group Studies/Projects"
 [main_kr_loco_research_l10n]
-other = "소프트웨어 지역화(번역)"
+other = "Localization (Translation)"
 
 [about_online_title]
-other = "온라인 교류 및 필요한 자료 찾기"
+other = "Meet people online & Find informations you need"
 [about_online_desc]
-other = "포럼, 페이스북 그룹, IRC 등 다양한 채널에서 커뮤니티 사람들과 교류하고, 공식 문서나 위키에서 필요한 자료를 찾아보세요."
+other = "Meet community people on various channels like Forums, Facebook Group, IRC. And find informations you need on official documentations and wiki."
 [about_networking_title]
-other = "다양한 네트워킹, 교류 및 연구/개발 활동"
+other = "Networking, Exchange and Research & Development activities"
 [about_networking_desc]
-other = "우분투 한국 커뮤니티는 아래와 같은 우분투 및 관련 오픈소스 기술에 대한 다양한 활동을 하고 있습니다. 온라인에서의 활동을 넘어 사람들과 만나 교류하고 경험을 공유 해 보세요."
+other = "We organize diverse activities on Ubuntu and its related open source technologies. Meet and exchange with people and share your experience beyond online activities." 
 [about_networking_events_title]
-other = "세미나, 워크샵 및 컨퍼런스"
+other = "Seminars, Workshops and Conferences"
 [about_networking_events_desc]
 other = """
-주기적으로 세미나, 컨퍼런스를 열어 우분투와 관련된 다양한 지식을 공유하고,
-워크샵 행사를 통해 실습 시간을 제공하여 우분투 및 관련 오픈소스 기술을 익힐 수 있는 시간을 제공합니다.
+We organize seminars, conferences periodically to share Ubuntu related knowledges,
+and Workshop events to train and make people familiar with Ubuntu and its related open source technologies.
 """
 [about_networking_events_button]
-other = "행사 일정 보기"
+other = "See event schedules"
 
 [about_exchange_title]
-other = "국내/해외 오픈소스/IT커뮤니티 교류"
+other = "Exchange with Domestic & Foreign Open source/IT Communities"
 [about_exchange_desc]
 other = """
-OpenStack Korea, WSL Korea User Group 등 다양한 국내 오픈소스 커뮤니티와 교류 및 연합 행사 등을 진행하고 있습니다.
-Ubuntu Japan, Debian Japan, Ubuntu Taiwan, Ubuntu Malaysia 등 해외 오픈소스 커뮤니티와도 교류하고 있으며,
-아시아 지역 우분투 커뮤니티 교류의 장인 <a href="https://www.ubucon.asia">UbuCon Asia</a>에도 참여하고 있습니다.
+We frequently collaborate with domestic open source communties like OpenStack Korea, WSL Korea User Group and more.
+Cowork with foreign open source communities such as Ubuntu Japan, Debian Japan, Ubuntu Taiwan, Ubuntu Malaysia.
+We also participate <a href="https://www.ubucon.asia">UbuCon Asia</a>, a place to meet Ubuntu LoCos around Asia.
 """
 
 [about_projects_title]
-other = "스터디, 프로젝트, 오픈소스 기여 활동"
+other = "Group studies, Projects, Open source contribution activities"
 [about_projects_desc]
 other = """
-우분투 및 관련 오픈소스 기술에 대한 스터디와 프로젝트를 진행하고 있으며, 
-우분투 번역 등 우분투 프로젝트에 기여하는 활동도 진행하고 있습니다.
+We organize group studies and projeces on Ubuntu and its related open source technologies.
+We also organize activieis for contributing to Ubuntu projects such as translating Ubuntu. 
 """
 
 [about_organizing_title]
-other = "커뮤니티 운영 참여하기"
+other = "Get involved as Community Organizer"
 [about_organizing_desc]
 other = """
-우분투, 리눅스, 오픈소스에 열정을 가진 다양한 분들이 커뮤니티 운영에 자발적으로 참여하고 계십니다.
-우분투 커뮤니티에서 열정적으로 활동하시고 운영에 관심이 있는 분이라면, 누구든지 운영진으로 참여할 수 있습니다.
+People who enthusiast on Ubuntu, Linux and open source are actively participating as organizers.
+If you are actively participating Ubuntu community and interested to join as organizer, Why don't you get involced today?
 """
 [about_organizers_ko]
-other = "커뮤니티 운영진 정보"
+other = "About our Community Organizers (Korean)"
 [about_organizers_en]
-other = "커뮤니티 운영진 정보(영어)"
+other = "About our Community Organizers"
 [about_organizers_list]
-other = "운영진 목록"
+other = "List of Organizers"
 [about_organizers_join]
-other = "커뮤니티 운영진이 되고 싶으신가요?"
+other = "Wanna get involved as Organizer?"
 
 [forums]
-other = "포럼"
+other = "Forums"
 [fb_groups]
-other = "페이스북 그룹"
+other = "Facebook Groups"
 [wiki]
-other = "위키"
+other = "Wiki"
 [tutorials]
-other = "튜토리얼"
+other = "Tutorials"
 [chat]
-other = "채팅"
+other = "Chat"
 [mailing_list]
-other = "메일링 리스트"
+other = "Mailing List"
 [group_studies_projects]
-other = "스터디/프로젝트"
+other = "Group studies/Projects"
 [translate_ubuntu]
-other = "우분투 번역"
+other = "Translate Ubuntu"
 
 [footer_contact]
-other = "운영진과 연락하기(이메일)"
+other = "Contact with Organizers (Email)"
 [footer_src_repo]
-other = "GitHub에서 소스코드 보기"
+other = "Source code on GitHub"

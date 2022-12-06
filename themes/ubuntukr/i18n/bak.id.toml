@@ -1,0 +1,114 @@
+[next]
+other = "Selanjutnya"
+[prev]
+other = "Sebelumnya"
+
+[main_ubuntu_title]
+other = "Distribusi Linux Paling Populer"
+[main_ubuntu_desc]
+other = """
+우분투(Ubuntu)는 가장 널리 쓰이는 오픈소스 리눅스 배포판 중 하나 입니다.
+사용하기 쉬운 리눅스 데스크탑, 인프라 운용 소프트웨어 구성이 쉬운 서버용 리눅스 등으로도 잘 알려져 있습니다.
+데스크탑, 노트북, 서버, 클라우드, 사물인터넷, Raspberry Pi, 가전제품, 키오스크 등 다양한 유형의 환경과 디바이스에 최적화 되어 있습니다.
+"""
+
+[main_kr_loco_title]
+other = "우분투 공식 지역 커뮤니티"
+[main_kr_loco_desc]
+other = """
+우분투 한국 커뮤니티는 Ubuntu Community Council 인증 공식 우분투 지역 커뮤니티 입니다.
+온라인 커뮤니티 및 문서 서비스 제공, 각종 세미나와 컨퍼런스 개최, 우분투 및 관련 오픈소스 기술에 대한 그룹 스터디와 연구/개발 및 프로젝트 등 다양한 활동을 하고 있습니다. 
+"""
+[main_kr_loco_about]
+other = "커뮤니티 소개"
+[main_kr_loco_community_title]
+other = "커뮤니티 및 문서"
+[main_kr_loco_events_title]
+other = "행사 및 국내/해외 교류"
+[main_kr_loco_events_events]
+other = "세미나, 워크샵, 컨퍼런스"
+[main_kr_loco_collaborate]
+other = "다른 오픈소스 커뮤니티와의 연합 행사"
+[main_kr_loco_ubucon]
+other = "UbuCon Asia (우부콘 아시아)"
+[main_kr_loco_global]
+other = "해외 오픈소스 커뮤니티와 교류"
+[main_kr_loco_research_title]
+other = "연구/개발 활동"
+[main_kr_loco_research_projects]
+other = "스터디/프로젝트"
+[main_kr_loco_research_l10n]
+other = "소프트웨어 지역화(번역)"
+
+[about_online_title]
+other = "온라인 교류 및 필요한 자료 찾기"
+[about_online_desc]
+other = "포럼, 페이스북 그룹, IRC 등 다양한 채널에서 커뮤니티 사람들과 교류하고, 공식 문서나 위키에서 필요한 자료를 찾아보세요."
+[about_networking_title]
+other = "다양한 네트워킹, 교류 및 연구/개발 활동"
+[about_networking_desc]
+other = "우분투 한국 커뮤니티는 아래와 같은 우분투 및 관련 오픈소스 기술에 대한 다양한 활동을 하고 있습니다. 온라인에서의 활동을 넘어 사람들과 만나 교류하고 경험을 공유 해 보세요."
+[about_networking_events_title]
+other = "세미나, 워크샵 및 컨퍼런스"
+[about_networking_events_desc]
+other = """
+주기적으로 세미나, 컨퍼런스를 열어 우분투와 관련된 다양한 지식을 공유하고,
+워크샵 행사를 통해 실습 시간을 제공하여 우분투 및 관련 오픈소스 기술을 익힐 수 있는 시간을 제공합니다.
+"""
+[about_networking_events_button]
+other = "행사 일정 보기"
+
+[about_exchange_title]
+other = "국내/해외 오픈소스/IT커뮤니티 교류"
+[about_exchange_desc]
+other = """
+OpenStack Korea, WSL Korea User Group 등 다양한 국내 오픈소스 커뮤니티와 교류 및 연합 행사 등을 진행하고 있습니다.
+Ubuntu Japan, Debian Japan, Ubuntu Taiwan, Ubuntu Malaysia 등 해외 오픈소스 커뮤니티와도 교류하고 있으며,
+아시아 지역 우분투 커뮤니티 교류의 장인 <a href="https://www.ubucon.asia">UbuCon Asia</a>에도 참여하고 있습니다.
+"""
+
+[about_projects_title]
+other = "스터디, 프로젝트, 오픈소스 기여 활동"
+[about_projects_desc]
+other = """
+우분투 및 관련 오픈소스 기술에 대한 스터디와 프로젝트를 진행하고 있으며, 
+우분투 번역 등 우분투 프로젝트에 기여하는 활동도 진행하고 있습니다.
+"""
+
+[about_organizing_title]
+other = "커뮤니티 운영 참여하기"
+[about_organizing_desc]
+other = """
+우분투, 리눅스, 오픈소스에 열정을 가진 다양한 분들이 커뮤니티 운영에 자발적으로 참여하고 계십니다.
+우분투 커뮤니티에서 열정적으로 활동하시고 운영에 관심이 있는 분이라면, 누구든지 운영진으로 참여할 수 있습니다.
+"""
+[about_organizers_ko]
+other = "커뮤니티 운영진 정보"
+[about_organizers_en]
+other = "커뮤니티 운영진 정보(영어)"
+[about_organizers_list]
+other = "운영진 목록"
+[about_organizers_join]
+other = "커뮤니티 운영진이 되고 싶으신가요?"
+
+[forums]
+other = "포럼"
+[fb_groups]
+other = "페이스북 그룹"
+[wiki]
+other = "위키"
+[tutorials]
+other = "튜토리얼"
+[chat]
+other = "채팅"
+[mailing_list]
+other = "메일링 리스트"
+[group_studies_projects]
+other = "스터디/프로젝트"
+[translate_ubuntu]
+other = "우분투 번역"
+
+[footer_contact]
+other = "운영진과 연락하기(이메일)"
+[footer_src_repo]
+other = "GitHub에서 소스코드 보기"

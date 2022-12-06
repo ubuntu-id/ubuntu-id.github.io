@@ -108,22 +108,22 @@ languages:
         url: chat
         weight: 36
       - identifier: partandcontrib
-        name: Berpartisipasi & Berkontribusi
+        name: Kegiatan
         url: partandcontrib
         weight: 4
       - identifier: events
         parent: partandcontrib
-        name: Kegiaran Acara
+        name: Acara
         url: https://event.ubuntu-id.org
         weight: 41
       - identifier: study_projects
         parent: partandcontrib
-        name: Kelompok Studi/Proyek
+        name: Kelompok Studi
         url: projects
         weight: 42
       - identifier: translate
         parent: partandcontrib
-        name: Translate Ubuntu
+        name: Terjemahkan Ubuntu
         url: translate
         weight: 43
       - identifier: follow

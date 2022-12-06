@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="203.31mm" height="195.62mm" version="1.1" viewBox="0 0 203.31 195.62" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <style>.cls-1{fill:#e9500e;}</style>
+  <style>.cls-1{fill:#e9500e;}.cls-2{fill:#fff;}</style>
+  <style>.cls-1{fill:#e9500e;}</style>
+  <style>.cls-1{fill:#e9500e;}</style>
+  <style>.cls-1{fill:#e9500e;}</style>
+  <style>.cls-1{fill:#e9500e;}.cls-2{fill:#fff;}</style>
+  <style>.cls-1{fill:#e9500e;}</style>
+  <style>.cls-1{fill:#e9500e;}</style>
+  <style>.cls-1{fill:#e9500e;}.cls-2{fill:#fff;}</style>
+  <style>.cls-1{fill:#e9500e;}.cls-2{fill:#fff;}</style>
+  <style>.cls-1{fill:#e9500e;}</style>
+  <style>.cls-1{fill:#e9500e;}.cls-2{fill:#fff;}</style>
+  <style>.cls-1{fill:#e9500e;}</style>
+  <style>.cls-1{fill:#e9500e;}</style>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(479.92 -51.205)">
+  <g transform="matrix(.26458 0 0 .26459 -118.54 -84.669)" fill="#808080" stroke="#fff">
+   <g transform="translate(-1482.9 -193.95)">
+    <circle class="cls-2" cx="226.59" cy="1056.1" r="109.03"/>
+    <circle class="cls-2" cx="680.65" cy="817.01" r="109.03"/>
+    <circle class="cls-2" cx="656.08" cy="1337.3" r="109.03"/>
+    <path class="cls-2" d="m472.48 1336.7a265.52 265.52 0 0 1-181.07-138.1 156.95 156.95 0 0 1-93.219 11.458 354.94 354.94 0 0 0 255.54 214.16 359.21 359.21 0 0 0 77.419 7.967 156 156 0 0 1-31.922-91.155c-8.9797-0.9975-17.949-2.4547-26.744-4.337z"/>
+    <path class="cls-2" d="m807.8 1297.2a356.7 356.7 0 0 0 17.875-418.52 157.14 157.14 0 0 1-61.31 71.803 267.29 267.29 0 0 1-8.7368 265.49 156.35 156.35 0 0 1 52.172 81.227z"/>
+    <path class="cls-2" d="m218.18 899.72q4.1505-0.2277 8.3053-0.22553a157.35 157.35 0 0 1 82.682 23.545 265.91 265.91 0 0 1 214.11-114.51 158.09 158.09 0 0 1 33.076-88.42c-137.1-10.858-270.32 59.892-338.17 179.61z"/>
+    <path transform="translate(846.22,199.45)" d="m-314.64 717.28c-87.65 0-158.92 71.274-158.92 158.92 0 87.65 71.274 158.92 158.92 158.92 87.65 0 158.92-71.274 158.92-158.92 0-87.65-71.274-158.92-158.92-158.92zm0 20.41c76.62 0 138.51 61.894 138.51 138.51v2e-3h-277.03v-2e-3c0-76.62 61.894-138.51 138.51-138.51z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" stroke="none" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+   </g>
+  </g>
+ </g>
+</svg>

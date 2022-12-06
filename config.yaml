@@ -10,7 +10,7 @@ params:
   twitter: ubuntu_id
   github: ubuntu-id
   launchpad: ubuntu-id
-  mastodon: https://mastodon.social/@ubuntu_id
+  telegram: https://t.me/ubuntu_id
   youtube: https://www.youtube.com/user/ubuntuindonesia
   source_repo: https://github.com/ubuntu-id/ubuntu-id.github.io
 defaultContentLanguage: id

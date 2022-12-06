@@ -3,9 +3,9 @@ languageCode: ko-kr
 title: 'Ubuntu Indonesia Community'
 theme: "ubuntukr"
 buildFuture: true
-googleAnalytics: "G-S1V4C73F0T"
+googleAnalytics: ""
 params:
-  contact: contact@ubuntu-kr.org
+  contact: contact@ubuntu-id.org
   facebook: ubuntuIndonesia
   twitter: UbuntuKrOrg
   github: ubuntu-kr
@@ -15,59 +15,49 @@ params:
   source_repo: https://github.com/ubuntu-kr/ubuntu-kr.github.io
 defaultContentLanguage: en
 languages:
-  ko:
-    languageName: 한국어
-    title: 우분투한국커뮤니티
+  id:
+    languageName: Indonesia
+    title: Komunitas Ubuntu Indonesia
     weight: 1
     params:
       description: >-
-        우분투 한국 커뮤니티는 Ubuntu Community Council에서 인증한 공식 한국 커뮤니티이며,
-        우분투(Ubuntu)를 사용하는 사람, 개발하는 사람, 우분투 프로젝트에 기여하는 사람, 우분투에 관심이 있는 모두를 위한 커뮤니티 입니다.
+        Komunitas Ubuntu Indonesia adalah Ubuntu LoCo (Local Community) di Indonesia.
+        Ini adalah tempat untuk semua orang yang tertarik menggunakan, mengembangkan, atau berkontribusi pada proyek Ubuntu.
       copyright: >-
-        © 2021 우분투 한국 커뮤니티 (우분투 한국 로컬 커뮤니티 팀).
+        © 2022 우분투 한국 커뮤니티 (우분투 한국 로컬 커뮤니티 팀).
         별도 고지가 있는 경우를 제외하고, 웹 사이트 소스코드는 MIT, 웹 사이트의 컨텐츠는 CC BY-SA 4.0 라이선스로 이용 가능합니다.
         Ubuntu 및 Canonical 은 Canonical Ltd. 의 등록 상표입니다.
       main_slide:
-        label: 커뮤니티 소개
+        label: Perkenalan Komunitas
         link: about
     menu:
       main:
       - identifier: try
-        name: 우분투 사용해보기
+        name: Coba Ubuntu
         weight: 1
       - identifier: download
         parent: try
-        name: 내려받기
+        name: Unduh
         url: download
         weight: 20
       - identifier: hardware
-        name: 우분투 인증 하드웨어(영어)
+        name: Perangkat Keras Bersertifikat Ubuntu
         parent: try
         url: https://ubuntu.com/certified
         weight: 20
-      - identifier: wiki-ko
-        parent: try
-        name: 위키(한국어)
-        url: https://wiki.ubuntu-kr.org
-        weight: 20
-      - identifier: tutorials-ko
-        parent: try
-        name: 튜토리얼(한국어)
-        url: https://ubuntu-kr.github.io/workshops/
-        weight: 21
       - identifier: docs-en
         parent: try
-        name: 문서(영문)
+        name: Dokumentasi
         url: https://docs.ubuntu.com
         weight: 22
       - identifier: tutorials-en
         parent: try
-        name: 튜토리얼(영문)
+        name: Tutorial
         url: https://ubuntu.com/tutorials
         weight: 23
       - identifier: wiki-en
         parent: try
-        name: 위키(영문)
+        name: Wiki
         url: https://wiki.ubuntu.com
         weight: 24
       - identifier: about-group
@@ -165,10 +155,10 @@ languages:
     weight: 2
     params:
       description: >-
-        Ubuntu Indonesia Community is a Ubuntu LoCo(Local Community) in South Indonesia verified by Ubuntu Community Council,
+        Ubuntu Indonesia Community is a Ubuntu LoCo (Local Community) in Indonesia.
         It is a place for everyone who intrested in using, developing with ubuntu, or contributing to ubuntu projects.
       copyright: >-
-        © 2021 Ubuntu Indonesia Community (Ubuntu Indonesian LoCo Team).
+        © 2022 Ubuntu Indonesia Community (Ubuntu Indonesian LoCo Team).
         Except where otherwise noted, Website source code licensed under MIT, Contents licensed under CC BY-SA 4.0. 
         Ubuntu and Canonical are registered trademarks of Canonical Ltd.
       main_slide:
@@ -189,16 +179,6 @@ languages:
         parent: try
         url: https://ubuntu.com/certified
         weight: 20
-      - identifier: wiki-ko
-        parent: try
-        name: Wiki (Indonesian)
-        url: https://wiki.ubuntu-kr.org
-        weight: 20
-      - identifier: tutorials-ko
-        parent: try
-        name: Tutorials (Indonesian)
-        url: https://ubuntu-kr.github.io/workshops/
-        weight: 21
       - identifier: docs-en
         parent: try
         name: Docs

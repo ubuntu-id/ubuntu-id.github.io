@@ -19,7 +19,7 @@ mirrors:
 Ubuntu {{< param "ubuntuVersions.ltsVersion" >}}, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free.
 In most cases, LTS version is recommended for stable use.
 
-[See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes (Korean translation)]({{< param "ubuntuVersions.ltsReleaseNoteKor" >}})
+[See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes (Indonesian translation)]({{< param "ubuntuVersions.ltsReleaseNoteKor" >}})
 [See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes]({{< param "ubuntuVersions.ltsReleaseNote" >}})
 
 ## Ubuntu {{< param "ubuntuVersions.normalVersion" >}}
@@ -50,8 +50,8 @@ You may check out Ubuntu release cycle information on ubuntu.com
 {{< button text="Raspberry Pi" href="https://ubuntu.com/download/raspberry-pi" icon="switcher-dashboard" >}}
 {{< button text="Internet of Things (Ubuntu Core)" href="https://ubuntu.com/download/iot" icon="switcher-dashboard" >}}
 
-## From Korean Mirrors
-You can download Desktop and Server CD/DVD images from Korean Mirror servers with fast speed.
+## From Indonesia Mirrors
+You can download Desktop and Server CD/DVD images from Indonesian Mirror servers with fast speed.
 
 {{< button text="KAIST" href="http://ftp.kaist.ac.kr/ubuntu-cd/HEADER.html" icon="begin-downloading" >}}
 {{< button text="Kakao Corp." href="https://mirror.kakao.com/ubuntu-releases/" icon="begin-downloading" >}}
@@ -65,7 +65,7 @@ You can download Desktop and Server CD/DVD images from Korean Mirror servers wit
 # How to install and use
 
 ## Desktop & Server
-- Desktop: [Installation guide (Korean)](http://wiki.ubuntu-kr.org/index.php/Getting_Started), [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
+- Desktop: [Installation guide (Indonesian)](http://wiki.ubuntu-kr.org/index.php/Getting_Started), [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
 - Server: [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-server)
 - [List of Certified Ubuntu hardwares](https://ubuntu.com/certified)
 ## Use on Public Clouds
@@ -77,7 +77,7 @@ You can download Desktop and Server CD/DVD images from Korean Mirror servers wit
 ## WSL (Windows Subsystem for Linux)
 If you are using latest version of Windows 10 or Windows 11, You can easily try out Ubuntu with WSL environment. 
 
-{{< button text="Install Ubuntu on WSL (WSL Korea User Group Documentations)" href="https://wslhub.com/wsl-firststep/firststep/install/" icon="begin-downloading" >}}
+{{< button text="Install Ubuntu on WSL (WSL Indonesia User Group Documentations)" href="https://wslhub.com/wsl-firststep/firststep/install/" icon="begin-downloading" >}}
 
 ## Linux Containers
 
@@ -94,9 +94,9 @@ Images for System Containers (VM Style Containers): Used with LXD and LXC for re
 # Get help
 If you need help while using, You can get help on online community such as forums and online chat.
 
-{{< button text="Forums (Korean)" href="https://forum.ubuntu-kr.org/" >}}
-{{< button text="Facebook Group (Korean)" href="https://fb.com/groups/ubuntu.ko" >}}
-{{< button text="Mailing List (Korean)" href="https://lists.ubuntu.com/archives/ubuntu-ko/" >}}
+{{< button text="Forums (Indonesian)" href="https://forum.ubuntu-kr.org/" >}}
+{{< button text="Facebook Group (Indonesian)" href="https://fb.com/groups/ubuntu.ko" >}}
+{{< button text="Mailing List (Indonesian)" href="https://lists.ubuntu.com/archives/ubuntu-ko/" >}}
 {{< button text="Chat (Slack, IRC)" href="../chat" >}}
 
 {{< button text="Ask Ubuntu" href="https://askubuntu.com/" >}}
@@ -105,7 +105,7 @@ If you need help while using, You can get help on online community such as forum
 
 # Commercial technical support
 
-{{< info title="Note" content="Ubuntu Korea Community is a non-profit community consists of users and developers and independent from Canonical Ltd. We do not provide any commercial technical support and answers for related inqueires. If you need commercial support for Ubuntu, Check out informations below and get support from Canonical Ltd. or Canonical Partners.">}}
+{{< info title="Note" content="Ubuntu Indonesia Community is a non-profit community consists of users and developers and independent from Canonical Ltd. We do not provide any commercial technical support and answers for related inqueires. If you need commercial support for Ubuntu, Check out informations below and get support from Canonical Ltd. or Canonical Partners.">}}
 
 ## Ubuntu Advantage
 Get commercial technical support from Canonical Ltd. the publisher of Ubuntu with Ubuntu Advantage program.

@@ -1,6 +1,6 @@
 ---
-title: "우분투 Unduh"
-description: "최신 버전의 우분투를 내려받아 다양한 환경에 설치하여 사용할 수 있습니다."
+title: "Unduh Ubuntu"
+description: "Anda dapat mengunduh versi terbaru Ubuntu dan menginstal serta menggunakannya di berbagai lingkungan."
 image: "download.svg"
 backgroundType: suru #light, dark, accent, suru, suru-topped, image
 ubuntuVersions:
@@ -14,112 +14,118 @@ mirrors:
      url: https://ftp.harukasan.org/ubuntu-releases/HEADER.html
 ---
 
-# 버전 및 요구사양
-## 우분투 {{< param "ubuntuVersions.ltsVersion" >}}
-가장 최근 출시된 LTS(장기 지원) 버전인 우분투 {{< param "ubuntuVersions.ltsVersion" >}}는 5년간 유지보수 및 보안 업데이트가 무료로 제공됩니다.
-대부분의 경우, 안정적인 사용을 위해 LTS 버전 사용이 권장됩니다.
+# Version and system requirements
+## Ubuntu {{< param "ubuntuVersions.ltsVersion" >}}
+Ubuntu {{< param "ubuntuVersions.ltsVersion" >}}, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free.
+In most cases, LTS version is recommended for stable use.
 
-[우분투 {{< param "ubuntuVersions.ltsVersion" >}} 릴리즈 노트 보기(한국어 번역)]({{< param "ubuntuVersions.ltsReleaseNoteKor" >}})
-[우분투 {{< param "ubuntuVersions.ltsVersion" >}} 릴리즈 노트 보기]({{< param "ubuntuVersions.ltsReleaseNote" >}})
+[See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes (Indonesian translation)]({{< param "ubuntuVersions.ltsReleaseNoteKor" >}})
+[See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes]({{< param "ubuntuVersions.ltsReleaseNote" >}})
 
-## 우분투 {{< param "ubuntuVersions.normalVersion" >}}
-새로운 기능을 먼저 사용해 보고 싶다면, 가장 최신 버전인 우분투 {{< param "ubuntuVersions.normalVersion" >}}를 사용해 보세요. 출시 후 9개월간 유지보수 및 보안 업데이트가 무료로 제공됩니다.
+## Ubuntu {{< param "ubuntuVersions.normalVersion" >}}
+If you want to try out latest features, Try out Ubuntu {{< param "ubuntuVersions.normalVersion" >}}, the latest version. It provides 9 months of maintenance and security updates for free.
 
-[우분투 {{< param "ubuntuVersions.normalVersion" >}} 릴리즈 노트 보기]({{< param "ubuntuVersions.normalReleaseNote" >}})
+[See Ubuntu {{< param "ubuntuVersions.normalVersion" >}} release notes]({{< param "ubuntuVersions.normalReleaseNote" >}})
 
-## 우분투 출시 및 지원 주기
-우분투는 새 버전이 매년 4월과 10월, 6개월 간격으로 새로 출시되며. 짝수 년도 4월, 2년 간격으로 장기 지원(LTS) 버전이 출시됩니다.
-장기 지원 버전은 5년간, 장기 지원 사이 출시되는 일번 버전은 9개월간 유지보수 및 보안 업데이트가 무료로 제공됩니다.
-우분투 홈페이지에서 각 버전별 지원 주기를 확인하실 수 있습니다.
+## Siklus Rilis dan Dukungan Ubuntu
+New version of Ubuntu is released on every April and October with 6 months interval. And the new LTS version is released on April of even years with 2 years interval.
+Free maintenance and security updates are provided 5 years for LTS version and 9 months for interim releases.
+You may check out Ubuntu release cycle information on ubuntu.com
 
-{{< button text="Ubuntu release cycle (영어)" href="https://ubuntu.com/about/release-cycle" icon="information" >}}
+{{< button text="Siklus Rilis Ubuntu" href="https://ubuntu.com/about/release-cycle" icon="information" >}}
 
-## 요구 사양
+## Persyaratan Sistem
 
- - 최소 2GHz 듀얼 코어 프로세서와 4GB 시스템 메모리
- - 25GB 이상의 저장 장치 여유공간
- - 인터넷 연결은 있으면 좋습니다.
- - 설치 매체로 사용할 장치: DVD 드라이브, USB 디스크 등
+ - 2 GHz dual core processor and 4 GB system memory or better
+ - 25 GB of free hard drive space
+ - Internet access is helpful
+ - Either a DVD drive or a USB port for the installer media
 
 # Unduh
 
-## 공식 홈페이지에서 Unduh
+## Dari Website Resmi
 
-{{< button text="데스크탑" href="https://ubuntu.com/download/desktop" icon="begin-downloading" >}}
-{{< button text="서버" href="https://ubuntu.com/download/server" icon="machines" >}}
+{{< button text="Desktop" href="https://ubuntu.com/download/desktop" icon="begin-downloading" >}}
+{{< button text="Server" href="https://ubuntu.com/download/server" icon="machines" >}}
 {{< button text="Raspberry Pi" href="https://ubuntu.com/download/raspberry-pi" icon="switcher-dashboard" >}}
-{{< button text="사물인터넷 (Ubuntu Core)" href="https://ubuntu.com/download/iot" icon="switcher-dashboard" >}}
+{{< button text="Internet of Things (Ubuntu Core)" href="https://ubuntu.com/download/iot" icon="switcher-dashboard" >}}
 
-## 국내 미러 서버에서 Unduh
-국내 미러 서버에서 데스크탑 또는 서버용 CD/DVD 이미지를 빠르게 내려받을 수 있습니다.
+
+## From Indonesian Mirrors
+You can download Desktop and Server CD/DVD images from Indonesian Mirror servers with fast speed.
 
 {{< button text="KAIST" href="http://ftp.kaist.ac.kr/ubuntu-cd/HEADER.html" icon="begin-downloading" >}}
-{{< button text="카카오 (Kakao Corp.)" href="https://mirror.kakao.com/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="Kakao Corp." href="https://mirror.kakao.com/ubuntu-releases/" icon="begin-downloading" >}}
 {{< button text="LANET" href="https://ftp.lanet.kr/ubuntu-releases/" icon="begin-downloading" >}}
 {{< button text="AniGil Linux Archive" href="https://mirror.anigil.com/ubuntu-cd/HEADER.html" icon="begin-downloading" >}}
-{{< button text="Harukasan (부경대학교)" href="https://ftp.harukasan.org/ubuntu-releases/HEADER.html" icon="begin-downloading" >}}
+{{< button text="Harukasan (Pukyong University)" href="https://ftp.harukasan.org/ubuntu-releases/HEADER.html" icon="begin-downloading" >}}
 {{< button text="Misaka Mikoto Network Mirror" href="https://mirror.misakamikoto.network/ubuntu-releases/" icon="begin-downloading" >}}
 
-[Launchpad.net 에서 모든 우분투 공식 미러 목록 보기](https://launchpad.net/ubuntu/+archivemirrors)
+[See list of All Official Archive Mirrors for Ubuntu on Launchpad.net](https://launchpad.net/ubuntu/+archivemirrors)
 
-# 설치 및 사용하기
 
-## 데스크탑 및 서버
-- 데스크탑: [설치 가이드](http://wiki.ubuntu-kr.org/index.php/Getting_Started), [설치 튜토리얼(영어)](https://ubuntu.com/tutorials/install-ubuntu-desktop)
-- 서버: [설치 튜토리얼(영어)](https://ubuntu.com/tutorials/install-ubuntu-server)
-- [우분투 인증 하드웨어 목록](https://ubuntu.com/certified)
-## 퍼블릭 클라우드에서 사용하기
-- [퍼블릭 클라우드용 이미지](http://cloud-images.ubuntu.com/)
-- Amazon Web Services: [마켓플레이스](https://aws.amazon.com/marketplace/seller-profile?id=565feec9-3d43-413e-9760-c651546613f2), [문서](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
-- Microsoft Azure: [Ubuntu on Azure](https://azure.microsoft.com/ko-kr/ubuntu/#overview), [문서](https://docs.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-portal)
-- Google Cloud Platform: [마켓플레이스](https://console.cloud.google.com/marketplace/product/ubuntu-os-cloud/ubuntu-focal), [문서](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)
+# Cara Menginstal dan Menggunakan
+
+## Desktop & Server
+- Desktop: [Installation guide (Indonesian)](http://wiki.ubuntu-kr.org/index.php/Getting_Started), [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
+- Server: [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-server)
+- [List of Certified Ubuntu hardwares](https://ubuntu.com/certified)
+## Use on Public Clouds
+- [Public cloud images](http://cloud-images.ubuntu.com/)
+- Amazon Web Services: [Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=565feec9-3d43-413e-9760-c651546613f2), [Documentations](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+- Microsoft Azure: [Ubuntu on Azure](https://azure.microsoft.com/ko-kr/ubuntu/#overview), [Documentations](https://docs.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-portal)
+- Google Cloud Platform: [Marketplace](https://console.cloud.google.com/marketplace/product/ubuntu-os-cloud/ubuntu-focal), [Documentations](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)
 
 ## WSL (Windows Subsystem for Linux)
-최신 버전의 Windows 10 또는 Windows 11 을 사용 중이라면, WSL 환경으로 우분투를 편리하게 만나보실 수 있습니다.
+If you are using latest version of Windows 10 or Windows 11, You can easily try out Ubuntu with WSL environment. 
 
-{{< button text="WSL 환경에 우분투 설치 (WSL Korea User Group 문서)" href="https://wslhub.com/wsl-firststep/firststep/install/" icon="begin-downloading" >}}
+{{< button text="Install Ubuntu on WSL (WSL Indonesia User Group Documentations)" href="https://wslhub.com/wsl-firststep/firststep/install/" icon="begin-downloading" >}}
 
-## 리눅스 컨테이너(Linux Container)
+## Linux Containers
 
-애플리케이션 컨테이너 이미지: Docker, Podman, Kubernetes 등 OCI 규격 컨테이너 이미지 빌드에 사용합니다.
+Images for Application Containers: For building OCI images to use with Docker, Podman, Kubernetes.
 
 {{< button text="Docker Hub" href="https://hub.docker.com/_/ubuntu" icon="begin-downloading" >}}
 {{< button text="Amazon ECR Public Gallery" href="https://gallery.ecr.aws/ubuntu/ubuntu" icon="begin-downloading" >}}
 
-시스템 컨테이너 (VM 스타일 컨테이너) 이미지: LXD, LXC 에서 사용하며, 단순히 VM을 대체하는 용도의 컨테이너용으로 쓰이는 이미지 입니다.
+Images for System Containers (VM Style Containers): Used with LXD and LXC for replacement of VM workloads.
 
-{{< button text="LXD, LXC용 컨테이너 이미지 모두 보기" href="https://uk.lxd.images.canonical.com/" icon="begin-downloading" >}}
+{{< button text="See Container images for LXD, LXC" href="https://uk.lxd.images.canonical.com/" icon="begin-downloading" >}}
 {{< button text="linuxcontainers.org" href="https://linuxcontainers.org/" >}}
 
-# 도움 받기
-사용 중 도움이 필요하시면, 포럼과 채팅 등 다양한 온라인 커뮤니티에서 도움을 받으실 수 있습니다.
 
-{{< button text="포럼" href="https://forum.ubuntu-kr.org/" >}}
-{{< button text="페이스북 그룹" href="https://fb.com/groups/ubuntu.ko" >}}
-{{< button text="메일링 리스트" href="https://lists.ubuntu.com/archives/ubuntu-ko/" >}}
-{{< button text="채팅 (Slack, IRC)" href="../chat" >}}
+# Get help
+If you need help while using, You can get help on online community such as forums and online chat.
 
-{{< button text="Ask Ubuntu (영어)" href="https://askubuntu.com/" >}}
-{{< button text="Ubuntu Forums (영어)" href="https://ubuntuforums.org/" >}}
-{{< button text="Launchpad Answers (영어)" href="https://answers.launchpad.net/ubuntu" >}}
+{{< button text="Forums (Indonesian)" href="https://forum.ubuntu-kr.org/" >}}
+{{< button text="Facebook Group (Indonesian)" href="https://fb.com/groups/ubuntu.ko" >}}
+{{< button text="Mailing List (Indonesian)" href="https://lists.ubuntu.com/archives/ubuntu-ko/" >}}
+{{< button text="Chat (Slack, IRC)" href="../chat" >}}
 
-# 상용 기술 지원
+{{< button text="Ask Ubuntu" href="https://askubuntu.com/" >}}
+{{< button text="Ubuntu Forums" href="https://ubuntuforums.org/" >}}
+{{< button text="Launchpad Answers" href="https://answers.launchpad.net/ubuntu" >}}
+```
 
-{{< info title="참고사항" content="우분투 한국 커뮤니티는 Canonical Ltd.와는 독립적으로 운영되는 사용자 및 개발자 커뮤니티이며 비영리 형태로 운영되고 있습니다. 우분투에 상용 기술 지원을 제공하지 않으며, 관련 문의 답변도 불가능 합니다. 필요하신 경우, 아래 정보를 참고하셔서 Canonical Ltd. 또는 국내/해외 Canonical Partner로 부터 상용 기술 지원을 제공 받으시기 바랍니다." >}}
+# Dukungan Teknis Komersial
+
+{{< info title="Note" content="Ubuntu Indonesia Community is a non-profit community consists of users and developers and independent from Canonical Ltd. We do not provide any commercial technical support and answers for related inqueires. If you need commercial support for Ubuntu, Check out informations below and get support from Canonical Ltd. or Canonical Partners.">}}
 
 ## Ubuntu Advantage
-우분투를 개발한 Canonical Ltd. 로 부터 Ubuntu Advantage 상용 기술 지원을 받으실 수 있습니다.  
-무료로 제공되는 Essential 플랜 및 Standard, Advanced 유료 플랜이 있으며, 데스크탑, 서버, VM, 응용 프로그램(MySQL, MongoDB, NGINX, Kafka 등) 에 대한 기술 지원이 제공됩니다.
+Get commercial technical support from Canonical Ltd. the publisher of Ubuntu with Ubuntu Advantage program.
+Available plans are Essential(Free), Standard(Paid) and Advanced(Paid). You can get support for Desktops, Servers, VMs and applications(e.g. MySQL, MongoDB, NGINX, Kafka and more).
 
-{{< button text="Ubuntu Advantage (영어)" href="https://ubuntu.com/advantage" icon="information" >}}
 
-## 퍼블릭 클라우드용 Ubuntu Pro
-AWS, Google Cloud, Microsoft Azure 사용시, Canonical Ltd. 에서 제공하는 Ubuntu Pro 유료 프리미엄 이미지로 VM 워크로드를 생성할 수 있으며, 별도 추가 계약 없이 상용 기술 지원을 받을 수 있습니다. 
+{{< button text="Ubuntu Advantage" href="https://ubuntu.com/advantage" icon="information" >}}
 
-{{< button text="Ubuntu Pro for AWS (영어)" href="https://ubuntu.com/aws/pro" icon="information" >}}
-{{< button text="Ubuntu Pro for Azure (영어)" href="https://ubuntu.com/azure/pro" icon="information" >}}
-{{< button text="Ubuntu Pro for Google Cloud (영어)" href="https://ubuntu.com/gcp/pro" icon="information" >}}
+## Ubuntu Pro for Public Clouds
+Using AWS, Google Cloud, Microsoft Azure? Create VM workloads with Ubuntu Pro, a premium Ubuntu image from Canonical Ltd. and get commercial technical support without additional contracts.
+
+{{< button text="Ubuntu Pro for AWS" href="https://ubuntu.com/aws/pro" icon="information" >}}
+{{< button text="Ubuntu Pro for Azure" href="https://ubuntu.com/azure/pro" icon="information" >}}
+{{< button text="Ubuntu Pro for Google Cloud" href="https://ubuntu.com/gcp/pro" icon="information" >}}
+
 ## Canonical Partner
-Canonical Ltd.의 파트너사에서도 상용 기술 지원을 제공합니다.
+Partners of Canonical Ltd. also provides commercial technical supports.
 
-{{< button text="Find a Canonical partner (영어)" href="https://canonical.com/partners/find-a-partner" icon="information" >}}
+{{< button text="Find a Canonical partner" href="https://canonical.com/partners/find-a-partner" icon="information" >}}

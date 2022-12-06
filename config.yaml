@@ -108,17 +108,17 @@ languages:
         url: chat
         weight: 36
       - identifier: partandcontrib
-        name: Participate & Contribute
+        name: Berpartisipasi & Berkontribusi
         url: partandcontrib
         weight: 4
       - identifier: events
         parent: partandcontrib
-        name: Join events
+        name: Kegiaran Acara
         url: https://event.ubuntu-id.org
         weight: 41
       - identifier: study_projects
         parent: partandcontrib
-        name: Group Studies/Projects
+        name: Kelompok Studi/Proyek
         url: projects
         weight: 42
       - identifier: translate
@@ -127,7 +127,7 @@ languages:
         url: translate
         weight: 43
       - identifier: follow
-        name: Follow us
+        name: Ikuti Kami
         weight: 5
       - identifier: blog
         parent: follow

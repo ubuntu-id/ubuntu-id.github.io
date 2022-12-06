@@ -89,12 +89,12 @@ languages:
         weight: 32
       - identifier: telegram
         parent: community
-        name: Telegram
+        name: Telegram Grup
         url: https://t.me/ubuntu_id
         weight: 33
       - identifier: fb-group
         parent: community
-        name: Facebook Group
+        name: Facebook Grup
         url: https://www.facebook.com/groups/2327054593
         weight: 34
       - identifier: lists

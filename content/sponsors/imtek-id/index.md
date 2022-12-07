@@ -20,4 +20,4 @@ buttons:
 Inovator Muda Teknologi is well-known as IMTEK is an information technology solutions provider with strong experience in open source. We are providing the world’s leading complete cloud ecosystem to your businesses.
 
 ## Detail Sponsor
-- [TBD](https://imtek.id)
+- Website

@@ -108,7 +108,7 @@ languages:
         url: chat
         weight: 36
       - identifier: partandcontrib
-        name: Kegiatan
+        name: Ikut Berkontribusi
         url: partandcontrib
         weight: 4
       - identifier: events

@@ -23,7 +23,7 @@ We also organize group studies, research/development projects on Ubuntu and its 
 [main_kr_loco_about]
 other = "About the community"
 [main_kr_loco_community_title]
-other = "Community & Docs"
+other = "Community & Documentation"
 [main_kr_loco_events_title]
 other = "Events & Collaborations"
 [main_kr_loco_events_events]
@@ -35,7 +35,7 @@ other = "UbuCon Asia"
 [main_kr_loco_global]
 #other = ""
 [main_kr_loco_research_title]
-other = "Research & Development activities"
+other = "Research & Development"
 [main_kr_loco_research_projects]
 other = "Group Studies/Projects"
 [main_kr_loco_research_l10n]

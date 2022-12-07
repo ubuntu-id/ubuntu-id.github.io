@@ -10,7 +10,7 @@ params:
   twitter: ubuntu_id
   github: ubuntu-id
   launchpad: ubuntu-id
-  telegram: https://t.me/ubuntu_id
+  telegram: https://t.me/ubuntu-id
   youtube: https://www.youtube.com/user/ubuntuindonesia
   source_repo: https://github.com/ubuntu-id/ubuntu-id.github.io
 defaultContentLanguage: id
@@ -24,9 +24,9 @@ languages:
         Komunitas Ubuntu Indonesia adalah Ubuntu LoCo (Local Community) di Indonesia.
         Ini adalah tempat untuk semua orang yang tertarik menggunakan, mengembangkan, atau berkontribusi pada proyek Ubuntu.
       copyright: >-
-        © 2022 Komunitas Ubuntu Indonesia (Ubuntu Indonesian LoCo Team).
-        Except where otherwise noted, Website source code licensed under MIT, Contents licensed under CC BY-SA 4.0. 
-        Ubuntu and Canonical are registered trademarks of Canonical Ltd.
+        ©2022 Komunitas Ubuntu Indonesia (Ubuntu Indonesian LoCo Team).
+        Kecuali dinyatakan sebaliknya, Kode sumber situs web dilisensikan di bawah MIT, Konten dilisensikan di bawah CC BY-SA 4.0.
+        Ubuntu dan Canonical adalah merek dagang terdaftar dari Canonical Ltd.
       main_slide:
         label: Tentang Komunitas
         link: about
@@ -89,12 +89,12 @@ languages:
         weight: 32
       - identifier: telegram
         parent: community
-        name: Telegram Grup
-        url: https://t.me/ubuntu_id
+        name: Grup Telegram
+        url: https://t.me/ubuntu-id
         weight: 33
       - identifier: fb-group
         parent: community
-        name: Facebook Grup
+        name: Grup Facebook
         url: https://www.facebook.com/groups/2327054593
         weight: 34
       - identifier: lists
@@ -114,11 +114,11 @@ languages:
       - identifier: events
         parent: partandcontrib
         name: Acara
-        url: https://event.ubuntu-id.org
+        url: https://events.ubuntu-id.org
         weight: 41
       - identifier: study_projects
         parent: partandcontrib
-        name: Kelompok Studi
+        name: Kelompok Belajar
         url: projects
         weight: 42
       - identifier: translate
@@ -137,7 +137,7 @@ languages:
       - identifier: facebook
         parent: follow
         name: Facebook
-        url: https://fb.com/ubuntu.indonesia
+        url: https://facebook.com/ubuntu.indonesia
         weight: 52
       - identifier: twitter
         parent: follow
@@ -149,6 +149,11 @@ languages:
         name: YouTube
         url: https://www.youtube.com/user/ubuntuindonesia
         weight: 54
+      - identifier: telegram
+        parent: follow
+        name: Saluran Telegram
+        url: https://t.me/ubuntu_id
+        weight: 55
   en:
     languageName: English
     title: Ubuntu Indonesia Community
@@ -158,7 +163,7 @@ languages:
         Ubuntu Indonesia Community is a Ubuntu LoCo (Local Community) in Indonesia.
         It is a place for everyone who intrested in using, developing with ubuntu, or contributing to ubuntu projects.
       copyright: >-
-        © 2022 Ubuntu Indonesia Community (Ubuntu Indonesian LoCo Team).
+        ©2022 Ubuntu Indonesia Community (Ubuntu Indonesian LoCo Team).
         Except where otherwise noted, Website source code licensed under MIT, Contents licensed under CC BY-SA 4.0. 
         Ubuntu and Canonical are registered trademarks of Canonical Ltd.
       main_slide:
@@ -204,7 +209,7 @@ languages:
         weight: 21
       - identifier: bylaws
         parent: about-group
-        name: Bylaws
+        name: Legal
         url: bylaws
         weight: 22
       - identifier: sponsors
@@ -223,8 +228,8 @@ languages:
         weight: 32
       - identifier: telegram
         parent: community
-        name: Telegram
-        url: https://t.me/ubuntu_id
+        name: Telegram Group
+        url: https://t.me/ubuntu-id
         weight: 33
       - identifier: fb-group
         parent: community
@@ -252,7 +257,7 @@ languages:
         weight: 41
       - identifier: study_projects
         parent: partandcontrib
-        name: Group Studies/Projects
+        name: Group Studies
         url: projects
         weight: 42
       - identifier: translate
@@ -271,7 +276,7 @@ languages:
       - identifier: facebook
         parent: follow
         name: Facebook
-        url: https://fb.com/ubuntu.indonesia
+        url: https://facebook.com/ubuntu.indonesia
         weight: 52
       - identifier: twitter
         parent: follow
@@ -283,3 +288,8 @@ languages:
         name: YouTube
         url: https://www.youtube.com/user/ubuntuindonesia
         weight: 54
+      - identifier: telegram
+        parent: follow
+        name: Telegram Channel
+        url: https://t.me/ubuntu_id
+        weight: 55

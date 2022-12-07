@@ -1,8 +1,8 @@
 ---
 title: "Sponsor"
-description: "Berbagai perusahaan, institusi, dan organisasi mendukung Komunitas Ubuntu Indonesia dengan berbagai cara untuk membantunya menjadi lebih aktif."
+description: "Various companies, institutions and organizations support the Indonesian Ubuntu community in various ways to help them become more active."
 image: ""
 backgroundType: suru-topped #light, dark, accent, suru, suru-topped, image
 ---
 
-## Participate as a Community Sponsor
+## Participate as a Sponsor

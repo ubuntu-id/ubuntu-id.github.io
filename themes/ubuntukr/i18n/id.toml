@@ -7,9 +7,9 @@ other = "Sebelumnya"
 other = "Distribusi Linux Paling Populer"
 [main_ubuntu_desc]
 other = """
-Ubuntu is one of the most widely used Linux distributon in the world.
-It is well known as easy to use linux desktop, and easy to configure linux distribution for server and other infrastructures.
-Ubuntu is optimized for various devices and environment such as Desktop, Laptop, Server, Cloud, Internet of Things, Raspberry Pi, Appliances, Kiosks and much more.
+Ubuntu adalah salah satu distro Linux yang paling banyak digunakan di dunia.
+Dikenal sebagai desktop linux yang mudah digunakan, dan mudah untuk mengkonfigurasi distribusi linux untuk server dan infrastruktur lainnya.
+Ubuntu dioptimalkan untuk berbagai perangkat dan lingkungan seperti Desktop, Laptop, Server, Cloud, Internet of Things, Raspberry Pi, Appliances, Kiosks dan banyak lagi.
 """
 
 [main_kr_loco_title]
@@ -29,7 +29,7 @@ other = "Kegiatan Acara & Kolaborasi"
 [main_kr_loco_events_events]
 other = "Seminar, Lokakarya, Konferensi"
 [main_kr_loco_collaborate]
-other = "Collaborate with other FOSS communities"
+other = "Berkolaborasi dengan komunitas FOSS lainnya"
 [main_kr_loco_ubucon]
 other = "UbuCon Asia"
 [main_kr_loco_global]
@@ -37,12 +37,12 @@ other = ""
 [main_kr_loco_research_title]
 other = "Penelitian & Pengembangan"
 [main_kr_loco_research_projects]
-other = "Group Studies/Projects"
+other = "Kelompok Belajar"
 [main_kr_loco_research_l10n]
-other = "Localization (Translation)"
+other = "Localization (Terjemahan)"
 
 [about_online_title]
-other = "Meet people online & Find informations you need"
+other = "Temui orang secara daring & Temukan informasi yang Anda butuhkan"
 [about_online_desc]
 other = "Meet community people on various channels like Forums, Facebook Group, IRC. And find informations you need on official documentations and wiki."
 [about_networking_title]
@@ -50,7 +50,7 @@ other = "Networking, Exchange and Research & Development activities"
 [about_networking_desc]
 other = "We organize diverse activities on Ubuntu and its related open source technologies. Meet and exchange with people and share your experience beyond online activities." 
 [about_networking_events_title]
-other = "Seminars, Workshops and Conferences"
+other = "Seminar, Lokakarya, Konferensi"
 [about_networking_events_desc]
 other = """
 We organize seminars, conferences periodically to share Ubuntu related knowledges,
@@ -84,22 +84,22 @@ People who enthusiast on Ubuntu, Linux and open source are actively participatin
 If you are actively participating Ubuntu community and interested to join as organizer, Why don't you get involced today?
 """
 [about_organizers_ko]
-other = "About our Community Organizers (Korean)"
+other = "Tentang Pengurus Komunitas"
 [about_organizers_en]
 other = "About our Community Organizers"
 [about_organizers_list]
-other = "List of Organizers"
+other = "Daftar Pengurus"
 [about_organizers_join]
-other = "Wanna get involved as Organizer?"
+other = "Ingin terlibat sebagai Pengurus?"
 
 [forums]
 other = "Forums"
 [fb_groups]
-other = "Facebook Groups"
+other = "Grup Facebook"
 [wiki]
 other = "Wiki"
 [tutorials]
-other = "Tutorials"
+other = "Tutorial"
 [chat]
 other = "Chat"
 [mailing_list]
@@ -110,6 +110,6 @@ other = "Group studies/Projects"
 other = "Terjemahkan Ubuntu"
 
 [footer_contact]
-other = "Contact with Organizers (Email)"
+other = "Surel"
 [footer_src_repo]
 other = "Kode Sumber di GitHub"

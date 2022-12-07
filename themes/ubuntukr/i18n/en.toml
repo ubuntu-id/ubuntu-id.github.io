@@ -33,7 +33,7 @@ other = "Collaborate with other FOSS communities"
 [main_kr_loco_ubucon]
 other = "UbuCon Asia"
 [main_kr_loco_global]
-other = "Exchange with Global FOSS communities"
+other = """
 [main_kr_loco_research_title]
 other = "Research & Development activities"
 [main_kr_loco_research_projects]
@@ -110,6 +110,6 @@ other = "Group studies/Projects"
 other = "Translate Ubuntu"
 
 [footer_contact]
-other = "Contact with Organizers (Email)"
+other = "Email"
 [footer_src_repo]
 other = "Source code on GitHub"

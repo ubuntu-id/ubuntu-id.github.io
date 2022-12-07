@@ -33,7 +33,7 @@ other = "Berkolaborasi dengan komunitas FOSS lainnya"
 [main_kr_loco_ubucon]
 other = "UbuCon Asia"
 [main_kr_loco_global]
-other = ""
+#other = ""
 [main_kr_loco_research_title]
 other = "Penelitian & Pengembangan"
 [main_kr_loco_research_projects]

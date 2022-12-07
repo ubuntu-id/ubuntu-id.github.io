@@ -5,9 +5,9 @@ colorScheme: dark #dark, light
 image: jammy.svg
 # backgroundImage: bg.png
 buttons:
-    - label: Download
+    - label: Unduh
       url: download
 draft: false
 date: 2022-04-22
 ---
-Ubuntu 22.04 LTS Jammy Jellyfish is the latest version released in Aptril 2022. You can get it today, and run it on various environments such as Desktop, Servers, IoT, Cloud and much more.
+Ubuntu 22.04 LTS Jammy Jellyfish adalah versi terbaru yang dirilis pada April 2022. Anda bisa mendapatkannya sekarang, dan menjalankannya di berbagai lingkungan seperti Desktop, Server, IoT, Cloud, dan masih banyak lagi.

@@ -2,6 +2,8 @@
 other = "Selanjutnya"
 [prev]
 other = "Sebelumnya"
+[download]
+other = "Unduh"
 
 [main_ubuntu_title]
 other = "Distribusi Linux Paling Populer"

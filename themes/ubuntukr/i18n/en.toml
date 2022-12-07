@@ -2,6 +2,8 @@
 other = "Next"
 [prev]
 other = "Previous"
+[download]
+other = "Download"
 
 [main_ubuntu_title]
 other = "Most widely used Linux distro"

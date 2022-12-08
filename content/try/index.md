@@ -28,7 +28,7 @@ Slack 을 자주 사용한다면, 아래 링크로 바로 가입하고 입장하
 
 [여기를 클릭하여 Kiwi IRC 웹 클라이언트로 바로 접속](http://kiwiirc.com/client/irc.libera.chat/ubuntu-ko)하여 이용도 가능합니다.
 
- - [IRC 이용 정보 자세히 보기](https://wiki.ubuntu-kr.org/index.php/IRC_%EC%9D%B4%EC%9A%A9_%EC%A0%95%EB%B3%B4)
+ - [IRC 이용 정보 자세히 보기](https://wiki.ubuntu.com/index.php/IRC_%EC%9D%B4%EC%9A%A9_%EC%A0%95%EB%B3%B4)
  - [IRC 이용 규정](https://wiki.ubuntu.com/KoreanTeam/IRC_Rules)
 
 # 채널 연동

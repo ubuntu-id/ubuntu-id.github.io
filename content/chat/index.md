@@ -20,7 +20,7 @@ Slack, Matrix (Element.io), IRC (Libera.chat) 을 통해 채팅에 참여하실 
    - 평문 통신: 6665~6667 또는 8000~8002
    - TLS 암호화 통신: 6697, 7000, 7070
  - 채널: #ubuntu-ko
-- [IRC 이용 정보 자세히 보기](https://wiki.ubuntu-kr.org/index.php/IRC_%EC%9D%B4%EC%9A%A9_%EC%A0%95%EB%B3%B4)
+- [IRC 이용 정보 자세히 보기](https://wiki.ubuntu.com/index.php/IRC_%EC%9D%B4%EC%9A%A9_%EC%A0%95%EB%B3%B4)
 
 # 채널 목록
 

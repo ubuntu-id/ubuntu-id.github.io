@@ -21,4 +21,4 @@ Berpartisipasi dalam proyek sumber terbuka di Ubuntu atau teknologi sumber terbu
 Demikian pula, sumber daya yang diperlukan untuk partisipasi atau pengembangan proyek didukung di tingkat masyarakat atau disponsori secara terpisah.
 
 - [Wiki](https://wiki.ubuntu.com)
-- [GitHub Organization 보기](https://github.com/ubuntu-id)
+- [GitHub Organization](https://github.com/ubuntu-id)

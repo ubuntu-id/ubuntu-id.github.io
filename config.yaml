@@ -118,7 +118,7 @@ languages:
         weight: 41
       - identifier: study_projects
         parent: partandcontrib
-        name: Kelompok Belajar
+        name: Kelompok Belajar/Proyek
         url: projects
         weight: 42
       - identifier: translate

@@ -4,6 +4,8 @@ other = "Next"
 other = "Previous"
 [download]
 other = "Download"
+[main_sponsor_desc]
+other = "Various companies, institutions and organizations support the Indonesian Ubuntu community in various ways to help them become more active."
 
 [main_ubuntu_title]
 other = "Most widely used Linux distro"

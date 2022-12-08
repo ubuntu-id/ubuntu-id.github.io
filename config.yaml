@@ -90,7 +90,7 @@ languages:
       - identifier: telegram-group
         parent: community
         name: Grup Telegram
-        url: https://t.me/ubuntu-id
+        url: https://t.me/ubuntu-indo
         weight: 33
       - identifier: fb-group
         parent: community
@@ -229,7 +229,7 @@ languages:
       - identifier: telegram-group
         parent: community
         name: Telegram Group
-        url: https://t.me/ubuntu-id
+        url: https://t.me/ubuntu-indo
         weight: 33
       - identifier: fb-group
         parent: community

@@ -22,7 +22,7 @@ languages:
     params:
       description: >-
         Komunitas Ubuntu Indonesia adalah Ubuntu LoCo (Local Community) di Indonesia.
-        Ini adalah tempat untuk semua orang yang tertarik menggunakan, mengembangkan, atau berkontribusi pada proyek Ubuntu.
+        Ini adalah tempat untuk semua orang yang tertarik menggunakan, mengembangkan, dan berkontribusi pada proyek Ubuntu.
       copyright: >-
         ©2022 Komunitas Ubuntu Indonesia (Ubuntu Indonesian LoCo Team).
         Kecuali dinyatakan lain, Kode sumber situs web dilisensikan di bawah MIT, Konten dilisensikan di bawah CC BY-SA 4.0.
@@ -102,11 +102,11 @@ languages:
         name: Mailing list
         url: http://groups.google.com/group/id-ubuntu
         weight: 35
-      - identifier: chat
-        parent: community
-        name: Chat 
-        url: chat
-        weight: 36
+        #- identifier: chat
+        #parent: community
+        #name: Chat 
+        #url: chat
+        #weight: 36
       - identifier: partandcontrib
         name: Ikut Berkontribusi
         url: partandcontrib
@@ -241,11 +241,11 @@ languages:
         name: Mailing list
         url: http://groups.google.com/group/id-ubuntu
         weight: 35
-      - identifier: chat
-        parent: community
-        name: Chat 
-        url: chat
-        weight: 36
+        #- identifier: chat
+        #parent: community
+        #name: Chat 
+        #url: chat
+        #weight: 36
       - identifier: partandcontrib
         name: Participate & Contribute
         url: partandcontrib

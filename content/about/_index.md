@@ -1,7 +1,8 @@
 ---
 title: "Tentang Ubuntu Indonesia"
 description: >-
-   Penggiat Ubuntu di Indonesia diawali sekitar tahun 2006 dan saat itu sepakat membentuk komunitas sesuai standar Canonical. Tahun 2012 kami mengajukan ke notaris untuk membentuk badan hukum Perkumpulan. Tahun 2013 Kementerian Hukum dan Hak Asasi Manusia melalui Direktorat Jenderal Administrasi Hukum Umum menyatakan Komunitas Ubuntu Indonesia berbadan hukum Perkumpulan dengan nomor AHU-37.AH.01.07.Tahun 2013..
+Komunitas Ubuntu Indonesia, Didirikan 10 Juli 2005.
+Kami menyelenggarakan berbagai kegiatan dengan sukses seperti: Menyediakan komunitas daring dan layanan dokumentasi, Menyelenggarakan acara seperti seminar dan konferensi, Kelompok belajar dan proyek di Ubuntu dan teknologi open source lainnya
 image: "logo.png"
 backgroundType: image #light, dark, accent, suru, suru-topped, image
 backgroundImage: "people.jpg"

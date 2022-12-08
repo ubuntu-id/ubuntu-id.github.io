@@ -1,5 +1,5 @@
 ---
-title: "Kelompok Belajar/Proyek/Proyek"
+title: "Kelompok Belajar/Proyek"
 description: "Bergabunglah dengan studi dan proyek grup di Ubuntu dan teknologi sumber terbuka terkait."
 image: "research.svg"
 backgroundType: suru-topped #light, dark, accent, suru, suru-topped, image

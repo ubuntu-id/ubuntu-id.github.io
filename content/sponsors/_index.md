@@ -5,4 +5,4 @@ image: ""
 backgroundType: suru-topped #light, dark, accent, suru, suru-topped, image
 ---
 
-## Berpartisipasi Sebagai Sponsor Komunitas
+## Berpartisipasi Sebagai Sponsor

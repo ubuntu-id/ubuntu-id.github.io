@@ -51,12 +51,12 @@
             {{ else }}
             {{ range .AllTranslations }}
             <li>
-              <a href="{{ .Permalink }}" class="p-navigation__dropdown-item">📄 {{ .Language.LanguageName }}</a>
+              <a href="{{ .Permalink }}" class="p-navigation__dropdown-item">{{ .Language.LanguageName }}</a>
             </li>
             {{ end }}
             {{ range $.Site.Home.AllTranslations }}
             <li>
-              <a href="{{ .Permalink }}" class="p-navigation__dropdown-item">🏠 {{ .Language.LanguageName }}</a>
+              <a href="{{ .Permalink }}" class="p-navigation__dropdown-item">{{ .Language.LanguageName }}</a>
             </li>
             {{ end }}
             {{ end }}

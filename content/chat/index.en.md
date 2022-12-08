@@ -1,6 +1,6 @@
 ---
 title: "Chat"
-description: "Anda dapat bergabung dengan orang lain atau untuk mengajukan pertanyaan dan jawaban."
+description: "You can join other people or to ask questions and answers."
 image: "chat.svg"
 backgroundType: suru-topped
 ---

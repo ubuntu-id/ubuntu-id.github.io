@@ -10,7 +10,7 @@ params:
   twitter: ubuntu_id
   github: ubuntu-id
   launchpad: ubuntu-id
-  telegram: https://t.me/ubuntu-id
+  telegram: https://t.me/ubuntu_id
   youtube: https://www.youtube.com/user/ubuntuindonesia
   source_repo: https://github.com/ubuntu-id/ubuntu-id.github.io
 defaultContentLanguage: id
@@ -87,7 +87,7 @@ languages:
         name: Forum
         url: https://forum.ubuntu-id.org
         weight: 32
-      - identifier: telegram
+      - identifier: telegram-group
         parent: community
         name: Grup Telegram
         url: https://t.me/ubuntu-id
@@ -226,7 +226,7 @@ languages:
         name: Forum
         url: https://forum.ubuntu-id.org
         weight: 32
-      - identifier: telegram
+      - identifier: telegram-group
         parent: community
         name: Telegram Group
         url: https://t.me/ubuntu-id

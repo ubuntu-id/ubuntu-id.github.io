@@ -27,14 +27,14 @@ If you want to try out latest features, Try out Ubuntu {{< param "ubuntuVersions
 
 [See Ubuntu {{< param "ubuntuVersions.normalVersion" >}} release notes]({{< param "ubuntuVersions.normalReleaseNote" >}})
 
-## Siklus Rilis dan Dukungan Ubuntu
+## Ubuntu release and support cycle
 New version of Ubuntu is released on every April and October with 6 months interval. And the new LTS version is released on April of even years with 2 years interval.
 Free maintenance and security updates are provided 5 years for LTS version and 9 months for interim releases.
 You may check out Ubuntu release cycle information on ubuntu.com
 
-{{< button text="Siklus Rilis Ubuntu" href="https://ubuntu.com/about/release-cycle" icon="information" >}}
+{{< button text="Ubuntu release cycle (영어)" href="https://ubuntu.com/about/release-cycle" icon="information" >}}
 
-## Persyaratan Sistem
+## System requirements
 
  - 2 GHz dual core processor and 4 GB system memory or better
  - 25 GB of free hard drive space
@@ -43,15 +43,14 @@ You may check out Ubuntu release cycle information on ubuntu.com
 
 # Unduh
 
-## Dari Website Resmi
+## From official website
 
 {{< button text="Desktop" href="https://ubuntu.com/download/desktop" icon="begin-downloading" >}}
 {{< button text="Server" href="https://ubuntu.com/download/server" icon="machines" >}}
 {{< button text="Raspberry Pi" href="https://ubuntu.com/download/raspberry-pi" icon="switcher-dashboard" >}}
 {{< button text="Internet of Things (Ubuntu Core)" href="https://ubuntu.com/download/iot" icon="switcher-dashboard" >}}
 
-
-## From Indonesian Mirrors
+## From Indonesia Mirrors
 You can download Desktop and Server CD/DVD images from Indonesian Mirror servers with fast speed.
 
 {{< button text="KAIST" href="http://ftp.kaist.ac.kr/ubuntu-cd/HEADER.html" icon="begin-downloading" >}}
@@ -63,8 +62,7 @@ You can download Desktop and Server CD/DVD images from Indonesian Mirror servers
 
 [See list of All Official Archive Mirrors for Ubuntu on Launchpad.net](https://launchpad.net/ubuntu/+archivemirrors)
 
-
-# Cara Menginstal dan Menggunakan
+# How to install and use
 
 ## Desktop & Server
 - Desktop: [Installation guide (Indonesian)](http://wiki.ubuntu.com/index.php/Getting_Started), [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
@@ -93,7 +91,6 @@ Images for System Containers (VM Style Containers): Used with LXD and LXC for re
 {{< button text="See Container images for LXD, LXC" href="https://uk.lxd.images.canonical.com/" icon="begin-downloading" >}}
 {{< button text="linuxcontainers.org" href="https://linuxcontainers.org/" >}}
 
-
 # Get help
 If you need help while using, You can get help on online community such as forums and online chat.
 
@@ -105,9 +102,8 @@ If you need help while using, You can get help on online community such as forum
 {{< button text="Ask Ubuntu" href="https://askubuntu.com/" >}}
 {{< button text="Ubuntu Forums" href="https://ubuntuforums.org/" >}}
 {{< button text="Launchpad Answers" href="https://answers.launchpad.net/ubuntu" >}}
-```
 
-# Dukungan Teknis Komersial
+# Commercial technical support
 
 {{< info title="Note" content="Ubuntu Indonesia Community is a non-profit community consists of users and developers and independent from Canonical Ltd. We do not provide any commercial technical support and answers for related inqueires. If you need commercial support for Ubuntu, Check out informations below and get support from Canonical Ltd. or Canonical Partners.">}}
 

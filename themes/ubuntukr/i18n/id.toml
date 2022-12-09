@@ -52,7 +52,7 @@ other = "Temui orang-orang komunitas di berbagai saluran seperti Forum, Grup Fac
 [about_networking_title]
 other = "Berjejaring, Pertukaran Ide dan kegiatan Penelitian & Pengembangan"
 [about_networking_desc]
-other = "We organize diverse activities on Ubuntu and its related open source technologies. Meet and exchange with people and share your experience beyond online activities." 
+other = "Kami menyelenggarakan beragam aktivitas di Ubuntu dan teknologi open source terkaitnya. Bertemu dan bertukar pikiran dengan orang-orang dan bagikan pengalaman Anda di luar aktivitas daring." 
 [about_networking_events_title]
 other = "Seminar, Lokakarya, Konferensi"
 [about_networking_events_desc]
@@ -63,20 +63,18 @@ Kami menyelenggarakan beragam aktivitas di Ubuntu dan teknologi open source terk
 other = "Lihat Jadwal Acara"
 
 [about_exchange_title]
-other = "Exchange with Domestic & Foreign Open source/IT Communities"
+other = "Kolaborasi dengan Komunitas Penggiat Kode Sumber Terbuka Lain"
 [about_exchange_desc]
 other = """
-We frequently collaborate with domestic open source communties like OpenStack Korea, WSL Korea User Group and more.
-Cowork with foreign open source communities such as Ubuntu Japan, Debian Japan, Ubuntu Taiwan, Ubuntu Malaysia.
-We also participate <a href="https://www.ubucon.asia">UbuCon Asia</a>, a place to meet Ubuntu LoCos around Asia.
+Kami sering berkolaborasi dengan komunitas open source domestik seperti OpenStack & OpenInfra Indonesia, Cloud Native Indonesia, LibreOffice Indonesia, openSUSE Indonesia, dan lainnya.
 """
 
 [about_projects_title]
 other = "Kelompok Belajar, Proyek, Kegiatan Kontribusi Sumber Terbuka"
 [about_projects_desc]
 other = """
-We organize group studies and projeces on Ubuntu and its related open source technologies.
-We also organize activieis for contributing to Ubuntu projects such as translating Ubuntu. 
+Kami menyelenggarakan kelompok belajar dan proyek di Ubuntu dan teknologi open source terkait.
+Kami juga mengatur kegiatan untuk berkontribusi pada proyek Ubuntu seperti menerjemahkan Ubuntu.
 """
 
 [about_organizing_title]
@@ -89,7 +87,7 @@ Jika Anda aktif berpartisipasi dalam komunitas Ubuntu dan tertarik untuk bergabu
 [about_organizers_ko]
 other = "Tentang Pengurus Komunitas"
 [about_organizers_en]
-other = "About our Community Organizers"
+other = "Tentang Pengurus Komunitas"
 [about_organizers_list]
 other = "Daftar Pengurus"
 [about_organizers_join]

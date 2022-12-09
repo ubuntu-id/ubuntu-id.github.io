@@ -97,6 +97,8 @@ other = "Ingin terlibat sebagai Pengurus?"
 other = "Forum"
 [fb_groups]
 other = "Grup Facebook"
+[telegram_groups]
+other = "Grup Telegram"
 [wiki]
 other = "Wiki"
 [tutorials]

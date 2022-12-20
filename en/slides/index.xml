@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides on Ubuntu Indonesia Community</title>
-    <link>https://www.aryulianto.com/ubi.github.io/en/slides/</link>
+    <link>https://ubuntu-id.org/en/slides/</link>
     <description>Recent content in Slides on Ubuntu Indonesia Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.aryulianto.com/ubi.github.io/en/slides/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ubuntu-id.org/en/slides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu 22.04 LTS</title>
-      <link>https://www.aryulianto.com/ubi.github.io/en/slides/ubuntu/</link>
+      <link>https://ubuntu-id.org/en/slides/ubuntu/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.aryulianto.com/ubi.github.io/en/slides/ubuntu/</guid>
+      <guid>https://ubuntu-id.org/en/slides/ubuntu/</guid>
       <description>Ubuntu 22.04 LTS Jammy Jellyfish is the latest version released in Aptril 2022. You can get it today, and run it on various environments such as Desktop, Servers, IoT, Cloud and much more.</description>
     </item>
     

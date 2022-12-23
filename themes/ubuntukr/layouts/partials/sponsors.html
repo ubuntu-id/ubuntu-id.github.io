@@ -16,7 +16,8 @@
         {{.Site.Params.main_sponsor_desc}}{{ i18n "main_sponsor_desc" }}
         </p>
         <a href="{{ "sponsors" | relLangURL }}"><button class="p-button has-icon"><i class="p-icon--information"></i><span>List Sponsor</span></button></a>
-        <div class="p-logo-section">
+<!--
+	<div class="p-logo-section">
           <div class="p-logo-section__items">
           {{ $sponsors := (where $regularPages "Section" "sponsors") }}
           {{ range $sponsors }}
@@ -26,6 +27,7 @@
           {{ end }}
           </div>
         </div>
+-->
       </div>
     </div>
 </section>

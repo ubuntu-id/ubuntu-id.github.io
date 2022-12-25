@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ubuntu Indonesia Community</title>
-    <link>https://ubuntu-id.org/en/categories/</link>
+    <link>https://www.ubuntu-id.org/en/categories/</link>
     <description>Recent content in Categories on Ubuntu Indonesia Community</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-id</language><atom:link href="https://ubuntu-id.org/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>id-id</language><atom:link href="https://www.ubuntu-id.org/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

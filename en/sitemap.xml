@@ -2,151 +2,151 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ubuntu-id.org/en/slides/</loc>
+    <loc>https://www.ubuntu-id.org/en/slides/</loc>
     <lastmod>2022-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/slides/"
+                href="https://www.ubuntu-id.org/slides/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/slides/"
+                href="https://www.ubuntu-id.org/en/slides/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/slides/ubuntu/</loc>
+    <loc>https://www.ubuntu-id.org/en/slides/ubuntu/</loc>
     <lastmod>2022-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/slides/ubuntu/"
+                href="https://www.ubuntu-id.org/slides/ubuntu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/slides/ubuntu/"
+                href="https://www.ubuntu-id.org/en/slides/ubuntu/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/</loc>
+    <loc>https://www.ubuntu-id.org/en/</loc>
     <lastmod>2022-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/"
+                href="https://www.ubuntu-id.org/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/"
+                href="https://www.ubuntu-id.org/en/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/about/</loc>
+    <loc>https://www.ubuntu-id.org/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/about/"
+                href="https://www.ubuntu-id.org/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/about/"
+                href="https://www.ubuntu-id.org/en/about/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/categories/</loc>
+    <loc>https://www.ubuntu-id.org/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/categories/"
+                href="https://www.ubuntu-id.org/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/categories/"
+                href="https://www.ubuntu-id.org/en/categories/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/chat/</loc>
+    <loc>https://www.ubuntu-id.org/en/chat/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/chat/"
+                href="https://www.ubuntu-id.org/chat/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/chat/"
+                href="https://www.ubuntu-id.org/en/chat/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/download/</loc>
+    <loc>https://www.ubuntu-id.org/en/download/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/download/"
+                href="https://www.ubuntu-id.org/download/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/download/"
+                href="https://www.ubuntu-id.org/en/download/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/projects/</loc>
+    <loc>https://www.ubuntu-id.org/en/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/projects/"
+                href="https://www.ubuntu-id.org/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/projects/"
+                href="https://www.ubuntu-id.org/en/projects/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/bylaws/</loc>
+    <loc>https://www.ubuntu-id.org/en/bylaws/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/bylaws/"
+                href="https://www.ubuntu-id.org/bylaws/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/bylaws/"
+                href="https://www.ubuntu-id.org/en/bylaws/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/sponsors/</loc>
+    <loc>https://www.ubuntu-id.org/en/sponsors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/sponsors/"
+                href="https://www.ubuntu-id.org/sponsors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/sponsors/"
+                href="https://www.ubuntu-id.org/en/sponsors/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/tags/</loc>
+    <loc>https://www.ubuntu-id.org/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/tags/"
+                href="https://www.ubuntu-id.org/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/tags/"
+                href="https://www.ubuntu-id.org/en/tags/"
                 />
   </url><url>
-    <loc>https://ubuntu-id.org/en/translate/</loc>
+    <loc>https://www.ubuntu-id.org/en/translate/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://ubuntu-id.org/translate/"
+                href="https://www.ubuntu-id.org/translate/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ubuntu-id.org/en/translate/"
+                href="https://www.ubuntu-id.org/en/translate/"
                 />
   </url>
 </urlset>

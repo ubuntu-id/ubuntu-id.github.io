@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sponsor on Komunitas Ubuntu Indonesia</title>
-    <link>https://ubuntu-id.github.io/sponsors/</link>
+    <link>https://ubuntu-id.org/sponsors/</link>
     <description>Recent content in Sponsor on Komunitas Ubuntu Indonesia</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-id</language><atom:link href="https://ubuntu-id.github.io/sponsors/index.xml" rel="self" type="application/rss+xml" />
+    <language>id-id</language><atom:link href="https://ubuntu-id.org/sponsors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GimpScape Indonesia</title>
-      <link>https://ubuntu-id.github.io/sponsors/gimpscape-id/</link>
+      <link>https://ubuntu-id.org/sponsors/gimpscape-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/sponsors/gimpscape-id/</guid>
+      <guid>https://ubuntu-id.org/sponsors/gimpscape-id/</guid>
       <description>Tentang Sponsor GimpScape secara khusus merupakan grup diskusi seputar GIMP dan Inkscape serta hal-hal lain yang terkait dengan Free/Libre Open Source Software secara umum. Dari data yang ada, grup GimpScape dibentuk pada 25 Februari 2016 oleh Pak Riswan (disepakati sebagai hari lahir GimpScape). Nama GimpScape pertama kali dicetuskan pada tanggal 3 Mei 2016 sebelum kemudian GimpScape di-upgrade menjadi supergroup pada 4 Mei 2016. Silakan bersapa, belajar, membuka diskusi dan jangan pernah ragu apalagi takut untuk menjadi inspirasi.</description>
     </item>
     
     <item>
       <title>IMTEK</title>
-      <link>https://ubuntu-id.github.io/sponsors/imtek-id/</link>
+      <link>https://ubuntu-id.org/sponsors/imtek-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/sponsors/imtek-id/</guid>
+      <guid>https://ubuntu-id.org/sponsors/imtek-id/</guid>
       <description>Tentang Sponsor Inovator Muda Teknologi is well-known as IMTEK is an information technology solutions provider with strong experience in open source. We are providing the world’s leading complete cloud ecosystem to your businesses.
 Detail Sponsor  Website, Infa  </description>
     </item>

@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Komunitas Ubuntu Indonesia</title>
-    <link>https://ubuntu-id.github.io/</link>
+    <link>https://ubuntu-id.org/</link>
     <description>Recent content on Komunitas Ubuntu Indonesia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ubuntu-id.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ubuntu-id.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu 22.04 LTS</title>
-      <link>https://ubuntu-id.github.io/slides/ubuntu/</link>
+      <link>https://ubuntu-id.org/slides/ubuntu/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/slides/ubuntu/</guid>
+      <guid>https://ubuntu-id.org/slides/ubuntu/</guid>
       <description>Ubuntu 22.04 LTS Jammy Jellyfish adalah versi terbaru yang dirilis pada April 2022. Anda bisa mendapatkannya sekarang, dan menjalankannya di berbagai lingkungan seperti Desktop, Server, IoT, Cloud, dan masih banyak lagi.</description>
     </item>
     
     <item>
       <title>Chat</title>
-      <link>https://ubuntu-id.github.io/chat/</link>
+      <link>https://ubuntu-id.org/chat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/chat/</guid>
+      <guid>https://ubuntu-id.org/chat/</guid>
       <description>채팅 서비스 선택 Slack, Matrix (Element.io), IRC (Libera.chat) 을 통해 채팅에 참여하실 수 있습니다. 아래 정보를 참고하여 본인이 사용하기 편한 방식으로 이용해 주세요.
  Slack: Slack Workspace 접속 (ubuntu-kr.slack.com) | 회원가입 Matrix (Element.io): Matrix Space 접속 (#ubuntu-kr) | Element.io 로그인 | Element.io 회원가입 IRC (Libera.chat): irc.libera.chat 의 #ubuntu-ko 채널 접속. (웹에서 Kiwi IRC로 바로 접속 하기)  IRC 이용정보 사용하시는 IRC 클라이언트가 있다면, 아래 정보로 IRC 채널에 접속하여 이용할 수 있습니다.</description>
     </item>
     
     <item>
       <title>Dasar Hukum</title>
-      <link>https://ubuntu-id.github.io/bylaws/</link>
+      <link>https://ubuntu-id.org/bylaws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/bylaws/</guid>
+      <guid>https://ubuntu-id.org/bylaws/</guid>
       <description>Komunitas Ubuntu Indonesia Badan Hukum: AHU-37.AH.01.07.Tahun 2013
   Unduh PDF    </description>
     </item>
     
     <item>
       <title>GimpScape Indonesia</title>
-      <link>https://ubuntu-id.github.io/sponsors/gimpscape-id/</link>
+      <link>https://ubuntu-id.org/sponsors/gimpscape-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/sponsors/gimpscape-id/</guid>
+      <guid>https://ubuntu-id.org/sponsors/gimpscape-id/</guid>
       <description>Tentang Sponsor GimpScape secara khusus merupakan grup diskusi seputar GIMP dan Inkscape serta hal-hal lain yang terkait dengan Free/Libre Open Source Software secara umum. Dari data yang ada, grup GimpScape dibentuk pada 25 Februari 2016 oleh Pak Riswan (disepakati sebagai hari lahir GimpScape). Nama GimpScape pertama kali dicetuskan pada tanggal 3 Mei 2016 sebelum kemudian GimpScape di-upgrade menjadi supergroup pada 4 Mei 2016. Silakan bersapa, belajar, membuka diskusi dan jangan pernah ragu apalagi takut untuk menjadi inspirasi.</description>
     </item>
     
     <item>
       <title>IMTEK</title>
-      <link>https://ubuntu-id.github.io/sponsors/imtek-id/</link>
+      <link>https://ubuntu-id.org/sponsors/imtek-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/sponsors/imtek-id/</guid>
+      <guid>https://ubuntu-id.org/sponsors/imtek-id/</guid>
       <description>Tentang Sponsor Inovator Muda Teknologi is well-known as IMTEK is an information technology solutions provider with strong experience in open source. We are providing the world’s leading complete cloud ecosystem to your businesses.
 Detail Sponsor  Website, Infa  </description>
     </item>
     
     <item>
       <title>Kelompok Belajar/Proyek</title>
-      <link>https://ubuntu-id.github.io/projects/</link>
+      <link>https://ubuntu-id.org/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/projects/</guid>
+      <guid>https://ubuntu-id.org/projects/</guid>
       <description>Kelompok Belajar/Proyek Kami secara berkala melakukan studi kelompok dengan memilih topik tentang Ubuntu atau teknologi open source terkait Ubuntu. Biaya, ruang, peralatan, dll. yang diperlukan untuk studi didukung di tingkat komunitas atau disponsori secara terpisah.
 Topik studi diusulkan oleh anggota atau direncanakan dan dipilih oleh tim manajemen, dan ketika merekrut anggota studi, mereka direkrut melalui forum atau saluran media sosial. Hasil dari kelompok belajar akan dibagikan di Wiki atau GitHub.</description>
     </item>
     
     <item>
       <title>Terjemahkan Ubuntu</title>
-      <link>https://ubuntu-id.github.io/translate/</link>
+      <link>https://ubuntu-id.org/translate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/translate/</guid>
+      <guid>https://ubuntu-id.org/translate/</guid>
       <description>Sebagai proyek sumber terbuka, siapa pun dapat berkontribusi dan meningkatkan terjemahan UI sistem dan aplikasi bawaan. Silakan bergabung dengan kami dalam menerjemahkan Ubuntu untuk membuat Ubuntu lebih mudah bagi banyak pengguna. Daripada menerjemahkan banyak terjemahan sekaligus, lebih baik jika Anda menerjemahkan satu terjemahan secara akurat dan konsisten.
 Berpartisipasi dalam Menerjemahkan Anda dapat berpartisipasi dalam terjemahan dengan mengikuti langkah-langkah di bawah ini.
  Launchpad 계정 만들고 로그인 하기 번역 하고자 하는 패키지 찾기 번역을 작성하고, 번역 제안(Suggestion) 제출하기 번역 제안 검토를 요청하거나 기다리기  Bergabunglah dengan tim terjemahan Hanya mereka yang memenuhi persyaratan yang ditentukan dalam peraturan pengoperasian tim penerjemah yang dapat berkontribusi lebih banyak dengan bergabung dalam tim penerjemah.</description>
@@ -78,10 +78,10 @@ Berpartisipasi dalam Menerjemahkan Anda dapat berpartisipasi dalam terjemahan de
     
     <item>
       <title>Unduh Ubuntu</title>
-      <link>https://ubuntu-id.github.io/download/</link>
+      <link>https://ubuntu-id.org/download/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/download/</guid>
+      <guid>https://ubuntu-id.org/download/</guid>
       <description>Version and system requirements Ubuntu 22.04 LTS Ubuntu 22.04 LTS, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free. In most cases, LTS version is recommended for stable use.
 See Ubuntu 22.04 LTS release notes (Indonesian translation) See Ubuntu 22.04 LTS release notes
 Ubuntu 21.10 If you want to try out latest features, Try out Ubuntu 21.10, the latest version. It provides 9 months of maintenance and security updates for free.</description>
@@ -89,10 +89,10 @@ Ubuntu 21.10 If you want to try out latest features, Try out Ubuntu 21.10, the l
     
     <item>
       <title>채팅(Slack, IRC)</title>
-      <link>https://ubuntu-id.github.io/try/</link>
+      <link>https://ubuntu-id.org/try/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/try/</guid>
+      <guid>https://ubuntu-id.org/try/</guid>
       <description>Slack Slack 을 자주 사용한다면, 아래 링크로 바로 가입하고 입장하여 대화할 수 있습니다.
  회원가입 채널 접속 (ubuntu-kr.slack.com)  채널 목록
  0000-general: 일반 채널 (IRC #ubuntu-ko 와 연동) 0001-notice: 공지사항 채널 0004-l10n: 우분투 번역 팀 채널 2XXX-*: 그룹 스터디용 채널 3XXX-*: 프로젝트 팀 채널  IRC 사용하시는 IRC 클라이언트가 있다면, 아래 정보로 IRC 채널에 접속하여 이용할 수 있습니다.

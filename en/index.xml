@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubuntu Indonesia Community</title>
-    <link>https://ubuntu-id.github.io/en/</link>
+    <link>https://ubuntu-id.org/en/</link>
     <description>Recent content on Ubuntu Indonesia Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ubuntu-id.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ubuntu-id.org/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu 22.04 LTS</title>
-      <link>https://ubuntu-id.github.io/en/slides/ubuntu/</link>
+      <link>https://ubuntu-id.org/en/slides/ubuntu/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/en/slides/ubuntu/</guid>
+      <guid>https://ubuntu-id.org/en/slides/ubuntu/</guid>
       <description>Ubuntu 22.04 LTS Jammy Jellyfish is the latest version released in Aptril 2022. You can get it today, and run it on various environments such as Desktop, Servers, IoT, Cloud and much more.</description>
     </item>
     
     <item>
       <title>Chat</title>
-      <link>https://ubuntu-id.github.io/en/chat/</link>
+      <link>https://ubuntu-id.org/en/chat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/en/chat/</guid>
+      <guid>https://ubuntu-id.org/en/chat/</guid>
       <description>채팅 서비스 선택 Slack, Matrix (Element.io), IRC (Libera.chat) 을 통해 채팅에 참여하실 수 있습니다. 아래 정보를 참고하여 본인이 사용하기 편한 방식으로 이용해 주세요.
  Slack: Slack Workspace 접속 (ubuntu-kr.slack.com) | 회원가입 Matrix (Element.io): Matrix Space 접속 (#ubuntu-kr) | Element.io 로그인 | Element.io 회원가입 IRC (Libera.chat): irc.libera.chat 의 #ubuntu-ko 채널 접속. (웹에서 Kiwi IRC로 바로 접속 하기)  IRC 이용정보 사용하시는 IRC 클라이언트가 있다면, 아래 정보로 IRC 채널에 접속하여 이용할 수 있습니다.</description>
     </item>
     
     <item>
       <title>Download Ubuntu</title>
-      <link>https://ubuntu-id.github.io/en/download/</link>
+      <link>https://ubuntu-id.org/en/download/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/en/download/</guid>
+      <guid>https://ubuntu-id.org/en/download/</guid>
       <description>Version and system requirements Ubuntu 22.04 LTS Ubuntu 22.04 LTS, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free. In most cases, LTS version is recommended for stable use.
 See Ubuntu 22.04 LTS release notes (Indonesian translation) See Ubuntu 22.04 LTS release notes
 Ubuntu 21.10 If you want to try out latest features, Try out Ubuntu 21.10, the latest version. It provides 9 months of maintenance and security updates for free.</description>
@@ -39,10 +39,10 @@ Ubuntu 21.10 If you want to try out latest features, Try out Ubuntu 21.10, the l
     
     <item>
       <title>Group Studies/Projects</title>
-      <link>https://ubuntu-id.github.io/en/projects/</link>
+      <link>https://ubuntu-id.org/en/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/en/projects/</guid>
+      <guid>https://ubuntu-id.org/en/projects/</guid>
       <description>Group Studies 주기적으로 우분투 또는 우분투 관련 오픈소스 기술에 대해 주제를 선정하여 그룹 스터디를 진행하고 있습니다. 스터디에 필요한 비용이나 공간, 장비 등은 되도록이면 커뮤니티 차원에서 지원하거나 별도 후원을 받아 진행하고 있습니다.
 컨테이너, 리눅스 데스크탑 앱 개발, 서버 구축 등 다양한 주제로 스터디를 진행하고 있습니다.
 스터디 주제는 회원이 제안 하거나, 운영진 측에서 기획하여 선정하며, 스터디 구성원 모집 시 포럼이나 소셜 미디어 채널 등을 통해 모집합니다. 그룹 스터디 산출물은 위키 또는 GitHub 등에 공유되고 있습니다.</description>
@@ -50,20 +50,20 @@ Ubuntu 21.10 If you want to try out latest features, Try out Ubuntu 21.10, the l
     
     <item>
       <title>Legal</title>
-      <link>https://ubuntu-id.github.io/en/bylaws/</link>
+      <link>https://ubuntu-id.org/en/bylaws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/en/bylaws/</guid>
+      <guid>https://ubuntu-id.org/en/bylaws/</guid>
       <description>Ubuntu Indonesia Community Legal Entity: AHU-37.AH.01.07.Tahun 2013
   Download PDF    </description>
     </item>
     
     <item>
       <title>우분투 번역하기</title>
-      <link>https://ubuntu-id.github.io/en/translate/</link>
+      <link>https://ubuntu-id.org/en/translate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ubuntu-id.github.io/en/translate/</guid>
+      <guid>https://ubuntu-id.org/en/translate/</guid>
       <description>오픈소스 프로젝트인 우분투는, 시스템 UI 및 내장 응용 프로그램 번역도 누구나 참여하여 개선할 수 있습니다. 우분투 번역에 참여하셔서, 많은 사용자들이 우분투를 더 쉽게 이용할 수 있도록 도와주세요. 한번에 많이 번역하기 보단, 하나를 번역해도 정확히, 그리고 꾸준에 번역에 참여해 주시면 더 좋습니다.
 번역에 참여하기 아래 단계를 거쳐 번역에 참여할 수 있습니다.
  Launchpad 계정 만들고 로그인 하기 번역 하고자 하는 패키지 찾기 번역을 작성하고, 번역 제안(Suggestion) 제출하기 번역 제안 검토를 요청하거나 기다리기  번역팀에 참여하기 번역팀 운영 규정에 명시된 요건을 만족 하시는 분에 한해, 번역팀에 가입 하셔서 더 많은 기여를 하실 수 있습니다.</description>

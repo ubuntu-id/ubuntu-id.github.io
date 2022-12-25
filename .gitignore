@@ -15,3 +15,6 @@ $RECYCLE.BIN/
 
 # NPM
 node_modules
+
+# Lock Files
+.hugo_build.lock

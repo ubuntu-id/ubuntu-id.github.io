@@ -1,4 +1,4 @@
-baseURL: 'https://www.ubuntu-id.org'
+baseURL: 'https://ubuntu-id.github.io'
 languageCode: id-id
 title: 'Komunitas Ubuntu Indonesia'
 theme: "ubuntukr"

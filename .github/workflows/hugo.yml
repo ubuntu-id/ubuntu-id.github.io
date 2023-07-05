@@ -58,3 +58,10 @@ jobs:
           git add .
           git diff-index --quiet HEAD || git commit -m "Deploy website updates with GitHub Actions: ${{ github.sha }}"
           git push origin gh-pages
+          
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./dest

@@ -53,10 +53,11 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+        working-directory: src
         run: |
-          hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo mod get
+          cd themes/ubuntukr && npm i && cd ../../
+          hugo
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

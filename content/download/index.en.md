@@ -6,12 +6,8 @@ backgroundType: suru #light, dark, accent, suru, suru-topped, image
 ubuntuVersions:
     ltsVersion: "22.04 LTS"
     normalVersion: "21.10"
-    ltsReleaseNoteKor: https://blog.ubuntu-kr.org/2022/04/22/jamme-jellyfish-release-notes/
     ltsReleaseNote: https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668
     normalReleaseNote: https://discourse.ubuntu.com/t/impish-indri-release-notes/21951
-mirrors:
-   - name: 
-     url: https://ftp.harukasan.org/ubuntu-releases/HEADER.html
 ---
 
 # Version and system requirements
@@ -19,7 +15,6 @@ mirrors:
 Ubuntu {{< param "ubuntuVersions.ltsVersion" >}}, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free.
 In most cases, LTS version is recommended for stable use.
 
-[See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes (Indonesian translation)]({{< param "ubuntuVersions.ltsReleaseNoteKor" >}})
 [See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes]({{< param "ubuntuVersions.ltsReleaseNote" >}})
 
 ## Ubuntu {{< param "ubuntuVersions.normalVersion" >}}
@@ -32,7 +27,7 @@ New version of Ubuntu is released on every April and October with 6 months inter
 Free maintenance and security updates are provided 5 years for LTS version and 9 months for interim releases.
 You may check out Ubuntu release cycle information on ubuntu.com
 
-{{< button text="Ubuntu release cycle (영어)" href="https://ubuntu.com/about/release-cycle" icon="information" >}}
+{{< button text="Ubuntu release cycle" href="https://ubuntu.com/about/release-cycle" icon="information" >}}
 
 ## System requirements
 
@@ -50,28 +45,23 @@ You may check out Ubuntu release cycle information on ubuntu.com
 {{< button text="Raspberry Pi" href="https://ubuntu.com/download/raspberry-pi" icon="switcher-dashboard" >}}
 {{< button text="Internet of Things (Ubuntu Core)" href="https://ubuntu.com/download/iot" icon="switcher-dashboard" >}}
 
-## From Indonesia Mirrors
+## From Indonesian Mirrors
 You can download Desktop and Server CD/DVD images from Indonesian Mirror servers with fast speed.
 
-{{< button text="KAIST" href="http://ftp.kaist.ac.kr/ubuntu-cd/HEADER.html" icon="begin-downloading" >}}
-{{< button text="Kakao Corp." href="https://mirror.kakao.com/ubuntu-releases/" icon="begin-downloading" >}}
-{{< button text="LANET" href="https://ftp.lanet.kr/ubuntu-releases/" icon="begin-downloading" >}}
-{{< button text="AniGil Linux Archive" href="https://mirror.anigil.com/ubuntu-cd/HEADER.html" icon="begin-downloading" >}}
-{{< button text="Harukasan (Pukyong University)" href="https://ftp.harukasan.org/ubuntu-releases/HEADER.html" icon="begin-downloading" >}}
-{{< button text="Misaka Mikoto Network Mirror" href="https://mirror.misakamikoto.network/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="Universitas Jember (UNEJ)" href="https://mirror.unej.ac.id/ubuntu/" icon="begin-downloading" >}}
 
 [See list of All Official Archive Mirrors for Ubuntu on Launchpad.net](https://launchpad.net/ubuntu/+archivemirrors)
 
 # How to install and use
 
 ## Desktop & Server
-- Desktop: [Installation guide (Indonesian)](http://wiki.ubuntu.com/index.php/Getting_Started), [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
+- Desktop: [Installation guide (Indonesian)](https://wiki.ubuntu.com/index.php/Getting_Started), [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
 - Server: [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-server)
 - [List of Certified Ubuntu hardwares](https://ubuntu.com/certified)
 ## Use on Public Clouds
-- [Public cloud images](http://cloud-images.ubuntu.com/)
-- Amazon Web Services: [Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=565feec9-3d43-413e-9760-c651546613f2), [Documentations](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
-- Microsoft Azure: [Ubuntu on Azure](https://azure.microsoft.com/ko-kr/ubuntu/#overview), [Documentations](https://docs.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-portal)
+- [Public cloud images](https://cloud-images.ubuntu.com/)
+- Amazon Web Services: [Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=565feec9-3d43-413e-9760-c651546613f2), [Documentations](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+- Microsoft Azure: [Ubuntu on Azure](https://azure.microsoft.com/en-us/ubuntu/#overview), [Documentations](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)
 - Google Cloud Platform: [Marketplace](https://console.cloud.google.com/marketplace/product/ubuntu-os-cloud/ubuntu-focal), [Documentations](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)
 
 ## WSL (Windows Subsystem for Linux)
@@ -94,10 +84,10 @@ Images for System Containers (VM Style Containers): Used with LXD and LXC for re
 # Get help
 If you need help while using, You can get help on online community such as forums and online chat.
 
-{{< button text="Forums (Indonesian)" href="https://forum.ubuntu-kr.org/" >}}
-{{< button text="Facebook Group (Indonesian)" href="https://fb.com/groups/ubuntu.ko" >}}
+{{< button text="Forums (Indonesian)" href="https://forum.ubuntu-id.org/" >}}
+{{< button text="Facebook Group (Indonesian)" href="https://www.facebook.com/groups/2327054593" >}}
 {{< button text="Mailing List (Indonesian)" href="https://groups.google.com/group/id-ubuntu/" >}}
-{{< button text="Chat (Slack, IRC)" href="../chat" >}}
+{{< button text="Chat (Telegram, Facebook)" href="../chat" >}}
 
 {{< button text="Ask Ubuntu" href="https://askubuntu.com/" >}}
 {{< button text="Ubuntu Forums" href="https://ubuntuforums.org/" >}}

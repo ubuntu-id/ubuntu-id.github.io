@@ -24,7 +24,7 @@ languages:
         Komunitas Ubuntu Indonesia adalah Ubuntu LoCo (Local Community) di Indonesia.
         Ini adalah tempat untuk semua orang yang tertarik menggunakan, mengembangkan, dan berkontribusi pada proyek Ubuntu.
       copyright: >-
-        ©2023 Komunitas Ubuntu Indonesia (Ubuntu Indonesian LoCo Team).
+        ©2023-2026 Komunitas Ubuntu Indonesia (Ubuntu Indonesian LoCo Team).
         Kecuali dinyatakan lain, Kode sumber situs web dilisensikan di bawah MIT, Konten dilisensikan di bawah CC BY-SA 4.0.
         Ubuntu dan Canonical adalah merek dagang terdaftar dari Canonical Ltd.
       main_slide:
@@ -100,7 +100,7 @@ languages:
       - identifier: lists
         parent: community
         name: Mailing list
-        url: http://groups.google.com/group/id-ubuntu
+        url: https://groups.google.com/group/id-ubuntu
         weight: 35
         #- identifier: chat
         #parent: community
@@ -132,7 +132,7 @@ languages:
       - identifier: blog
         parent: follow
         name: Blog
-        url: http://ubuntulinux.or.id
+        url: https://ubuntulinux.or.id
         weight: 51
       - identifier: facebook
         parent: follow
@@ -163,7 +163,7 @@ languages:
         Ubuntu Indonesia Community is a Ubuntu LoCo (Local Community) in Indonesia.
         It is a place for everyone who intrested in using, developing with ubuntu, or contributing to ubuntu projects.
       copyright: >-
-        ©2022 Ubuntu Indonesia Community (Ubuntu Indonesian LoCo Team).
+        ©2022-2026 Ubuntu Indonesia Community (Ubuntu Indonesian LoCo Team).
         Except where otherwise noted, Website source code licensed under MIT, Contents licensed under CC BY-SA 4.0. 
         Ubuntu and Canonical are registered trademarks of Canonical Ltd.
       main_slide:
@@ -239,7 +239,7 @@ languages:
       - identifier: lists
         parent: community
         name: Mailing list
-        url: http://groups.google.com/group/id-ubuntu
+        url: https://groups.google.com/group/id-ubuntu
         weight: 35
         #- identifier: chat
         #parent: community
@@ -271,7 +271,7 @@ languages:
       - identifier: blog
         parent: follow
         name: Blog
-        url: http://ubuntulinux.or.id
+        url: https://ubuntulinux.or.id
         weight: 51
       - identifier: facebook
         parent: follow

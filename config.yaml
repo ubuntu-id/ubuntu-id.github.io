@@ -85,7 +85,7 @@ languages:
       - identifier: forum
         parent: community
         name: Forum
-        url: https://discourse.ubuntu.com/
+        url: https://discourse.ubuntu.com/c/community/circles/ubuntu-id/133
         weight: 32
       - identifier: telegram-group
         parent: community
@@ -224,7 +224,7 @@ languages:
       - identifier: forum
         parent: community
         name: Forum
-        url: https://discourse.ubuntu.com/
+        url: https://discourse.ubuntu.com/c/community/circles/ubuntu-id/133
         weight: 32
       - identifier: telegram-group
         parent: community

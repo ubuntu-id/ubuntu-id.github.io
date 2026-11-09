@@ -90,7 +90,7 @@ Image untuk System Containers (container bergaya VM): dipakai dengan LXD dan LXC
 # Mendapatkan bantuan
 Jika butuh bantuan saat memakai Ubuntu, Anda bisa bertanya di komunitas daring seperti forum dan obrolan.
 
-{{< button text="Ubuntu Discourse" href="https://discourse.ubuntu.com/" >}}
+{{< button text="Ubuntu Discourse" href="https://discourse.ubuntu.com/c/community/circles/ubuntu-id/133" >}}
 {{< button text="Grup Facebook" href="https://www.facebook.com/groups/2327054593" >}}
 {{< button text="Milis" href="https://groups.google.com/group/id-ubuntu/" >}}
 {{< button text="Obrolan (Telegram, Facebook)" href="../chat" >}}

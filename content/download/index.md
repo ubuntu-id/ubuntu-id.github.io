@@ -48,7 +48,9 @@ Informasi siklus rilis Ubuntu dapat dilihat di ubuntu.com.
 ## Dari mirror Indonesia
 Anda dapat mengunduh image CD/DVD Desktop dan Server dari server mirror di Indonesia dengan kecepatan tinggi.
 
-{{< button text="Universitas Jember (UNEJ)" href="https://mirror.unej.ac.id/ubuntu/" icon="begin-downloading" >}}
+{{< button text="Jagoan Hosting" href="https://mirror.jagoanhosting.id/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="Citrahost" href="https://mirror.citrahost.com/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="Universitas Airlangga" href="https://mirror.unair.ac.id/ubuntu-cd/" icon="begin-downloading" >}}
 
 [Lihat daftar semua mirror arsip resmi Ubuntu di Launchpad.net](https://launchpad.net/ubuntu/+archivemirrors)
 

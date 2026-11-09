@@ -48,7 +48,9 @@ You may check out Ubuntu release cycle information on ubuntu.com
 ## From Indonesian Mirrors
 You can download Desktop and Server CD/DVD images from Indonesian Mirror servers with fast speed.
 
-{{< button text="Universitas Jember (UNEJ)" href="https://mirror.unej.ac.id/ubuntu/" icon="begin-downloading" >}}
+{{< button text="Jagoan Hosting" href="https://mirror.jagoanhosting.id/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="Citrahost" href="https://mirror.citrahost.com/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="Universitas Airlangga" href="https://mirror.unair.ac.id/ubuntu-cd/" icon="begin-downloading" >}}
 
 [See list of All Official Archive Mirrors for Ubuntu on Launchpad.net](https://launchpad.net/ubuntu/+archivemirrors)
 

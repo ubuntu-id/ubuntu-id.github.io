@@ -114,7 +114,7 @@ languages:
       - identifier: events
         parent: partandcontrib
         name: Acara
-        url: https://events.ubuntu-id.org
+        url: https://events.canonical.com/
         weight: 41
       - identifier: study_projects
         parent: partandcontrib
@@ -253,7 +253,7 @@ languages:
       - identifier: events
         parent: partandcontrib
         name: Join events
-        url: https://event.ubuntu-id.org
+        url: https://events.canonical.com/
         weight: 41
       - identifier: study_projects
         parent: partandcontrib

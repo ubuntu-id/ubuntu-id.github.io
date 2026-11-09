@@ -35,12 +35,17 @@ jobs:
 
       - name: Install Hugo
         run: |
-          wget -q "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" -O hugo.deb
+          wget -q --tries=5 --waitretry=5 "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" -O hugo.deb
           sudo dpkg -i hugo.deb
           rm hugo.deb
 
       - name: Install Dart Sass
-        run: npm install -g "sass@${SASS_VERSION}"
+        run: |
+          wget -q --tries=5 --waitretry=5 "https://github.com/sass/dart-sass/releases/download/${SASS_VERSION}/dart-sass-${SASS_VERSION}-linux-x64.tar.gz" -O dart-sass.tar.gz
+          sudo tar -C /opt -xzf dart-sass.tar.gz
+          sudo ln -s /opt/dart-sass/sass /usr/local/bin/sass
+          rm dart-sass.tar.gz
+          sass --version
 
       - name: Install theme dependencies
         working-directory: themes/ubuntukr

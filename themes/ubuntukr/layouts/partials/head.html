@@ -8,7 +8,7 @@
 
 
     {{- $options := (dict "includePaths" (slice "node_modules") "transpiler" "dartsass") -}}
-    {{ $style := resources.Get "sass/theme.scss" | resources.ToCSS $options | resources.Minify | resources.Fingerprint }}
+    {{ $style := resources.Get "sass/theme.scss" | css.Sass $options | resources.Minify | resources.Fingerprint }}
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <!--  Open Graph Protocol -->
     <meta property="og:site_name" content="{{ .Site.Title }}" />

@@ -61,7 +61,7 @@ Anda dapat mengunduh image CD/DVD Desktop dan Server dari server mirror di Indon
 # Cara menginstal dan menggunakan
 
 ## Desktop & Server
-- Desktop: [Panduan instalasi](https://wiki.ubuntu.com/index.php/Getting_Started), [Tutorial instalasi](https://ubuntu.com/tutorials/install-ubuntu-desktop)
+- Desktop: [Tutorial instalasi](https://ubuntu.com/tutorials/install-ubuntu-desktop)
 - Server: [Tutorial instalasi](https://ubuntu.com/tutorials/install-ubuntu-server)
 - [Daftar perangkat keras bersertifikat Ubuntu](https://ubuntu.com/certified)
 ## Penggunaan di cloud publik

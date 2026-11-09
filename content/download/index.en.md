@@ -61,7 +61,7 @@ You can download Desktop and Server CD/DVD images from Indonesian Mirror servers
 # How to install and use
 
 ## Desktop & Server
-- Desktop: [Installation guide (Indonesian)](https://wiki.ubuntu.com/index.php/Getting_Started), [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
+- Desktop: [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
 - Server: [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-server)
 - [List of Certified Ubuntu hardwares](https://ubuntu.com/certified)
 ## Use on Public Clouds

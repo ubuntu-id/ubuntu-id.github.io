@@ -1,28 +1,25 @@
 ---
-title: "우분투 번역하기"
-description: "우분투 시스템 UI 및 내장 응용 프로그램 번역에 참여하기."
+title: "Translate Ubuntu"
+description: "Take part in translating the Ubuntu system UI and its bundled applications."
 image: "translate.svg"
 backgroundType: suru-topped #light, dark, accent, suru, suru-topped, image
 ---
 
-오픈소스 프로젝트인 우분투는, 시스템 UI 및 내장 응용 프로그램 번역도 누구나 참여하여 개선할 수 있습니다.
-우분투 번역에 참여하셔서, 많은 사용자들이 우분투를 더 쉽게 이용할 수 있도록 도와주세요.
-한번에 많이 번역하기 보단, 하나를 번역해도 정확히, 그리고 꾸준에 번역에 참여해 주시면 더 좋습니다.
+As an open source project, anyone can contribute to and improve the translation of the Ubuntu system UI and its bundled applications.
+Please join us in translating Ubuntu to make it easier for more users.
+Rather than translating a lot at once, it is better to translate a little accurately and consistently over time.
 
-# 번역에 참여하기
-아래 단계를 거쳐 번역에 참여할 수 있습니다.
+# Take part in translating
+You can take part by following the steps below.
 
-- [Launchpad 계정 만들고 로그인 하기](https://launchpad.net/+login)
-- [번역 하고자 하는 패키지 찾기](https://translations.launchpad.net/ubuntu)
-- 번역을 작성하고, 번역 제안(Suggestion) 제출하기
-- 번역 제안 검토를 요청하거나 기다리기
+- [Create a Launchpad account and log in](https://launchpad.net/+login)
+- [Find a package to translate](https://translations.launchpad.net/ubuntu)
+- Write a translation and submit it as a suggestion
+- Ask for your suggestion to be reviewed, or wait for a review
 
-# 번역팀에 참여하기
+# Join the translation team
+Only those who meet the requirements set out in the translation team's rules can join the team and contribute further.
 
-번역팀 운영 규정에 명시된 요건을 만족 하시는 분에 한해, 번역팀에 가입 하셔서 더 많은 기여를 하실 수 있습니다.
-
-# 더 알아보기
-- [우분투 한국어 번역팀 운영 규칙](https://wiki.ubuntu.com/UbuntuKoreanTranslators)
-- [Launchpad 우분투 한국어 번역팀](https://launchpad.net/~ubuntu-l10n-ko)
-- [Launchpad 에서 우분투 번역하기](https://translations.launchpad.net/ubuntu)
-- [우분투 한국어 번역팀 메일링 리스트](https://lists.ubuntu.com/mailman/listinfo/Ubuntu-l10n-ko)
+# Learn more
+- [Ubuntu Indonesian translation team on Launchpad](https://launchpad.net/~ubuntu-l10n-id)
+- [Translating Ubuntu on Launchpad](https://translations.launchpad.net/ubuntu)

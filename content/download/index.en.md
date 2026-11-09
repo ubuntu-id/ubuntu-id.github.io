@@ -4,10 +4,10 @@ description: "Get latest version of Ubuntu and install it on various environment
 image: "download.svg"
 backgroundType: suru #light, dark, accent, suru, suru-topped, image
 ubuntuVersions:
-    ltsVersion: "22.04 LTS"
-    normalVersion: "21.10"
-    ltsReleaseNote: https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668
-    normalReleaseNote: https://discourse.ubuntu.com/t/impish-indri-release-notes/21951
+    ltsVersion: "26.04 LTS"
+    normalVersion: "26.10"
+    ltsReleaseNote: https://documentation.ubuntu.com/release-notes/26.04/
+    normalReleaseNote: https://documentation.ubuntu.com/release-notes/26.10/
 ---
 
 # Version and system requirements

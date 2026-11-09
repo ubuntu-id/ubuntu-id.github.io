@@ -51,6 +51,8 @@ Anda dapat mengunduh image CD/DVD Desktop dan Server dari server mirror di Indon
 {{< button text="Jagoan Hosting" href="https://mirror.jagoanhosting.id/ubuntu-releases/" icon="begin-downloading" >}}
 {{< button text="Citrahost" href="https://mirror.citrahost.com/ubuntu-releases/" icon="begin-downloading" >}}
 {{< button text="Universitas Airlangga" href="https://mirror.unair.ac.id/ubuntu-cd/" icon="begin-downloading" >}}
+{{< button text="Biznet Gio" href="https://mirror.biznetgio.com/ubuntu-cd/" icon="begin-downloading" >}}
+{{< button text="Datautama" href="https://kartolo.sby.datautama.net.id/ubuntu-cd/" icon="begin-downloading" >}}
 
 [Lihat daftar semua mirror arsip resmi Ubuntu di Launchpad.net](https://launchpad.net/ubuntu/+archivemirrors)
 

@@ -53,6 +53,8 @@ Anda dapat mengunduh image CD/DVD Desktop dan Server dari server mirror di Indon
 {{< button text="Universitas Airlangga" href="https://mirror.unair.ac.id/ubuntu-cd/" icon="begin-downloading" >}}
 {{< button text="Biznet Gio" href="https://mirror.biznetgio.com/ubuntu-cd/" icon="begin-downloading" >}}
 {{< button text="Datautama" href="https://kartolo.sby.datautama.net.id/ubuntu-cd/" icon="begin-downloading" >}}
+{{< button text="PENS (Politeknik Elektronika Negeri Surabaya)" href="https://kebo.pens.ac.id/ubuntu-cd/" icon="begin-downloading" >}}
+{{< button text="EEPIS-ITS (HTTP)" href="http://kebo.vlsm.org/ubuntu-cd/" icon="begin-downloading" >}}
 
 [Lihat daftar semua mirror arsip resmi Ubuntu di Launchpad.net](https://launchpad.net/ubuntu/+archivemirrors)
 

@@ -90,7 +90,7 @@ Images for System Containers (VM Style Containers): Used with LXD and LXC for re
 # Get help
 If you need help while using, You can get help on online community such as forums and online chat.
 
-{{< button text="Forums (Indonesian)" href="https://forum.ubuntu-id.org/" >}}
+{{< button text="Ubuntu Discourse" href="https://discourse.ubuntu.com/" >}}
 {{< button text="Facebook Group (Indonesian)" href="https://www.facebook.com/groups/2327054593" >}}
 {{< button text="Mailing List (Indonesian)" href="https://groups.google.com/group/id-ubuntu/" >}}
 {{< button text="Chat (Telegram, Facebook)" href="../chat" >}}

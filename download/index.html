@@ -1,631 +1,92 @@
-<!DOCTYPE html>
-<html><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="apple-touch-icon" sizes="180x180" href='/img/favicon/apple-touch-icon.png'>
-    <link rel="icon" type="image/png" sizes="32x32" href='/img/favicon/favicon-32x32.png'>
-    <link rel="icon" type="image/png" sizes="16x16" href='/img/favicon/favicon-16x16.png'>
-    <title>Unduh Ubuntu | Komunitas Ubuntu Indonesia</title>
-    
-    <meta property="og:site_name" content="Komunitas Ubuntu Indonesia" />
-    <meta property="og:title" content="Unduh Ubuntu" />
-
-    
-    <link rel="stylesheet" href="https://ubuntu-id.org/sass/theme.min.f7730c1d6ba67d8d327e32c5d2be5258988132122b111361feba8dd214ecca19.css">
-</head>
-<body><header id="navigation" class="p-navigation is-dark">
-  <div class="p-navigation__row">
-    <div class="p-navigation__banner">
-      <div class="p-navigation__tagged-logo">
-        <a class="p-navigation__link" href="/">
-          <div class="p-navigation__logo-tag">
-            <img class="p-navigation__logo-icon" src="/img/UbuntuIdCircleWhite.svg" alt="">
-          </div>
-          <span class="p-navigation__logo-title">Komunitas Ubuntu Indonesia</span>
-        </a>
-      </div>
-      <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
-      <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
-    </div>
-    <nav class="p-navigation__nav" aria-label="Example sub navigation">
-      <ul class="p-navigation__items">
-        
-          
-          <li class="p-navigation__item--dropdown-toggle" id="link-try">
-            <a class="p-navigation__link" aria-controls="try-menu">
-              Coba Ubuntu
-            </a>
-            <ul class="p-navigation__dropdown--right" id="try-menu" aria-hidden="true">
-              
-              <li>
-                <a href="/download" class="p-navigation__dropdown-item">Unduh</a>
-              </li>
-              
-              <li>
-                <a href="https://ubuntu.com/certified" class="p-navigation__dropdown-item">Perangkat Keras Bersertifikat Ubuntu</a>
-              </li>
-              
-              <li>
-                <a href="https://docs.ubuntu.com" class="p-navigation__dropdown-item">Dokumentasi</a>
-              </li>
-              
-              <li>
-                <a href="https://ubuntu.com/tutorials" class="p-navigation__dropdown-item">Tutorial</a>
-              </li>
-              
-              <li>
-                <a href="https://wiki.ubuntu.com" class="p-navigation__dropdown-item">Wiki</a>
-              </li>
-              
-            </ul>
-          </li>
-          
-        
-          
-          <li class="p-navigation__item--dropdown-toggle" id="link-about-group">
-            <a class="p-navigation__link" aria-controls="about-group-menu">
-              Tentang
-            </a>
-            <ul class="p-navigation__dropdown--right" id="about-group-menu" aria-hidden="true">
-              
-              <li>
-                <a href="/about" class="p-navigation__dropdown-item">Tentang Komunitas</a>
-              </li>
-              
-              <li>
-                <a href="/bylaws" class="p-navigation__dropdown-item">Legal</a>
-              </li>
-              
-              <li>
-                <a href="/sponsors" class="p-navigation__dropdown-item">Sponsor</a>
-              </li>
-              
-            </ul>
-          </li>
-          
-        
-          
-          <li class="p-navigation__item--dropdown-toggle" id="link-community">
-            <a class="p-navigation__link" aria-controls="community-menu">
-              Komunitas
-            </a>
-            <ul class="p-navigation__dropdown--right" id="community-menu" aria-hidden="true">
-              
-              <li>
-                <a href="https://forum.ubuntu-id.org" class="p-navigation__dropdown-item">Forum</a>
-              </li>
-              
-              <li>
-                <a href="https://t.me/ubuntu_indo" class="p-navigation__dropdown-item">Grup Telegram</a>
-              </li>
-              
-              <li>
-                <a href="https://www.facebook.com/groups/2327054593" class="p-navigation__dropdown-item">Grup Facebook</a>
-              </li>
-              
-              <li>
-                <a href="http://groups.google.com/group/id-ubuntu" class="p-navigation__dropdown-item">Mailing list</a>
-              </li>
-              
-            </ul>
-          </li>
-          
-        
-          
-          <li class="p-navigation__item--dropdown-toggle" id="link-partandcontrib">
-            <a class="p-navigation__link" aria-controls="partandcontrib-menu">
-              Ikut Berkontribusi
-            </a>
-            <ul class="p-navigation__dropdown--right" id="partandcontrib-menu" aria-hidden="true">
-              
-              <li>
-                <a href="https://events.ubuntu-id.org" class="p-navigation__dropdown-item">Acara</a>
-              </li>
-              
-              <li>
-                <a href="/projects" class="p-navigation__dropdown-item">Kelompok Belajar/Proyek</a>
-              </li>
-              
-              <li>
-                <a href="/translate" class="p-navigation__dropdown-item">Terjemahkan Ubuntu</a>
-              </li>
-              
-            </ul>
-          </li>
-          
-        
-          
-          <li class="p-navigation__item--dropdown-toggle" id="link-follow">
-            <a class="p-navigation__link" aria-controls="follow-menu">
-              Ikuti Kami
-            </a>
-            <ul class="p-navigation__dropdown--right" id="follow-menu" aria-hidden="true">
-              
-              <li>
-                <a href="http://ubuntulinux.or.id" class="p-navigation__dropdown-item">Blog</a>
-              </li>
-              
-              <li>
-                <a href="https://facebook.com/ubuntu.indonesia" class="p-navigation__dropdown-item">Facebook</a>
-              </li>
-              
-              <li>
-                <a href="https://twitter.com/ubuntu_id" class="p-navigation__dropdown-item">Twitter</a>
-              </li>
-              
-              <li>
-                <a href="https://www.youtube.com/user/ubuntuindonesia" class="p-navigation__dropdown-item">YouTube</a>
-              </li>
-              
-              <li>
-                <a href="https://t.me/ubuntu_id" class="p-navigation__dropdown-item">Saluran Telegram</a>
-              </li>
-              
-            </ul>
-          </li>
-          
-        
-      </ul>
-     
-     <ul class="p-navigation__items">
-        <li class="p-navigation__item--dropdown-toggle" id="link-4">
-          <a class="p-navigation__link" aria-controls="account-menu">
-            🌏
-          </a>
-          <ul class="p-navigation__dropdown--right" id="account-menu" aria-hidden="true">
-            
-            
-            <li>
-              <a href="https://ubuntu-id.org/en/download/" class="p-navigation__dropdown-item">English</a>
-            </li>
-            
-            <li>
-              <a href="https://ubuntu-id.org/download/" class="p-navigation__dropdown-item">Bahasa</a>
-            </li>
-            
-            
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<div id="content">
-
-
-<main>
-  <section class="p-strip--suru main-strip"
-    >
-      <div class="row">
-        
-        <div class="col-8 left-section">
-          <h1>Unduh Ubuntu</h1>
-          <p>Anda dapat mengunduh versi terbaru Ubuntu dan menginstal serta menggunakannya di berbagai lingkungan.</p>
-        </div>
-        <div class="col-4 right-section">
-          <img src="/download/download.svg" alt="">
-        </div>
-        
-      </div>
-  </section>
-  <section class="p-strip">
-  <div class="row">
-  <h1 id="version-and-system-requirements">Version and system requirements</h1>
-<h2 id="ubuntu-hahahugoshortcode-s0-hbhb">Ubuntu 22.04 LTS</h2>
-<p>Ubuntu 22.04 LTS, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free.
-In most cases, LTS version is recommended for stable use.</p>
-<p><a href="https://blog.ubuntu-kr.org/2022/04/22/jamme-jellyfish-release-notes/">See Ubuntu 22.04 LTS release notes (Indonesian translation)</a>
-<a href="https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668">See Ubuntu 22.04 LTS release notes</a></p>
-<h2 id="ubuntu-hahahugoshortcode-s6-hbhb">Ubuntu 21.10</h2>
-<p>If you want to try out latest features, Try out Ubuntu 21.10, the latest version. It provides 9 months of maintenance and security updates for free.</p>
-<p><a href="https://discourse.ubuntu.com/t/impish-indri-release-notes/21951">See Ubuntu 21.10 release notes</a></p>
-<h2 id="ubuntu-release-and-support-cycle">Ubuntu release and support cycle</h2>
-<p>New version of Ubuntu is released on every April and October with 6 months interval. And the new LTS version is released on April of even years with 2 years interval.
-Free maintenance and security updates are provided 5 years for LTS version and 9 months for interim releases.
-You may check out Ubuntu release cycle information on ubuntu.com</p>
-<a href="https://ubuntu.com/about/release-cycle">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--information"></i>
-    
-    <span>
-    Ubuntu release cycle (영어)
-    </span>
-    </button>
-</a>
-
-<h2 id="system-requirements">System requirements</h2>
-<ul>
-<li>2 GHz dual core processor and 4 GB system memory or better</li>
-<li>25 GB of free hard drive space</li>
-<li>Internet access is helpful</li>
-<li>Either a DVD drive or a USB port for the installer media</li>
-</ul>
-<h1 id="unduh">Unduh</h1>
-<h2 id="from-official-website">From official website</h2>
-<p><a href="https://ubuntu.com/download/desktop">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    Desktop
-    </span>
-    </button>
-</a>
-
-<a href="https://ubuntu.com/download/server">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--machines"></i>
-    
-    <span>
-    Server
-    </span>
-    </button>
-</a>
-
-<a href="https://ubuntu.com/download/raspberry-pi">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--switcher-dashboard"></i>
-    
-    <span>
-    Raspberry Pi
-    </span>
-    </button>
-</a>
-
-<a href="https://ubuntu.com/download/iot">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--switcher-dashboard"></i>
-    
-    <span>
-    Internet of Things (Ubuntu Core)
-    </span>
-    </button>
-</a>
-</p>
-<h2 id="from-indonesia-mirrors">From Indonesia Mirrors</h2>
-<p>You can download Desktop and Server CD/DVD images from Indonesian Mirror servers with fast speed.</p>
-<p><a href="http://ftp.kaist.ac.kr/ubuntu-cd/HEADER.html">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    KAIST
-    </span>
-    </button>
-</a>
-
-<a href="https://mirror.kakao.com/ubuntu-releases/">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    Kakao Corp.
-    </span>
-    </button>
-</a>
-
-<a href="https://ftp.lanet.kr/ubuntu-releases/">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    LANET
-    </span>
-    </button>
-</a>
-
-<a href="https://mirror.anigil.com/ubuntu-cd/HEADER.html">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    AniGil Linux Archive
-    </span>
-    </button>
-</a>
-
-<a href="https://ftp.harukasan.org/ubuntu-releases/HEADER.html">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    Harukasan (Pukyong University)
-    </span>
-    </button>
-</a>
-
-<a href="https://mirror.misakamikoto.network/ubuntu-releases/">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    Misaka Mikoto Network Mirror
-    </span>
-    </button>
-</a>
-</p>
-<p><a href="https://launchpad.net/ubuntu/+archivemirrors">See list of All Official Archive Mirrors for Ubuntu on Launchpad.net</a></p>
-<h1 id="how-to-install-and-use">How to install and use</h1>
-<h2 id="desktop--server">Desktop &amp; Server</h2>
-<ul>
-<li>Desktop: <a href="http://wiki.ubuntu.com/index.php/Getting_Started">Installation guide (Indonesian)</a>, <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop">Installation tutorial</a></li>
-<li>Server: <a href="https://ubuntu.com/tutorials/install-ubuntu-server">Installation tutorial</a></li>
-<li><a href="https://ubuntu.com/certified">List of Certified Ubuntu hardwares</a></li>
-</ul>
-<h2 id="use-on-public-clouds">Use on Public Clouds</h2>
-<ul>
-<li><a href="http://cloud-images.ubuntu.com/">Public cloud images</a></li>
-<li>Amazon Web Services: <a href="https://aws.amazon.com/marketplace/seller-profile?id=565feec9-3d43-413e-9760-c651546613f2">Marketplace</a>, <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EC2_GetStarted.html">Documentations</a></li>
-<li>Microsoft Azure: <a href="https://azure.microsoft.com/ko-kr/ubuntu/#overview">Ubuntu on Azure</a>, <a href="https://docs.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-portal">Documentations</a></li>
-<li>Google Cloud Platform: <a href="https://console.cloud.google.com/marketplace/product/ubuntu-os-cloud/ubuntu-focal">Marketplace</a>, <a href="https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu">Documentations</a></li>
-</ul>
-<h2 id="wsl-windows-subsystem-for-linux">WSL (Windows Subsystem for Linux)</h2>
-<p>If you are using latest version of Windows 10 or Windows 11, You can easily try out Ubuntu with WSL environment.</p>
-<a href="https://wslhub.com/wsl-firststep/firststep/install/">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    Install Ubuntu on WSL (WSL Indonesia User Group Documentations)
-    </span>
-    </button>
-</a>
-
-<h2 id="linux-containers">Linux Containers</h2>
-<p>Images for Application Containers: For building OCI images to use with Docker, Podman, Kubernetes.</p>
-<p><a href="https://hub.docker.com/_/ubuntu">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    Docker Hub
-    </span>
-    </button>
-</a>
-
-<a href="https://gallery.ecr.aws/ubuntu/ubuntu">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    Amazon ECR Public Gallery
-    </span>
-    </button>
-</a>
-</p>
-<p>Images for System Containers (VM Style Containers): Used with LXD and LXC for replacement of VM workloads.</p>
-<p><a href="https://uk.lxd.images.canonical.com/">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--begin-downloading"></i>
-    
-    <span>
-    See Container images for LXD, LXC
-    </span>
-    </button>
-</a>
-
-<a href="https://linuxcontainers.org/">
-    <button class="p-button ">
-    
-    <span>
-    linuxcontainers.org
-    </span>
-    </button>
-</a>
-</p>
-<h1 id="get-help">Get help</h1>
-<p>If you need help while using, You can get help on online community such as forums and online chat.</p>
-<p><a href="https://forum.ubuntu-kr.org/">
-    <button class="p-button ">
-    
-    <span>
-    Forums (Indonesian)
-    </span>
-    </button>
-</a>
-
-<a href="https://fb.com/groups/ubuntu.ko">
-    <button class="p-button ">
-    
-    <span>
-    Facebook Group (Indonesian)
-    </span>
-    </button>
-</a>
-
-<a href="https://groups.google.com/group/id-ubuntu/">
-    <button class="p-button ">
-    
-    <span>
-    Mailing List (Indonesian)
-    </span>
-    </button>
-</a>
-
-<a href="../chat">
-    <button class="p-button ">
-    
-    <span>
-    Chat (Slack, IRC)
-    </span>
-    </button>
-</a>
-</p>
-<p><a href="https://askubuntu.com/">
-    <button class="p-button ">
-    
-    <span>
-    Ask Ubuntu
-    </span>
-    </button>
-</a>
-
-<a href="https://ubuntuforums.org/">
-    <button class="p-button ">
-    
-    <span>
-    Ubuntu Forums
-    </span>
-    </button>
-</a>
-
-<a href="https://answers.launchpad.net/ubuntu">
-    <button class="p-button ">
-    
-    <span>
-    Launchpad Answers
-    </span>
-    </button>
-</a>
-</p>
-<h1 id="commercial-technical-support">Commercial technical support</h1>
-<div class="p-notification--information">
-  <div class="p-notification__content">
-    <h5 class="p-notification__title">Note</h5>
-    <p class="p-notification__message">Ubuntu Indonesia Community is a non-profit community consists of users and developers and independent from Canonical Ltd. We do not provide any commercial technical support and answers for related inqueires. If you need commercial support for Ubuntu, Check out informations below and get support from Canonical Ltd. or Canonical Partners.</p>
-  </div>
-</div>
-<h2 id="ubuntu-advantage">Ubuntu Advantage</h2>
-<p>Get commercial technical support from Canonical Ltd. the publisher of Ubuntu with Ubuntu Advantage program.
-Available plans are Essential(Free), Standard(Paid) and Advanced(Paid). You can get support for Desktops, Servers, VMs and applications(e.g. MySQL, MongoDB, NGINX, Kafka and more).</p>
-<a href="https://ubuntu.com/advantage">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--information"></i>
-    
-    <span>
-    Ubuntu Advantage
-    </span>
-    </button>
-</a>
-
-<h2 id="ubuntu-pro-for-public-clouds">Ubuntu Pro for Public Clouds</h2>
-<p>Using AWS, Google Cloud, Microsoft Azure? Create VM workloads with Ubuntu Pro, a premium Ubuntu image from Canonical Ltd. and get commercial technical support without additional contracts.</p>
-<p><a href="https://ubuntu.com/aws/pro">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--information"></i>
-    
-    <span>
-    Ubuntu Pro for AWS
-    </span>
-    </button>
-</a>
-
-<a href="https://ubuntu.com/azure/pro">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--information"></i>
-    
-    <span>
-    Ubuntu Pro for Azure
-    </span>
-    </button>
-</a>
-
-<a href="https://ubuntu.com/gcp/pro">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--information"></i>
-    
-    <span>
-    Ubuntu Pro for Google Cloud
-    </span>
-    </button>
-</a>
-</p>
-<h2 id="canonical-partner">Canonical Partner</h2>
-<p>Partners of Canonical Ltd. also provides commercial technical supports.</p>
-<a href="https://canonical.com/partners/find-a-partner">
-    <button class="p-button has-icon">
-    
-    <i class="p-icon--information"></i>
-    
-    <span>
-    Find a Canonical partner
-    </span>
-    </button>
-</a>
-
-
-  </div>
-  </section>
-</main>
-
-        </div><section class="p-strip--accent">
-  <div class="row">
-    <div class="col-12">
-      <h2>Komunitas Ubuntu Indonesia</h2>
-      <ul class="p-inline-list--middot is-dark">
-        <li class="p-inline-list__item">
-          <a href="mailto:contact@ubuntu-id.org">Surel</a>
-        </li>
-        <li class="p-inline-list__item">
-          <a href="https://facebook.com/ubuntuindonesia">Facebook</a>
-        </li>
-        <li class="p-inline-list__item">
-          <a href="https://twitter.com/ubuntu_id">Twitter</a>
-        </li>
-        <li class="p-inline-list__item">
-          <a href="https://www.youtube.com/user/ubuntuindonesia">YouTube</a>
-        </li>
-        <li class="p-inline-list__item">
-          <a href="https://github.com/ubuntu-id">GitHub</a>
-        </li>
-        <li class="p-inline-list__item">
-          <a href="https://launchpad.net/~ubuntu-id">Launchpad</a>
-        </li>
-        <li class="p-inline-list__item">
-          <a rel="me" href="https://t.me/ubuntu_id">Telegram</a>
-        </li>
-      </ul>
-      <p>©2023 Komunitas Ubuntu Indonesia (Ubuntu Indonesian LoCo Team). Kecuali dinyatakan lain, Kode sumber situs web dilisensikan di bawah MIT, Konten dilisensikan di bawah CC BY-SA 4.0. Ubuntu dan Canonical adalah merek dagang terdaftar dari Canonical Ltd.</p>
-      <a href="https://github.com/ubuntu-id/ubuntu-id.github.io">Kode Sumber di GitHub</a>
-    </div>
-  </div>
-<script type="text/javascript" src='/js/ubuntukr.js'></script>
-<script>
-
-let slides = document.getElementsByClassName("main-slide");
-let index = 0;
-let count = slides.length;
-function setSlideIndex(destination) {
-    index = destination % count;
-    index = index < 0 ? index * -1 : index;
-    for (let i = 0; i < count; i++) {
-        if(i == index) {
-            slides[i].style.display = "block";
-        } else {
-            slides[i].style.display = "none";
-        }
-    }
-}
-function nextSlide() {
-    setSlideIndex(index + 1);
-}
-function prevSlide() {
-    setSlideIndex(index - 1);
-}
-setSlideIndex(0);
-setInterval(nextSlide, 5000);
-</script>
-
-
-</body>
-</html>
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=apple-touch-icon sizes=180x180 href=/img/favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/img/favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/img/favicon/favicon-16x16.png><title>Unduh Ubuntu | Komunitas Ubuntu Indonesia</title><meta property="og:site_name" content="Komunitas Ubuntu Indonesia"><meta property="og:title" content="Unduh Ubuntu"><link rel=stylesheet href=https://ubuntu-id.org/sass/theme.min.ae6923e27eb518fc7b53a9f90526668209ed06a2bdbe2185d7fd55e4ca1c8972.css></head><body><header id=navigation class="p-navigation is-dark"><div class=p-navigation__row><div class=p-navigation__banner><div class=p-navigation__tagged-logo><a class=p-navigation__link href=/><div class=p-navigation__logo-tag><img class=p-navigation__logo-icon src=/img/UbuntuIdCircleWhite.svg alt></div><span class=p-navigation__logo-title>Komunitas Ubuntu Indonesia</span></a></div><a href=#navigation class=p-navigation__toggle--open title=menu>Menu</a>
+<a href=#navigation-closed class=p-navigation__toggle--close title="close menu">Close menu</a></div><nav class=p-navigation__nav aria-label="Example sub navigation"><ul class=p-navigation__items><li class=p-navigation__item--dropdown-toggle id=link-try><a class=p-navigation__link aria-controls=try-menu>Coba Ubuntu</a><ul class=p-navigation__dropdown--right id=try-menu aria-hidden=true><li><a href=/download class=p-navigation__dropdown-item>Unduh</a></li><li><a href=https://ubuntu.com/certified class=p-navigation__dropdown-item>Perangkat Keras Bersertifikat Ubuntu</a></li><li><a href=https://docs.ubuntu.com class=p-navigation__dropdown-item>Dokumentasi</a></li><li><a href=https://ubuntu.com/tutorials class=p-navigation__dropdown-item>Tutorial</a></li><li><a href=https://wiki.ubuntu.com class=p-navigation__dropdown-item>Wiki</a></li></ul></li><li class=p-navigation__item--dropdown-toggle id=link-about-group><a class=p-navigation__link aria-controls=about-group-menu>Tentang</a><ul class=p-navigation__dropdown--right id=about-group-menu aria-hidden=true><li><a href=/about class=p-navigation__dropdown-item>Tentang Komunitas</a></li><li><a href=/bylaws class=p-navigation__dropdown-item>Legal</a></li><li><a href=/sponsors class=p-navigation__dropdown-item>Sponsor</a></li></ul></li><li class=p-navigation__item--dropdown-toggle id=link-community><a class=p-navigation__link aria-controls=community-menu>Komunitas</a><ul class=p-navigation__dropdown--right id=community-menu aria-hidden=true><li><a href=https://forum.ubuntu-id.org class=p-navigation__dropdown-item>Forum</a></li><li><a href=https://t.me/ubuntu_indo class=p-navigation__dropdown-item>Grup Telegram</a></li><li><a href=https://www.facebook.com/groups/2327054593 class=p-navigation__dropdown-item>Grup Facebook</a></li><li><a href=https://groups.google.com/group/id-ubuntu class=p-navigation__dropdown-item>Mailing list</a></li></ul></li><li class=p-navigation__item--dropdown-toggle id=link-partandcontrib><a class=p-navigation__link aria-controls=partandcontrib-menu>Ikut Berkontribusi</a><ul class=p-navigation__dropdown--right id=partandcontrib-menu aria-hidden=true><li><a href=https://events.ubuntu-id.org class=p-navigation__dropdown-item>Acara</a></li><li><a href=/projects class=p-navigation__dropdown-item>Kelompok Belajar/Proyek</a></li><li><a href=/translate class=p-navigation__dropdown-item>Terjemahkan Ubuntu</a></li></ul></li><li class=p-navigation__item--dropdown-toggle id=link-follow><a class=p-navigation__link aria-controls=follow-menu>Ikuti Kami</a><ul class=p-navigation__dropdown--right id=follow-menu aria-hidden=true><li><a href=https://ubuntulinux.or.id class=p-navigation__dropdown-item>Blog</a></li><li><a href=https://facebook.com/ubuntu.indonesia class=p-navigation__dropdown-item>Facebook</a></li><li><a href=https://twitter.com/ubuntu_id class=p-navigation__dropdown-item>Twitter</a></li><li><a href=https://www.youtube.com/user/ubuntuindonesia class=p-navigation__dropdown-item>YouTube</a></li><li><a href=https://t.me/ubuntu_id class=p-navigation__dropdown-item>Saluran Telegram</a></li></ul></li></ul><ul class=p-navigation__items><li class=p-navigation__item--dropdown-toggle id=link-4><a class=p-navigation__link aria-controls=account-menu>🌏</a><ul class=p-navigation__dropdown--right id=account-menu aria-hidden=true><li><a href=https://ubuntu-id.org/en/download/ class=p-navigation__dropdown-item>English</a></li><li><a href=https://ubuntu-id.org/download/ class=p-navigation__dropdown-item>Bahasa</a></li></ul></li></ul></nav></div></header><div id=content><main><section class="p-strip--suru main-strip"><div class=row><div class="col-8 left-section"><h1>Unduh Ubuntu</h1><p>Anda dapat mengunduh versi terbaru Ubuntu dan menginstal serta menggunakannya di berbagai lingkungan.</p></div><div class="col-4 right-section"><img src=/download/download.svg alt></div></div></section><section class=p-strip><div class=row><h1 id=versi-dan-kebutuhan-sistem>Versi dan kebutuhan sistem</h1><h2 id=ubuntu-hahahugoshortcode8s0hbhb>Ubuntu 26.04 LTS</h2><p>Ubuntu 26.04 LTS, versi LTS (Long Term Support) terbaru, mendapat pemeliharaan dan pembaruan keamanan gratis selama 5 tahun.
+Untuk penggunaan yang stabil, versi LTS umumnya direkomendasikan.</p><p><a href=https://documentation.ubuntu.com/release-notes/26.04/>Lihat catatan rilis Ubuntu 26.04 LTS</a></p><h2 id=ubuntu-hahahugoshortcode8s4hbhb>Ubuntu 26.10</h2><p>Jika ingin mencoba fitur terbaru, coba Ubuntu 26.10, versi terbaru. Versi ini mendapat pemeliharaan dan pembaruan keamanan gratis selama 9 bulan.</p><p><a href=https://documentation.ubuntu.com/release-notes/26.10/>Lihat catatan rilis Ubuntu 26.10</a></p><h2 id=siklus-rilis-dan-dukungan-ubuntu>Siklus rilis dan dukungan Ubuntu</h2><p>Versi baru Ubuntu dirilis setiap April dan Oktober, dengan jeda 6 bulan. Versi LTS baru dirilis setiap April tahun genap, dengan jeda 2 tahun.
+Pemeliharaan dan pembaruan keamanan gratis diberikan selama 5 tahun untuk versi LTS dan 9 bulan untuk rilis sementara.
+Informasi siklus rilis Ubuntu dapat dilihat di ubuntu.com.</p><a href=https://ubuntu.com/about/release-cycle><button class="p-button has-icon">
+<i class=p-icon--information></i>
+<span>Siklus rilis Ubuntu</span></button></a><h2 id=kebutuhan-sistem>Kebutuhan sistem</h2><ul><li>Prosesor dual core 2 GHz dan memori sistem 4 GB atau lebih baik</li><li>Ruang kosong hard disk 25 GB</li><li>Akses internet akan membantu</li><li>Drive DVD atau port USB untuk media instalasi</li></ul><h1 id=unduh>Unduh</h1><h2 id=dari-situs-resmi>Dari situs resmi</h2><p><a href=https://ubuntu.com/download/desktop><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>Desktop
+</span></button>
+</a><a href=https://ubuntu.com/download/server><button class="p-button has-icon">
+<i class=p-icon--machines></i>
+<span>Server
+</span></button>
+</a><a href=https://ubuntu.com/download/raspberry-pi><button class="p-button has-icon">
+<i class=p-icon--switcher-dashboard></i>
+<span>Raspberry Pi
+</span></button>
+</a><a href=https://ubuntu.com/download/iot><button class="p-button has-icon">
+<i class=p-icon--switcher-dashboard></i>
+<span>Internet of Things (Ubuntu Core)</span></button></a></p><h2 id=dari-mirror-indonesia>Dari mirror Indonesia</h2><p>Anda dapat mengunduh image CD/DVD Desktop dan Server dari server mirror di Indonesia dengan kecepatan tinggi.</p><p><a href=https://mirror.jagoanhosting.id/ubuntu-releases/><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>Jagoan Hosting
+</span></button>
+</a><a href=https://mirror.citrahost.com/ubuntu-releases/><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>Citrahost
+</span></button>
+</a><a href=https://mirror.unair.ac.id/ubuntu-cd/><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>Universitas Airlangga
+</span></button>
+</a><a href=https://mirror.biznetgio.com/ubuntu-cd/><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>Biznet Gio
+</span></button>
+</a><a href=https://kartolo.sby.datautama.net.id/ubuntu-cd/><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>Datautama
+</span></button>
+</a><a href=https://kebo.pens.ac.id/ubuntu-cd/><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>PENS (Politeknik Elektronika Negeri Surabaya)
+</span></button>
+</a><a href=http://kebo.vlsm.org/ubuntu-cd/><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>EEPIS-ITS</span></button></a></p><p><a href=https://launchpad.net/ubuntu/+archivemirrors>Lihat daftar semua mirror arsip resmi Ubuntu di Launchpad.net</a></p><h1 id=cara-menginstal-dan-menggunakan>Cara menginstal dan menggunakan</h1><h2 id=desktop--server>Desktop & Server</h2><ul><li>Desktop: <a href=https://wiki.ubuntu.com/index.php/Getting_Started>Panduan instalasi</a>, <a href=https://ubuntu.com/tutorials/install-ubuntu-desktop>Tutorial instalasi</a></li><li>Server: <a href=https://ubuntu.com/tutorials/install-ubuntu-server>Tutorial instalasi</a></li><li><a href=https://ubuntu.com/certified>Daftar perangkat keras bersertifikat Ubuntu</a></li></ul><h2 id=penggunaan-di-cloud-publik>Penggunaan di cloud publik</h2><ul><li><a href=https://cloud-images.ubuntu.com/>Image cloud publik</a></li><li>Amazon Web Services: <a href="https://aws.amazon.com/marketplace/seller-profile?id=565feec9-3d43-413e-9760-c651546613f2">Marketplace</a>, <a href=https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html>Dokumentasi</a></li><li>Microsoft Azure: <a href=https://azure.microsoft.com/en-us/ubuntu/#overview>Ubuntu di Azure</a>, <a href=https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal>Dokumentasi</a></li><li>Google Cloud Platform: <a href=https://console.cloud.google.com/marketplace/product/ubuntu-os-cloud/ubuntu-focal>Marketplace</a>, <a href=https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu>Dokumentasi</a></li></ul><h2 id=wsl-windows-subsystem-for-linux>WSL (Windows Subsystem for Linux)</h2><p>Jika memakai Windows 10 atau Windows 11 versi terbaru, Anda dapat mencoba Ubuntu dengan mudah lewat WSL.</p><a href=https://wslhub.com/wsl-firststep/firststep/install/><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>Instal Ubuntu di WSL (dokumentasi WSL Indonesia User Group)</span></button></a><h2 id=linux-containers>Linux Containers</h2><p>Image untuk Application Containers: untuk membangun image OCI yang dipakai dengan Docker, Podman, Kubernetes.</p><p><a href=https://hub.docker.com/_/ubuntu><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>Docker Hub
+</span></button>
+</a><a href=https://gallery.ecr.aws/ubuntu/ubuntu><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>Amazon ECR Public Gallery</span></button></a></p><p>Image untuk System Containers (container bergaya VM): dipakai dengan LXD dan LXC sebagai pengganti beban kerja VM.</p><p><a href=https://uk.lxd.images.canonical.com/><button class="p-button has-icon">
+<i class=p-icon--begin-downloading></i>
+<span>Lihat image container untuk LXD, LXC
+</span></button>
+</a><a href=https://linuxcontainers.org/><button class=p-button>
+<span>linuxcontainers.org</span></button></a></p><h1 id=mendapatkan-bantuan>Mendapatkan bantuan</h1><p>Jika butuh bantuan saat memakai Ubuntu, Anda bisa bertanya di komunitas daring seperti forum dan obrolan.</p><p><a href=https://forum.ubuntu-id.org/><button class=p-button>
+<span>Forum
+</span></button>
+</a><a href=https://www.facebook.com/groups/2327054593><button class=p-button>
+<span>Grup Facebook
+</span></button>
+</a><a href=https://groups.google.com/group/id-ubuntu/><button class=p-button>
+<span>Milis
+</span></button>
+</a><a href=../chat><button class=p-button>
+<span>Obrolan (Telegram, Facebook)</span></button></a></p><p><a href=https://askubuntu.com/><button class=p-button>
+<span>Ask Ubuntu
+</span></button>
+</a><a href=https://ubuntuforums.org/><button class=p-button>
+<span>Ubuntu Forums
+</span></button>
+</a><a href=https://answers.launchpad.net/ubuntu><button class=p-button>
+<span>Launchpad Answers</span></button></a></p><h1 id=dukungan-teknis-komersial>Dukungan teknis komersial</h1><div class=p-notification--information><div class=p-notification__content><h5 class=p-notification__title>Catatan</h5><p class=p-notification__message>Komunitas Ubuntu Indonesia adalah komunitas nirlaba yang terdiri dari pengguna dan pengembang, dan independen dari Canonical Ltd. Kami tidak menyediakan dukungan teknis komersial maupun jawaban atas pertanyaan terkait. Jika membutuhkan dukungan komersial untuk Ubuntu, lihat informasi di bawah dan dapatkan dukungan dari Canonical Ltd. atau mitra Canonical.</p></div></div><h2 id=ubuntu-advantage>Ubuntu Advantage</h2><p>Dapatkan dukungan teknis komersial dari Canonical Ltd., penerbit Ubuntu, lewat program Ubuntu Advantage.
+Paket yang tersedia adalah Essential (gratis), Standard (berbayar), dan Advanced (berbayar). Anda bisa mendapat dukungan untuk Desktop, Server, VM, dan aplikasi (mis. MySQL, MongoDB, NGINX, Kafka, dan lainnya).</p><a href=https://ubuntu.com/advantage><button class="p-button has-icon">
+<i class=p-icon--information></i>
+<span>Ubuntu Advantage</span></button></a><h2 id=ubuntu-pro-untuk-cloud-publik>Ubuntu Pro untuk cloud publik</h2><p>Memakai AWS, Google Cloud, atau Microsoft Azure? Buat beban kerja VM dengan Ubuntu Pro, image Ubuntu premium dari Canonical Ltd., dan dapatkan dukungan teknis komersial tanpa kontrak tambahan.</p><p><a href=https://ubuntu.com/aws/pro><button class="p-button has-icon">
+<i class=p-icon--information></i>
+<span>Ubuntu Pro untuk AWS
+</span></button>
+</a><a href=https://ubuntu.com/azure/pro><button class="p-button has-icon">
+<i class=p-icon--information></i>
+<span>Ubuntu Pro untuk Azure
+</span></button>
+</a><a href=https://ubuntu.com/gcp/pro><button class="p-button has-icon">
+<i class=p-icon--information></i>
+<span>Ubuntu Pro untuk Google Cloud</span></button></a></p><h2 id=mitra-canonical>Mitra Canonical</h2><p>Mitra Canonical Ltd. juga menyediakan dukungan teknis komersial.</p><a href=https://canonical.com/partners/find-a-partner><button class="p-button has-icon">
+<i class=p-icon--information></i>
+<span>Cari mitra Canonical</span></button></a></div></section></main></div><section class=p-strip--accent><div class=row><div class=col-12><h2>Komunitas Ubuntu Indonesia</h2><ul class="p-inline-list--middot is-dark"><li class=p-inline-list__item><a href=mailto:contact@ubuntu-id.org>Surel</a></li><li class=p-inline-list__item><a href=https://facebook.com/ubuntuindonesia>Facebook</a></li><li class=p-inline-list__item><a href=https://twitter.com/ubuntu_id>Twitter</a></li><li class=p-inline-list__item><a href=https://www.youtube.com/user/ubuntuindonesia>YouTube</a></li><li class=p-inline-list__item><a href=https://github.com/ubuntu-id>GitHub</a></li><li class=p-inline-list__item><a href=https://launchpad.net/~ubuntu-id>Launchpad</a></li><li class=p-inline-list__item><a rel=me href=https://t.me/ubuntu_id>Telegram</a></li></ul><p>©2023-2026 Komunitas Ubuntu Indonesia (Ubuntu Indonesian LoCo Team). Kecuali dinyatakan lain, Kode sumber situs web dilisensikan di bawah MIT, Konten dilisensikan di bawah CC BY-SA 4.0. Ubuntu dan Canonical adalah merek dagang terdaftar dari Canonical Ltd.</p><a href=https://github.com/ubuntu-id/ubuntu-id.github.io>Kode Sumber di GitHub</a></div></div><script type=text/javascript src=/js/ubuntukr.js></script><script>let slides=document.getElementsByClassName("main-slide"),index=0,count=slides.length;function setSlideIndex(e){index=e%count,index=index<0?index*-1:index;for(let e=0;e<count;e++)e==index?slides[e].style.display="block":slides[e].style.display="none"}function nextSlide(){setSlideIndex(index+1)}function prevSlide(){setSlideIndex(index-1)}setSlideIndex(0),setInterval(nextSlide,5e3)</script></body></html>

@@ -1,73 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ubuntu Indonesia Community</title>
-    <link>https://ubuntu-id.org/en/</link>
-    <description>Recent content on Ubuntu Indonesia Community</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>id-id</language>
-    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ubuntu-id.org/en/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ubuntu 22.04 LTS</title>
-      <link>https://ubuntu-id.org/en/slides/ubuntu/</link>
-      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntu-id.org/en/slides/ubuntu/</guid>
-      <description>Ubuntu 22.04 LTS Jammy Jellyfish is the latest version released in Aptril 2022. You can get it today, and run it on various environments such as Desktop, Servers, IoT, Cloud and much more.</description>
-    </item>
-    
-    <item>
-      <title>Chat</title>
-      <link>https://ubuntu-id.org/en/chat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntu-id.org/en/chat/</guid>
-      <description>채팅 서비스 선택 Slack, Matrix (Element.io), IRC (Libera.chat) 을 통해 채팅에 참여하실 수 있습니다. 아래 정보를 참고하여 본인이 사용하기 편한 방식으로 이용해 주세요.
- Slack: Slack Workspace 접속 (ubuntu-kr.slack.com) | 회원가입 Matrix (Element.io): Matrix Space 접속 (#ubuntu-kr) | Element.io 로그인 | Element.io 회원가입 IRC (Libera.chat): irc.libera.chat 의 #ubuntu-ko 채널 접속. (웹에서 Kiwi IRC로 바로 접속 하기)  IRC 이용정보 사용하시는 IRC 클라이언트가 있다면, 아래 정보로 IRC 채널에 접속하여 이용할 수 있습니다.</description>
-    </item>
-    
-    <item>
-      <title>Download Ubuntu</title>
-      <link>https://ubuntu-id.org/en/download/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntu-id.org/en/download/</guid>
-      <description>Version and system requirements Ubuntu 22.04 LTS Ubuntu 22.04 LTS, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free. In most cases, LTS version is recommended for stable use.
-See Ubuntu 22.04 LTS release notes (Indonesian translation) See Ubuntu 22.04 LTS release notes
-Ubuntu 21.10 If you want to try out latest features, Try out Ubuntu 21.10, the latest version. It provides 9 months of maintenance and security updates for free.</description>
-    </item>
-    
-    <item>
-      <title>Group Studies/Projects</title>
-      <link>https://ubuntu-id.org/en/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntu-id.org/en/projects/</guid>
-      <description>Group Studies 주기적으로 우분투 또는 우분투 관련 오픈소스 기술에 대해 주제를 선정하여 그룹 스터디를 진행하고 있습니다. 스터디에 필요한 비용이나 공간, 장비 등은 되도록이면 커뮤니티 차원에서 지원하거나 별도 후원을 받아 진행하고 있습니다.
-컨테이너, 리눅스 데스크탑 앱 개발, 서버 구축 등 다양한 주제로 스터디를 진행하고 있습니다.
-스터디 주제는 회원이 제안 하거나, 운영진 측에서 기획하여 선정하며, 스터디 구성원 모집 시 포럼이나 소셜 미디어 채널 등을 통해 모집합니다. 그룹 스터디 산출물은 위키 또는 GitHub 등에 공유되고 있습니다.</description>
-    </item>
-    
-    <item>
-      <title>Legal</title>
-      <link>https://ubuntu-id.org/en/bylaws/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntu-id.org/en/bylaws/</guid>
-      <description>Ubuntu Indonesia Community Legal Entity: AHU-37.AH.01.07.Tahun 2013
-  Download PDF    </description>
-    </item>
-    
-    <item>
-      <title>우분투 번역하기</title>
-      <link>https://ubuntu-id.org/en/translate/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntu-id.org/en/translate/</guid>
-      <description>오픈소스 프로젝트인 우분투는, 시스템 UI 및 내장 응용 프로그램 번역도 누구나 참여하여 개선할 수 있습니다. 우분투 번역에 참여하셔서, 많은 사용자들이 우분투를 더 쉽게 이용할 수 있도록 도와주세요. 한번에 많이 번역하기 보단, 하나를 번역해도 정확히, 그리고 꾸준에 번역에 참여해 주시면 더 좋습니다.
-번역에 참여하기 아래 단계를 거쳐 번역에 참여할 수 있습니다.
- Launchpad 계정 만들고 로그인 하기 번역 하고자 하는 패키지 찾기 번역을 작성하고, 번역 제안(Suggestion) 제출하기 번역 제안 검토를 요청하거나 기다리기  번역팀에 참여하기 번역팀 운영 규정에 명시된 요건을 만족 하시는 분에 한해, 번역팀에 가입 하셔서 더 많은 기여를 하실 수 있습니다.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu Indonesia Community</title><link>https://ubuntu-id.org/en/</link><description>Recent content on Ubuntu Indonesia Community</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ubuntu-id.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu 22.04 LTS</title><link>https://ubuntu-id.org/en/slides/ubuntu/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://ubuntu-id.org/en/slides/ubuntu/</guid><description>&lt;p>Ubuntu 22.04 LTS Jammy Jellyfish is the latest version released in Aptril 2022. You can get it today, and run it on various environments such as Desktop, Servers, IoT, Cloud and much more.&lt;/p></description></item><item><title>Chat</title><link>https://ubuntu-id.org/en/chat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ubuntu-id.org/en/chat/</guid><description>&lt;h1 id="choose-where-to-chat">Choose where to chat&lt;/h1>
+&lt;p>You can chat with other Ubuntu users in Indonesia through the channels below. Pick whichever is most comfortable for you.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Telegram&lt;/strong>: &lt;a href="https://t.me/ubuntu_indo">Ubuntu Indonesia group&lt;/a> | &lt;a href="https://t.me/ubuntu_id">Announcement channel&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Facebook&lt;/strong>: &lt;a href="https://www.facebook.com/groups/2327054593">Ubuntu Indonesia group&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Mailing list&lt;/strong>: &lt;a href="https://groups.google.com/group/id-ubuntu">id-ubuntu on Google Groups&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Forum&lt;/strong>: &lt;a href="https://forum.ubuntu-id.org">forum.ubuntu-id.org&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>For help in English, you can also ask on &lt;a href="https://askubuntu.com/">Ask Ubuntu&lt;/a> and &lt;a href="https://discourse.ubuntu.com/">Ubuntu Discourse&lt;/a>.&lt;/p></description></item><item><title>Download Ubuntu</title><link>https://ubuntu-id.org/en/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ubuntu-id.org/en/download/</guid><description>&lt;h1 id="version-and-system-requirements">Version and system requirements&lt;/h1>
+&lt;h2 id="ubuntu-hahahugoshortcode7s0hbhb">Ubuntu 26.04 LTS&lt;/h2>
+&lt;p>Ubuntu 26.04 LTS, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free.
+In most cases, LTS version is recommended for stable use.&lt;/p>
+&lt;p>&lt;a href="https://documentation.ubuntu.com/release-notes/26.04/">See Ubuntu 26.04 LTS release notes&lt;/a>&lt;/p>
+&lt;h2 id="ubuntu-hahahugoshortcode7s4hbhb">Ubuntu 26.10&lt;/h2>
+&lt;p>If you want to try out latest features, Try out Ubuntu 26.10, the latest version. It provides 9 months of maintenance and security updates for free.&lt;/p></description></item><item><title>Group Studies/Projects</title><link>https://ubuntu-id.org/en/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ubuntu-id.org/en/projects/</guid><description>&lt;h1 id="group-studiesprojects">Group Studies/Projects&lt;/h1>
+&lt;p>&lt;img src="https://ubuntu-id.org/projects/study.png" alt="study">
+We regularly hold group studies on topics about Ubuntu or related open source technologies.
+Costs, space, equipment, and so on needed for a study are supported by the community or sponsored separately.&lt;/p>
+&lt;p>Study topics are proposed by members or planned and chosen by the management team, and members are recruited through the forum or social media channels.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://wiki.ubuntu.com">Wiki&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ubuntu-id">GitHub Organization&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="projects">Projects&lt;/h1>
+&lt;p>&lt;img src="https://ubuntu-id.org/projects/project.png" alt="project">
+We take part in open source projects on Ubuntu or related open source technologies, or develop new projects.
+Likewise, the resources needed to take part in or develop a project are supported by the community or sponsored separately.&lt;/p></description></item><item><title>Legal</title><link>https://ubuntu-id.org/en/bylaws/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ubuntu-id.org/en/bylaws/</guid><description>&lt;h1 id="ubuntu-indonesia-community">Ubuntu Indonesia Community&lt;/h1>
+&lt;p>Legal Entity: AHU-37.AH.01.07.Tahun 2013&lt;/p>
+&lt;a href="akta.pdf">
+ &lt;button class="p-button has-icon">
+ 
+ &lt;i class="p-icon--begin-downloading">&lt;/i>
+ 
+ &lt;span>
+ Download PDF
+ &lt;/span>
+ &lt;/button>
+&lt;/a></description></item><item><title>Translate Ubuntu</title><link>https://ubuntu-id.org/en/translate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ubuntu-id.org/en/translate/</guid><description>&lt;p>As an open source project, anyone can contribute to and improve the translation of the Ubuntu system UI and its bundled applications.
+Please join us in translating Ubuntu to make it easier for more users.
+Rather than translating a lot at once, it is better to translate a little accurately and consistently over time.&lt;/p>
+&lt;h1 id="take-part-in-translating">Take part in translating&lt;/h1>
+&lt;p>You can take part by following the steps below.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://launchpad.net/&amp;#43;login">Create a Launchpad account and log in&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://translations.launchpad.net/ubuntu">Find a package to translate&lt;/a>&lt;/li>
+&lt;li>Write a translation and submit it as a suggestion&lt;/li>
+&lt;li>Ask for your suggestion to be reviewed, or wait for a review&lt;/li>
+&lt;/ul>
+&lt;h1 id="join-the-translation-team">Join the translation team&lt;/h1>
+&lt;p>Only those who meet the requirements set out in the translation team&amp;rsquo;s rules can join the team and contribute further.&lt;/p></description></item></channel></rss>

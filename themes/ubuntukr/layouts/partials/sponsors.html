@@ -22,7 +22,7 @@
           {{ $sponsors := (where $regularPages "Section" "sponsors") }}
           {{ range $sponsors }}
             <div class="p-logo-section__item"><a href="{{ .RelPermalink }}">
-            <img class="p-logo-section__logo" src="{{ .RelPermalink }}{{.Params.image }}" alt="{{.Title}}">
+            {{ $title := .Title }}{{ with .Resources.Get .Params.image }}<img class="p-logo-section__logo" src="{{ .RelPermalink }}" alt="{{ $title }}">{{ end }}
             </a></div>
           {{ end }}
           </div>

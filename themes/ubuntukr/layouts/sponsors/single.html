@@ -14,7 +14,7 @@
           {{end}}
         </div>
         <div class="col-4 right-section">
-          <img src="{{ .RelPermalink }}{{.Params.image}}" alt="">
+          {{ with .Resources.Get .Params.image }}<img src="{{ .RelPermalink }}" alt="">{{ end }}
         </div>
       </div>
   </section>

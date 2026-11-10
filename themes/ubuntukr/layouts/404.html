@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main>
+  <section class="p-strip--suru main-strip">
+    <div class="row">
+      <div class="col-8 left-section">
+        <h1>404</h1>
+        <p>Halaman yang Anda cari tidak ditemukan. Mungkin alamatnya salah ketik atau halamannya sudah dipindahkan.</p>
+        <p lang="en">The page you are looking for could not be found. The address may be mistyped or the page may have moved.</p>
+      </div>
+    </div>
+  </section>
+  <section class="p-strip">
+    <div class="row">
+      <p>
+        <a href="{{ "/" | relURL }}"><button class="p-button--positive">Beranda</button></a>
+        <a href="{{ "/download/" | relURL }}"><button class="p-button">Unduh</button></a>
+        <a href="{{ "/chat/" | relURL }}"><button class="p-button">Obrolan</button></a>
+      </p>
+      <p lang="en">
+        <a href="{{ "/en/" | relURL }}"><button class="p-button--positive">Home</button></a>
+        <a href="{{ "/en/download/" | relURL }}"><button class="p-button">Download</button></a>
+        <a href="{{ "/en/chat/" | relURL }}"><button class="p-button">Chat</button></a>
+      </p>
+    </div>
+  </section>
+</main>
+{{ end }}

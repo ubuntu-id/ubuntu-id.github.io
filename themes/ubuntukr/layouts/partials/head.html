@@ -13,12 +13,16 @@
     {{- $description := .Params.description | default .Site.Params.description | plainify | htmlUnescape | chomp -}}
     {{- $image := "/img/favicon/apple-touch-icon.png" | absURL }}
     <meta name="description" content="{{ $description }}">
+    {{- if eq .Kind "404" }}
+    <meta name="robots" content="noindex">
+    {{- else }}
     <link rel="canonical" href="{{ .Permalink }}">
     {{- range .Translations }}
     <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
     {{- end }}
     {{- if .IsTranslated }}
     <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+    {{- end }}
     {{- end }}
     <!--  Open Graph Protocol -->
     <meta property="og:site_name" content="{{ .Site.Title }}" />

@@ -2,7 +2,8 @@
 title: "Ubuntu 26.04 LTS"
 backgroundType: suru #light, dark, accent, suru, suru-topped, image
 colorScheme: dark #dark, light
-image: ubuntu-id.svg
+# Official Ubuntu 26.04 "Resolute Raccoon" mascot (light version, for the dark background)
+image: resolute-raccoon.svg
 # backgroundImage: bg.png
 buttons:
     - label: Download

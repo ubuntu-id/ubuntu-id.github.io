@@ -4,9 +4,26 @@ updates:
     directory: /
     schedule:
       interval: weekly
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 1
+    groups:
+      github-actions:
+        patterns:
+          - "*"
   - package-ecosystem: npm
     directory: /themes/ubuntukr
     schedule:
       interval: weekly
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 1
+    groups:
+      theme-dependencies:
+        patterns:
+          - "*"
+    ignore:
+      # vanilla-framework 3.15+ loads a variable Ubuntu font from assets.ubuntu.com
+      # whose Content-Disposition header contains a comma. Chromium rejects it
+      # (ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION), so the font falls
+      # back to a wider system font. Upgrade only after checking in Chromium.
+      - dependency-name: vanilla-framework
+        update-types:
+          - version-update:semver-minor
+          - version-update:semver-major

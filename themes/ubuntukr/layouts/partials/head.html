@@ -10,9 +10,29 @@
     {{- $options := (dict "includePaths" (slice "node_modules") "transpiler" "dartsass") -}}
     {{ $style := resources.Get "sass/theme.scss" | css.Sass $options | resources.Minify | resources.Fingerprint }}
     <title>{{ .Title }} | {{ .Site.Title }}</title>
+    {{- $description := .Params.description | default .Site.Params.description | plainify | htmlUnescape | chomp -}}
+    {{- $image := "/img/favicon/apple-touch-icon.png" | absURL }}
+    <meta name="description" content="{{ $description }}">
+    {{- if eq .Kind "404" }}
+    <meta name="robots" content="noindex">
+    {{- else }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{- range .Translations }}
+    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+    {{- end }}
+    {{- if .IsTranslated }}
+    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+    {{- end }}
+    {{- end }}
     <!--  Open Graph Protocol -->
     <meta property="og:site_name" content="{{ .Site.Title }}" />
     <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{ $description }}" />
+    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:locale" content="{{ .Site.Language.Lang }}" />
+    <meta property="og:image" content="{{ $image }}" />
+    <meta name="twitter:card" content="summary" />
 
     <!--   SASS Stylesheets -->
     <link rel="stylesheet" href="{{ $style.Permalink }}">

@@ -11,7 +11,6 @@ params:
   github: ubuntu-id
   launchpad: ubuntu-id
   telegram: https://t.me/ubuntu_id
-  youtube: https://www.youtube.com/user/ubuntuindonesia
   source_repo: https://github.com/ubuntu-id/ubuntu-id.github.io
 defaultContentLanguage: id
 languages:
@@ -85,7 +84,7 @@ languages:
       - identifier: forum
         parent: community
         name: Forum
-        url: https://forum.ubuntu-id.org
+        url: https://discourse.ubuntu.com/c/community/circles/ubuntu-id/133
         weight: 32
       - identifier: telegram-group
         parent: community
@@ -114,7 +113,7 @@ languages:
       - identifier: events
         parent: partandcontrib
         name: Acara
-        url: https://events.ubuntu-id.org
+        url: https://events.canonical.com/
         weight: 41
       - identifier: study_projects
         parent: partandcontrib
@@ -129,11 +128,6 @@ languages:
       - identifier: follow
         name: Ikuti Kami
         weight: 5
-      - identifier: blog
-        parent: follow
-        name: Blog
-        url: https://ubuntulinux.or.id
-        weight: 51
       - identifier: facebook
         parent: follow
         name: Facebook
@@ -144,11 +138,6 @@ languages:
         name: Twitter
         url: https://twitter.com/ubuntu_id
         weight: 53
-      - identifier: youtube
-        parent: follow
-        name: YouTube
-        url: https://www.youtube.com/user/ubuntuindonesia
-        weight: 54
       - identifier: telegram
         parent: follow
         name: Saluran Telegram
@@ -224,7 +213,7 @@ languages:
       - identifier: forum
         parent: community
         name: Forum
-        url: https://forum.ubuntu-id.org
+        url: https://discourse.ubuntu.com/c/community/circles/ubuntu-id/133
         weight: 32
       - identifier: telegram-group
         parent: community
@@ -253,7 +242,7 @@ languages:
       - identifier: events
         parent: partandcontrib
         name: Join events
-        url: https://event.ubuntu-id.org
+        url: https://events.canonical.com/
         weight: 41
       - identifier: study_projects
         parent: partandcontrib
@@ -268,11 +257,6 @@ languages:
       - identifier: follow
         name: Follow us
         weight: 5
-      - identifier: blog
-        parent: follow
-        name: Blog
-        url: https://ubuntulinux.or.id
-        weight: 51
       - identifier: facebook
         parent: follow
         name: Facebook
@@ -283,11 +267,6 @@ languages:
         name: Twitter
         url: https://twitter.com/ubuntu_id
         weight: 53
-      - identifier: youtube
-        parent: follow
-        name: YouTube
-        url: https://www.youtube.com/user/ubuntuindonesia
-        weight: 54
       - identifier: telegram
         parent: follow
         name: Telegram Channel

@@ -11,6 +11,6 @@ Anda dapat mengobrol dengan sesama pengguna Ubuntu Indonesia lewat beberapa kana
 - **Telegram**: [Grup Ubuntu Indonesia](https://t.me/ubuntu_indo) | [Kanal pengumuman](https://t.me/ubuntu_id)
 - **Facebook**: [Grup Ubuntu Indonesia](https://www.facebook.com/groups/2327054593)
 - **Milis**: [id-ubuntu di Google Groups](https://groups.google.com/group/id-ubuntu)
-- **Forum**: [forum.ubuntu-id.org](https://forum.ubuntu-id.org)
+- **Forum**: [Ubuntu Discourse](https://discourse.ubuntu.com/c/community/circles/ubuntu-id/133)
 
-Untuk bantuan berbahasa Inggris, Anda juga dapat bertanya di [Ask Ubuntu](https://askubuntu.com/) dan [Ubuntu Discourse](https://discourse.ubuntu.com/).
+Untuk bantuan berbahasa Inggris, Anda juga dapat bertanya di [Ask Ubuntu](https://askubuntu.com/).

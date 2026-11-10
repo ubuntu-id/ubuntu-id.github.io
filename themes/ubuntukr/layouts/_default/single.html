@@ -4,13 +4,13 @@
 <main>
   <section class="p-strip--{{.Params.backgroundType}} main-strip"
     {{if eq .Params.backgroundType "image"}}
-    style="background-image:url('{{.Params.backgroundImage}}')"
+    {{ with .Resources.Get .Params.backgroundImage }}style="background-image:url('{{ .RelPermalink }}')"{{ end }}
     {{end}}>
       <div class="row">
         {{if eq .Params.backgroundType "image"}}
         <div class="col-6 col-start-large-7 right-section">
           <div class="p-card--overlay">
-            <img src="{{ .RelPermalink }}{{.Params.image}}" alt="" style="padding: 20px">
+            {{ with .Resources.Get .Params.image }}<img src="{{ .RelPermalink }}" alt="" style="padding: 20px">{{ end }}
             <h2>{{.Title}}</h2>
             <p class="p-card__content">{{.Params.description}}</p>
           </div>
@@ -21,7 +21,7 @@
           <p>{{.Params.description}}</p>
         </div>
         <div class="col-4 right-section">
-          <img src="{{ .RelPermalink }}{{.Params.image}}" alt="">
+          {{ with .Resources.Get .Params.image }}<img src="{{ .RelPermalink }}" alt="">{{ end }}
         </div>
         {{end}}
       </div>

@@ -35,7 +35,7 @@
           {{ end }}
         </div>
         <div class="col-4 right-section">
-          <img src="{{ .RelPermalink }}{{.Params.image}}" alt="">
+          {{ with .Resources.Get .Params.image }}<img src="{{ .RelPermalink }}" alt="">{{ end }}
         </div>
       </div>
   </section>
@@ -83,7 +83,7 @@
                 <li class="p-list__item is-ticked">
                   <ul class="p-inline-list--middot">
                     <li class="p-inline-list__item">
-                      <a href="https://forum.ubuntu-kr.org/">{{i18n "forums"}}</a>
+                      <a href="https://discourse.ubuntu.com/c/community/circles/ubuntu-id/133">{{i18n "forums"}}</a>
                     </li>
                     <li class="p-inline-list__item">
                       <a href="https://fb.com/ubuntu.ko">{{i18n "fb_groups"}}</a>
@@ -96,7 +96,7 @@
                       <a href="https://wiki.ubuntu.com/">{{i18n "wiki"}}</a>
                     </li>
                     <li class="p-inline-list__item">
-                      <a href="https://ubuntu-kr.github.io/workshops/">{{i18n "tutorials"}}</a>
+                      <a href="https://ubuntu.com/tutorials">{{i18n "tutorials"}}</a>
                     </li>
                   </ul>
                 </li>
@@ -122,7 +122,7 @@
                 <li class="p-list__item is-ticked">
                   <ul class="p-inline-list--middot">
                     <li class="p-inline-list__item">
-                      <a href="https://events.ubuntu-id.org/">{{i18n "main_kr_loco_events_events"}}</a>
+                      <a href="https://events.canonical.com/">{{i18n "main_kr_loco_events_events"}}</a>
                     </li>
                   </ul>
                 </li>

@@ -61,7 +61,7 @@ You can download Desktop and Server CD/DVD images from Indonesian Mirror servers
 # How to install and use
 
 ## Desktop & Server
-- Desktop: [Installation guide (Indonesian)](https://wiki.ubuntu.com/index.php/Getting_Started), [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
+- Desktop: [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
 - Server: [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-server)
 - [List of Certified Ubuntu hardwares](https://ubuntu.com/certified)
 ## Use on Public Clouds
@@ -90,7 +90,7 @@ Images for System Containers (VM Style Containers): Used with LXD and LXC for re
 # Get help
 If you need help while using, You can get help on online community such as forums and online chat.
 
-{{< button text="Forums (Indonesian)" href="https://forum.ubuntu-id.org/" >}}
+{{< button text="Ubuntu Discourse" href="https://discourse.ubuntu.com/c/community/circles/ubuntu-id/133" >}}
 {{< button text="Facebook Group (Indonesian)" href="https://www.facebook.com/groups/2327054593" >}}
 {{< button text="Mailing List (Indonesian)" href="https://groups.google.com/group/id-ubuntu/" >}}
 {{< button text="Chat (Telegram, Facebook)" href="../chat" >}}

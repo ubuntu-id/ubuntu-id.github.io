@@ -20,9 +20,9 @@ Ubuntu dioptimalkan untuk berbagai perangkat dan lingkungan seperti Desktop, Lap
 other = "Komunitas Lokal Resmi Ubuntu"
 [main_kr_loco_desc]
 other = """
-Ubuntu Indonesia Community is a Ubuntu LoCo(Local Community) in Indonesia verified by Ubuntu Community Council.
-We provide localized forums and documentations, Plan and host various seminars and conferences.
-We also organize group studies, research/development projects on Ubuntu and its related open source projects.
+Komunitas Ubuntu Indonesia adalah Ubuntu LoCo (Komunitas Lokal) di Indonesia yang diakui oleh Ubuntu Community Council.
+Kami menyediakan forum dan dokumentasi dalam bahasa Indonesia, serta merencanakan dan menyelenggarakan berbagai seminar dan konferensi.
+Kami juga mengatur kelompok belajar serta proyek penelitian dan pengembangan di Ubuntu dan proyek open source terkait.
 """
 [main_kr_loco_about]
 other = "Tentang Komunitas"
@@ -43,7 +43,7 @@ other = "Penelitian & Pengembangan"
 [main_kr_loco_research_projects]
 other = "Kelompok Belajar/Proyek"
 [main_kr_loco_research_l10n]
-other = "Localization (Terjemahan)"
+other = "Penerjemahan"
 
 [about_online_title]
 other = "Temui orang secara daring & Temukan informasi yang Anda butuhkan"
@@ -104,9 +104,9 @@ other = "Wiki"
 [tutorials]
 other = "Tutorial"
 [chat]
-other = "Chat"
+other = "Obrolan"
 [mailing_list]
-other = "Mailing List"
+other = "Milis"
 [group_studies_projects]
 other = "Kelompok Belajar/Proyek"
 [translate_ubuntu]

@@ -3,13 +3,13 @@
 <main>
   <section class="main-strip p-strip--{{.Params.backgroundType}}"
     {{if eq .Params.backgroundType "image"}}
-    style="background-image:url('{{.Params.backgroundImage}}')"
+    {{ with .Resources.Get .Params.backgroundImage }}style="background-image:url('{{ .RelPermalink }}')"{{ end }}
     {{end}}>
       <div class="row">
         {{if eq .Params.backgroundType "image"}}
         <div class="col-6 col-start-large-7 right-section">
           <div class="p-card--overlay">
-            <img src="{{ .RelPermalink }}{{.Params.image}}" alt="" style="padding: 20px">
+            {{ with .Resources.Get .Params.image }}<img src="{{ .RelPermalink }}" alt="" style="padding: 20px">{{ end }}
             <h2>{{.Title}}</h2>
             <p class="p-card__content">{{.Params.description}}</p>
           </div>
@@ -20,7 +20,7 @@
           <p>{{.Params.description}}</p>
         </div>
         <div class="col-4">
-          <img src="{{ .RelPermalink }}{{.Params.image}}" alt="">
+          {{ with .Resources.Get .Params.image }}<img src="{{ .RelPermalink }}" alt="">{{ end }}
         </div>
         {{end}}
       </div>
@@ -30,13 +30,13 @@
       <div class="col-8">
         <h1>{{i18n "about_online_title"}}</h1>
         <p>{{i18n "about_online_desc"}}</p>
-        <a href="https://forum.ubuntu-id.org"><button class="p-button">{{i18n "forums"}}</button></a>
+        <a href="https://discourse.ubuntu.com/c/community/circles/ubuntu-id/133"><button class="p-button">{{i18n "forums"}}</button></a>
         <a href="https://www.facebook.com/groups/2327054593"><button class="p-button">{{i18n "fb_groups"}}</button></a>
         <a href="https://t.me/ubuntu_indo"><button class="p-button">{{i18n "telegram_groups"}}</button></a>
         <a href="https://wiki.ubuntu.com"><button class="p-button">{{i18n "wiki"}}</button></a>
       </div>
       <div class="col-4">
-          <img src="{{ .RelPermalink }}/community.svg" alt="">
+          {{ with .Resources.Get "community.svg" }}<img src="{{ .RelPermalink }}" alt="">{{ end }}
         </div>
     </div>
   </section>
@@ -56,7 +56,7 @@
                 </p>
               </div>
               <div>
-                <a href="https://events.ubuntu-id.org"><button class="p-button is-dark">{{i18n "about_networking_events_button"}}</button></a>
+                <a href="https://events.canonical.com/"><button class="p-button is-dark">{{i18n "about_networking_events_button"}}</button></a>
               </div>
             </div>
           </li>
@@ -95,8 +95,6 @@
         <p>
           {{i18n "about_organizing_desc"}}
         </p>
-        <a href="https://wiki.ubuntu.com/IndonesianTeam"><button class="p-button">{{i18n "about_organizers_en"}}</button></a>
-        <a href="https://loco.ubuntu.com/teams/ubuntu-id"><button class="p-button">{{i18n "about_organizers_list"}}</button></a>
         <a href="mailto:{{.Site.Params.contact}}"><button class="p-button">{{i18n "about_organizers_join"}}</button></a>
       </div>
     </div>

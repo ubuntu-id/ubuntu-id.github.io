@@ -19,11 +19,8 @@ updates:
         patterns:
           - "*"
     ignore:
-      # vanilla-framework 3.15+ loads a variable Ubuntu font from assets.ubuntu.com
-      # whose Content-Disposition header contains a comma. Chromium rejects it
-      # (ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION), so the font falls
-      # back to a wider system font. Upgrade only after checking in Chromium.
+      # Vanilla 4 renames CSS classes and needs a visual check of every page.
+      # Vanilla 3.15.1 is the last 3.x release.
       - dependency-name: vanilla-framework
         update-types:
-          - version-update:semver-minor
           - version-update:semver-major

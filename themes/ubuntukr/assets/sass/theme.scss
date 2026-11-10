@@ -1,8 +1,45 @@
+// Fonts are self-hosted (see the @font-face rules below), so the family names
+// must not contain "Ubuntu": Vanilla only emits its own @font-face rules, which
+// point to assets.ubuntu.com, when the font stack mentions "Ubuntu".
+$font-base-family: '"USans variable", -apple-system, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif';
+$font-monospace: '"UMono variable", Consolas, Monaco, Courier, monospace';
+
 // Import the framework
 @import 'vanilla-framework/scss/vanilla';
 
 // Include all of Vanilla Framework
 @include vanilla;
+
+// Self-hosted fonts. Vanilla loads them from assets.ubuntu.com, but the variable
+// font URL there has a Content-Disposition header with an unquoted comma and
+// Chromium rejects it (ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION).
+// The files in static/fonts/ are unmodified copies of the Ubuntu Sans variable
+// fonts (Ubuntu Font Licence 1.0, see static/fonts/LICENCE.txt).
+@font-face {
+    font-family : 'USans variable';
+    font-stretch: 100%;
+    font-style  : normal;
+    font-weight : 100 800;
+    font-display: swap;
+    src         : url('/fonts/ubuntu-sans-latin.woff2') format('woff2-variations');
+}
+
+@font-face {
+    font-family : 'USans variable';
+    font-stretch: 100%;
+    font-style  : italic;
+    font-weight : 100 800;
+    font-display: swap;
+    src         : url('/fonts/ubuntu-sans-italic-latin.woff2') format('woff2-variations');
+}
+
+@font-face {
+    font-family : 'UMono variable';
+    font-style  : normal;
+    font-weight : 100 800;
+    font-display: swap;
+    src         : url('/fonts/ubuntu-sans-mono-latin.woff2') format('woff2-variations');
+}
 
 // Icons
 @include vf-p-icon-begin-downloading;
@@ -17,6 +54,12 @@
 
 .p-navigation__dropdown-item {
     color: white !important;
+}
+
+// Vanilla 3.15 no longer lets the logo shrink, so a long site title pushed the
+// mobile menu button off screen. min-width 0 restores the ellipsis.
+.p-navigation__tagged-logo {
+    min-width: 0;
 }
 
 section {

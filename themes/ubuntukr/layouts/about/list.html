@@ -3,7 +3,7 @@
 <main>
   <section class="main-strip p-strip--{{.Params.backgroundType}}"
     {{if eq .Params.backgroundType "image"}}
-    style="background-image:url('{{.Params.backgroundImage}}')"
+    {{ with .Resources.Get .Params.backgroundImage }}style="background-image:url('{{ .RelPermalink }}')"{{ end }}
     {{end}}>
       <div class="row">
         {{if eq .Params.backgroundType "image"}}

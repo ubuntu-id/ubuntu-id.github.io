@@ -16,7 +16,7 @@ hugo server        # live preview at http://localhost:1313
 hugo --minify      # production build into public/
 ```
 
-The build prints many Dart Sass deprecation warnings from `vanilla-framework` 3.4.0. They are harmless for now.
+The build prints Dart Sass deprecation warnings from `vanilla-framework`. They are harmless for now.
 
 ## Content
 

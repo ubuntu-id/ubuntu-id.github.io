@@ -6,7 +6,8 @@ Website of the Ubuntu Indonesia Community, live at https://ubuntu-id.org. Hugo w
 
 - Hugo extended **0.147.9** and Dart Sass **1.89.2**, pinned in `.github/workflows/hugo.yml`. Use the same versions locally.
 - The theme uses `css.Sass` (not `resources.ToCSS`, removed in Hugo 0.128) with the `dartsass` transpiler, so the `sass` binary must be on `PATH`. The npm `sass` package does not work with Hugo.
-- Theme dependency: `vanilla-framework` 3.4.0 through `themes/ubuntukr/package-lock.json`. Run `npm ci` in `themes/ubuntukr` before building.
+- Theme dependency: `vanilla-framework` 3.15.1 (the last 3.x release) through `themes/ubuntukr/package-lock.json`. Run `npm ci` in `themes/ubuntukr` before building.
+- Fonts are self-hosted in `themes/ubuntukr/static/fonts/` (Ubuntu Sans variable fonts, Ubuntu Font Licence 1.0, `LICENCE.txt` next to them). `theme.scss` sets `$font-base-family` and `$font-monospace` to `USans variable` and `UMono variable` before importing Vanilla, which stops Vanilla from emitting its own `@font-face` rules that point to `assets.ubuntu.com`. Do not put the word "Ubuntu" back into those family names.
 - Two languages: Indonesian (default, at `/`) and English (at `/en/`). Every page has an `index.md` and an `index.en.md`.
 
 ## Build and test
@@ -16,13 +17,13 @@ cd themes/ubuntukr && npm ci && cd ../..
 hugo --minify -d /tmp/out     # must finish without ERROR
 ```
 
-About 590 Dart Sass deprecation warnings from `vanilla-framework` are normal. Check the built output, not just the exit code:
+Dart Sass deprecation warnings from `vanilla-framework` are normal. Check the built output, not just the exit code:
 
 - every local `<img src>` points to a file that exists in the output (including under `/en/`);
 - `404.html` and `en/404.html` are built;
 - no link to a dead host (see below).
 
-For UI checks, serve the output and drive it with Playwright at 1280 px and 390 px. Build with `--baseURL http://127.0.0.1:<port>/`, because the stylesheet link uses the absolute `Permalink` and would otherwise load the production CSS. Wait about 1.3 s after load: the hero columns fade in over 1 s and look faded in earlier screenshots. Let the page load the Ubuntu font from `assets.ubuntu.com`, otherwise widths differ from production.
+For UI checks, serve the output and drive it with Playwright at 1280 px and 390 px. Build with `--baseURL http://127.0.0.1:<port>/`, because the stylesheet link uses the absolute `Permalink` and would otherwise load the production CSS. Wait about 1.3 s after load: the hero columns fade in over 1 s and look faded in earlier screenshots. Block external hosts if you like: nothing is loaded from outside the site any more, and a request to `assets.ubuntu.com` means the font override broke.
 
 CI (`hugo.yml`): a push to `main` builds and deploys to the `gh-pages` branch with `peaceiris/actions-gh-pages`; a pull request only builds (the check is named `deploy`). Downloading Hugo from github.com sometimes fails (`wget` exit 4): rerun the job.
 
@@ -39,7 +40,8 @@ CI (`hugo.yml`): a push to `main` builds and deploys to the `gh-pages` branch wi
 ## Dependencies
 
 - Dependabot (`.github/dependabot.yml`) opens at most one grouped pull request per ecosystem each week: one for GitHub Actions and one for the theme's npm packages. Merge that single PR instead of many.
-- Do not upgrade `vanilla-framework` beyond 3.4.x yet. From 3.15 it loads a variable Ubuntu font from `assets.ubuntu.com` whose `Content-Disposition` header has an unquoted filename containing a comma. Chromium rejects it (`ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION`), so Chrome and Edge fall back to a wider system font: pages get taller and about 42 px wider on phones. Dependabot is told to skip minor and major Vanilla updates. Test in Chromium before lifting that.
+- Why the fonts are self-hosted: from 3.15 Vanilla loads a variable Ubuntu font from `assets.ubuntu.com` whose `Content-Disposition` header has an unquoted filename containing a comma. Chromium rejects it (`ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION`), so Chrome and Edge fell back to a wider system font: pages got taller and about 42 px wider on phones. The theme now ships its own copies, so Vanilla 3.15.1 is safe.
+- Dependabot skips major `vanilla-framework` updates (Vanilla 4 renames CSS classes and needs a visual check of every page). Security update PRs ignore that rule, so check any Dependabot PR that bumps Vanilla before merging.
 - `package-lock.json` cannot be merged by hand when several Dependabot branches touch it. Merge one grouped update, or apply per-package changes and let `npm ci` in CI validate.
 
 ## Links that must not be used again

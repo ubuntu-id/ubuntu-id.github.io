@@ -24,6 +24,14 @@ section {
     padding-right: 1em;
 }
 
+// The minified HTML has no whitespace between the <li> elements, so the
+// inline list cannot wrap and overflows on narrow screens.
+.p-inline-list--middot {
+    display  : flex;
+    flex-wrap: wrap;
+    row-gap  : 0.25rem;
+}
+
 .main-strip .right-section {
     animation-duration: 1s;
     animation-name    : slidein-rtl;
